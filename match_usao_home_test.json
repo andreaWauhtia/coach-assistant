@@ -1,0 +1,38 @@
+{
+  "match_header": "USAO U8 15-2 FC Test 2025/2026",
+  "match_date": "2025-11-08",
+  "structure": "HOME (left) = USAO U8 | TIMELINE | AWAY (right) = FC Test",
+  "notes": "Test case: USAO U8 est l'équipe HOME (left)",
+  "events": [
+    {
+      "minute": 3,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left"
+    },
+    {
+      "minute": 5,
+      "type": "Tir à côté",
+      "player": "Lilou Douny",
+      "side": "left"
+    },
+    {
+      "minute": 8,
+      "type": "But",
+      "player": "adversaire",
+      "side": "right"
+    },
+    {
+      "minute": 10,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "right"
+    },
+    {
+      "minute": 15,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "left"
+    }
+  ]
+}

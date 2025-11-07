@@ -1,0 +1,164 @@
+{
+  "match_header": "R.St.FC.Bouillon 4-12 USAO U8 2025/2026",
+  "match_date": "2025-11-01",
+  "period": "Full match (2x45 minutes)",
+  "note": "R.St.FC.Bouillon (Home/left) = adversaire avec 4 buts. USAO U8 (Away/right) = NOUS avec 12 buts. Tous les noms visibles = USAO U8",
+  "events": [
+    {
+      "minute": 2,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right"
+    },
+    {
+      "minute": 3,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right"
+    },
+    {
+      "minute": 3,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right"
+    },
+    {
+      "minute": 4,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right"
+    },
+    {
+      "minute": 4,
+      "type": "Passe décisive",
+      "player": "Nestor Arnould",
+      "side": "right"
+    },
+    {
+      "minute": 5,
+      "type": "Tir arrêté",
+      "player": "Lilou Douny",
+      "side": "right"
+    },
+    {
+      "minute": 7,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right"
+    },
+    {
+      "minute": 7,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right"
+    },
+    {
+      "minute": 10,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right"
+    },
+    {
+      "minute": 11,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right"
+    },
+    {
+      "minute": 12,
+      "type": "Tir à côté",
+      "player": "adversaire",
+      "side": "left"
+    },
+    {
+      "minute": 13,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right"
+    },
+    {
+      "minute": 14,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right"
+    },
+    {
+      "minute": 16,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right"
+    },
+    {
+      "minute": 17,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right"
+    },
+    {
+      "minute": 27,
+      "type": "But",
+      "player": "Lilou Douny",
+      "side": "right"
+    },
+    {
+      "minute": 30,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right"
+    },
+    {
+      "minute": 30,
+      "type": "But",
+      "player": "Lilou Douny",
+      "side": "right"
+    },
+    {
+      "minute": 32,
+      "type": "But",
+      "player": "Lilou Douny",
+      "side": "right"
+    },
+    {
+      "minute": 34,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "left"
+    },
+    {
+      "minute": 36,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "right"
+    },
+    {
+      "minute": 37,
+      "type": "But",
+      "player": "adversaire",
+      "side": "left"
+    },
+    {
+      "minute": 39,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right"
+    },
+    {
+      "minute": 42,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "left"
+    },
+    {
+      "minute": 43,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right"
+    },
+    {
+      "minute": 44,
+      "type": "But",
+      "player": "Lilou Douny",
+      "side": "right"
+    }
+  ]
+}

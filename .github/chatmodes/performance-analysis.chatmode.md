@@ -23,6 +23,77 @@ Lorsque ce mode est activé :
    - Traiter les captures d'écran des timelines SportEasy pour reconstituer les statistiques globales du match (événements temporels, buts, cartons, remplacements, etc.), en créant des scripts Python pour l'extraction de données (OCR, parsing d'images) si nécessaire. Inclure l'extraction du nom de l'adversaire, particulièrement en cas de tournoi.
    - Lire les fichiers de statistiques de match sauvegardés dans `.memory-bank/competitions/{matchday}.md` pour les analyses ultérieures ou comparatives.
 
+   ### Timeline SportEasy — Pipeline d'extraction et traitement
+
+   **📍 Référence complète** : `.memory-bank/timelineDataExtractions.md`
+
+   #### Phase 1 : Extraction manuelle des captures d'écran
+   1. Lire la timeline de haut en bas (sens chronologique)
+   2. Pour chaque événement : extraire **minute**, **type**, **joueur**, **côté** (left ou right)
+   3. Structurer en JSON avec format :
+      ```json
+      {
+        "match_header": "TEAM_HOME score-score TEAM_AWAY saison",
+        "match_date": "YYYY-MM-DD",
+        "events": [
+          {"minute": M, "type": "TYPE", "player": "NAME", "side": "left|right"},
+          ...
+        ]
+      }
+      ```
+   **⚠️ Important** : Le header détermine automatiquement qui est HOME/AWAY. USAO U8 peut être à gauche OU à droite.
+
+   #### Phase 2 : Conventions d'interprétation (crucial!)
+   **Disposition physique** : `HOME (left) | TIMELINE avec minutes | AWAY (right)`
+
+   **Logique universelle** (peu importe où est USAO U8) :
+   - `But` (côté USAO) → but marqué ✅
+   - `Tir à côté` (côté USAO) → tir hors cadre
+   - `Tir arrêté` (côté USAO) → tir cadré arrêté
+   - `But` (côté adversaire) → but concédé ⚠️
+   - `Arrêt` (côté USAO) → gardien adverse a arrêté notre tir
+   - `Arrêt` (côté adversaire) → **INFÉRÉ** : frappe_créée (nous avons tiré)
+
+   #### Phase 3 : Traitement automatisé (parse_timeline.py)
+   Exécuter le script de parsing avec le JSON structuré :
+   ```bash
+   cd /workspaces/mystuff
+   python tools/parse_timeline.py \
+     --input match_YYYYMMDD_TEAMNAME.json \
+     --out-dir analysis_output \
+     --matchday "YYYY-MM-DD_TEAM" \
+     --our-team "USAO U8"
+   ```
+
+   **Le script détecte automatiquement** :
+   - Le côté de USAO U8 (HOME/left ou AWAY/right)
+   - L'équipe adverse
+   - La classification correcte des événements
+
+   **Outputs générés** :
+   - `parsed_by_side.csv` : Données brutes avec colonnes {minute, type, player, side, team, classification, inferred_actions, confidence}
+   - `{matchday}.md` : Rapport formaté avec résumé, distribution temporelle, liste complète des événements
+
+   #### Phase 4 : Classification et inférence
+   Le script applique automatiquement :
+   - **Détection du côté** : Identifie où est USAO U8 et assigne team=us/opponent en conséquence
+   - **Classification** : goal, shoot, card, substitution, injury
+   - **Inférence** :
+      - Si `team=us` + `Arrêt/Tir arrêté` → frappe_subite (opponent shot on us)
+      - Si `team=opponent` + `Arrêt/Tir arrêté` → frappe_créée (we shot)
+   - **Confiance** : Calculée sur présence joueur + présence classification
+
+   #### Phase 5 : Archivage
+   Copier le rapport final dans `.memory-bank/competitions/` :
+   ```bash
+   cp analysis_output/{matchday}.md .memory-bank/competitions/{matchday}.md
+   ```
+
+   **⚠️ Points critiques** :
+   - Respecter strictement le format du header pour que le système détecte HOME/AWAY
+   - Utiliser `--our-team "USAO U8"` à chaque fois pour auto-détection du côté
+   - Vérifier les totaux finaux (buts marqués vs concédés) pour validation
+
 3. **Synthèse factuelle** :
    - Calculer des métriques clés (efficacité de tir, distribution temporelle, etc.) en intégrant les statistiques reconstituées des timelines SportEasy (ex. nombre de buts par période, fréquence des événements).
    - Identifier les points forts, axes d'amélioration et tendances.

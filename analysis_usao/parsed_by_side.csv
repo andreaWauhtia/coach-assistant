@@ -1,0 +1,27 @@
+minute,type,player,side,team,classification,inferred_actions,confidence
+2,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
+3,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
+3,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
+4,But,Nestor Arnould,left,us,goal,,1.00
+4,Passe décisive de Nestor Arnould,,left,us,,,0.50
+5,Tir arrêté,Lilou Douny,right,opponent,shoot,frappe_créée,1.00
+7,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
+7,But,Nestor Arnould,left,us,goal,,1.00
+10,But,Nestor Arnould,left,us,goal,,1.00
+11,But,Maxence Jonckheere,left,us,goal,,1.00
+12,Tir à côté,,right,opponent,shoot,,0.75
+13,But,Maxence Jonckheere,left,us,goal,,1.00
+14,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
+16,But,Maxence Jonckheere,left,us,goal,,1.00
+17,But,Nestor Arnould,left,us,goal,,1.00
+27,But,,left,us,goal,,0.75
+30,But,Nestor Arnould,left,us,goal,,1.00
+30,But,,left,us,goal,,0.75
+32,But,Lilou Douny,right,opponent,goal,,1.00
+34,Arrêt,,right,opponent,shoot,frappe_créée,0.75
+36,But,Auguste Robinet,right,opponent,goal,,1.00
+37,But,,left,us,goal,,0.75
+39,But,Maxence Jonckheere,right,opponent,goal,,1.00
+42,Arrêt,,right,opponent,shoot,frappe_créée,0.75
+43,But,Nestor Arnould,left,us,goal,,1.00
+44,But,,left,us,goal,,0.75
