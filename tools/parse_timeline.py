@@ -333,7 +333,7 @@ def main():
     ap.add_argument(
         '--out-dir', '-o',
         default='.memory-bank/competitions',
-        help='Directory for output CSV and Markdown report'
+        help='Base directory for outputs (final outputs will be under {out_dir}/analysis/{matchday})'
     )
     ap.add_argument(
         '--matchday', '-m',
@@ -403,17 +403,40 @@ def main():
     enriched = classify_and_enrich_events(raw_events, our_team, opponent_team, our_team_side=our_side)
     
     # Generate outputs
-    out_dir = Path(args.out_dir)
-    out_dir.mkdir(parents=True, exist_ok=True)
-    
+    base_out = Path(args.out_dir)
     matchday = args.matchday or datetime.now().strftime('%Y-%m-%d')
-    
+
+    # Final output directory per requirement: {base_out}/analysis/{matchday}
+    final_out_dir = base_out / 'analysis' / matchday
+    final_out_dir.mkdir(parents=True, exist_ok=True)
+
+    # Write a parsed JSON representing the enriched events and header info
+    parsed_json = {
+        'matchday': matchday,
+        'match_header': header_info.get('team1') + f" {header_info.get('score1', '')}-{header_info.get('score2', '')} " + header_info.get('team2') if header_info.get('team1') and header_info.get('team2') else header_info,
+        'team1': header_info.get('team1'),
+        'team2': header_info.get('team2'),
+        'score1': header_info.get('score1'),
+        'score2': header_info.get('score2'),
+        'our_team': our_team,
+        'opponent_team': opponent_team,
+        'events': enriched,
+    }
+
+    json_path = final_out_dir / f"{matchday}.json"
+    try:
+        with open(json_path, 'w', encoding='utf-8') as jf:
+            json.dump(parsed_json, jf, ensure_ascii=False, indent=2)
+        print(f"✅ Parsed JSON exported: {json_path}")
+    except Exception as e:
+        print(f"⚠️  Warning: failed to write parsed JSON to {json_path}: {e}")
+
     # Export CSV
-    csv_path = export_to_csv(enriched, out_dir / 'parsed_by_side.csv')
+    csv_path = export_to_csv(enriched, final_out_dir / 'parsed_by_side.csv')
     print(f"✅ CSV exported: {csv_path}")
-    
+
     # Export Markdown
-    md_path = build_report(enriched, header_info, matchday, out_dir)
+    md_path = build_report(enriched, header_info, matchday, final_out_dir)
     print(f"✅ Report exported: {md_path}")
     
     return 0

@@ -80,7 +80,7 @@ Ce document décrit le processus complet d'extraction des données de timeline S
 
 **Format du fichier** : `match_{DATE}_{AWAY_TEAM}.json` ou `match_{DATE}_{HOME_TEAM}.json`
 - Exemple (USAO AWAY) : `match_2025-11-01_usao_clean.json`
-- Exemple (USAO HOME) : `match_2025-10-15_usao_home.json`
+- Exemple (USAO HOME) : `match_2025-10-15_usao_home_test.json`
 - Localisation : `/workspaces/mystuff/`
 
 **Le header est crucial** : Il détermine automatiquement qui est HOME/AWAY
