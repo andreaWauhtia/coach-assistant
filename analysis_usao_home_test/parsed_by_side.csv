@@ -1,6 +1,0 @@
-minute,type,player,side,team,classification,inferred_actions,confidence
-3,But,Nestor Arnould,left,us,goal,,1.00
-5,Tir à côté,Lilou Douny,left,us,shoot,,1.00
-8,But,adversaire,right,opponent,goal,,1.00
-10,Arrêt,adversaire,right,opponent,shoot,frappe_créée,1.00
-15,But,Maxence Jonckheere,left,us,goal,,1.00
