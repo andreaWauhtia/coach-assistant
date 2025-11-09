@@ -1,0 +1,72 @@
+{
+  "header": "RES.Orgeotoise 3-16 USAO U8",
+  "score_header": [
+    3,
+    16
+  ],
+  "counts": {
+    "us": {
+      "goals": 17,
+      "shots_off": 8,
+      "shots_saved": 1,
+      "shots_total": 26,
+      "eff_percent": 65.4
+    },
+    "opponent": {
+      "goals": 0,
+      "shots_off": 0,
+      "shots_saved": 2,
+      "shots_total": 2,
+      "eff_percent": 0.0
+    }
+  },
+  "periods": {
+    "P1": 13,
+    "P2": 12,
+    "Extra": 3
+  },
+  "buckets": {
+    "0-4": 1,
+    "5-9": 3,
+    "10-14": 4,
+    "15-19": 3,
+    "20-24": 3,
+    "25-29": 1,
+    "30-34": 2,
+    "35-39": 5,
+    "40-44": 3,
+    "45-49": 3
+  },
+  "top_scorers": [
+    [
+      "Nestor Arnould",
+      7,
+      10
+    ],
+    [
+      "Nathan Blyweert Doumont",
+      3,
+      3
+    ],
+    [
+      "Auguste Robinet",
+      2,
+      5
+    ],
+    [
+      "Maxence Jonckheere",
+      2,
+      4
+    ],
+    [
+      "Tiago Wauthia",
+      2,
+      2
+    ],
+    [
+      "unknown",
+      1,
+      1
+    ]
+  ]
+}

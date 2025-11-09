@@ -1,0 +1,362 @@
+{
+  "matchday": "2025-11-08",
+  "match_header": "USAO U8 16-3 RES.Orgeotoise",
+  "team1": "USAO U8",
+  "team2": "RES.Orgeotoise",
+  "score1": 16,
+  "score2": 3,
+  "our_team": "USAO U8",
+  "opponent_team": "RES.Orgeotoise",
+  "events": [
+    {
+      "minute": 1,
+      "type": "Tir à côté",
+      "player": "Auguste Robinet",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 5,
+      "type": "Transversale",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 8,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 8,
+      "type": "Tir à côté",
+      "player": "Maxence Jonckheere",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 8,
+      "type": "Arrêt",
+      "player": "Louis Burgraff",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 9,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 10,
+      "type": "Arrêt",
+      "player": null,
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "minute": 11,
+      "type": "Tir à côté",
+      "player": "Maxence Jonckheere",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 12,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 14,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 15,
+      "type": "Tir à côté",
+      "player": "Tiago Wauthia",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 16,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 17,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 20,
+      "type": "Arrêt",
+      "player": null,
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "minute": 20,
+      "type": "Arrêt",
+      "player": null,
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "minute": 21,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 23,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 25,
+      "type": "Tir à côté",
+      "player": "Tiago Wauthia",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 26,
+      "type": "Tir à côté",
+      "player": null,
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 28,
+      "type": "But",
+      "player": "Tiago Wauthia",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 30,
+      "type": "But",
+      "player": "Tiago Wauthia",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 32,
+      "type": "But",
+      "player": "Nathan Blyweert Doumont",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 36,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 37,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 38,
+      "type": "Tir à côté",
+      "player": "Auguste Robinet",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 38,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 39,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 40,
+      "type": "Tir à côté",
+      "player": "Auguste Robinet",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 41,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 44,
+      "type": "But",
+      "player": null,
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 46,
+      "type": "Arrêt",
+      "player": "Louis Burgraff",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 48,
+      "type": "But",
+      "player": "Nathan Blyweert Doumont",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 48,
+      "type": "But",
+      "player": null,
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 49,
+      "type": "But",
+      "player": "Nathan Blyweert Doumont",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    }
+  ]
+}
