@@ -10,7 +10,8 @@ from collections import defaultdict
 from datetime import datetime
 
 # Charger les données du CSV
-csv_file = "/workspaces/mystuff/.memory-bank/competitions/analysis/parsed_by_side.csv"
+# Path updated to use the parsed CSV generated in the comparison folder
+csv_file = r"C:\dev\mystuff\.memory-bank\competitions_compare\analysis\2025-11-01\parsed_by_side.csv"
 events = []
 
 with open(csv_file, 'r') as f:
@@ -217,9 +218,9 @@ Les performances individuelles de **Nestor Arnould** (7 buts) et **Maxence Jonck
 *Rapport généré le {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*
 """
 
-# Sauvegarder le rapport
-report_file = "/workspaces/mystuff/.memory-bank/competitions/analysis/rapport_analyse_complete.md"
-with open(report_file, 'w') as f:
+# Sauvegarder le rapport (écrit dans le dossier de comparaison)
+report_file = r"C:\dev\mystuff\.memory-bank\competitions_compare\analysis\2025-11-01\rapport_analyse_complete.md"
+with open(report_file, 'w', encoding='utf-8') as f:
     f.write(report)
 
 print("✅ Rapport d'analyse généré!")
