@@ -1,0 +1,450 @@
+{
+  "matchday": "2025-09-27_FC.Paliseulois_USAOU8",
+  "match_header": "FC.Paliseulois 4-19 USAO U8",
+  "team1": "FC.Paliseulois",
+  "team2": "USAO U8",
+  "score1": 4,
+  "score2": 19,
+  "our_team": "USAO U8",
+  "opponent_team": "FC.Paliseulois",
+  "events": [
+    {
+      "minute": 2,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 2,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 4,
+      "type": "Poteau",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 5,
+      "type": "But",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 6,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 6,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 7,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 8,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 8,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 9,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 13,
+      "type": "Tir à côté",
+      "player": "Hugo Dumay",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 16,
+      "type": "But",
+      "player": "Nathan Blyweert Doumont",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 17,
+      "type": "But",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 18,
+      "type": "Poteau",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 21,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 23,
+      "type": "Arrêt",
+      "player": "Louis Burgraff",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_subite"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 24,
+      "type": "But",
+      "player": "Lilou Douny",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 24,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 25,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 26,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 26,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 28,
+      "type": "But",
+      "player": "Robin Lambert",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 30,
+      "type": "But",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 31,
+      "type": "But",
+      "player": "Hugo Dumay",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 32,
+      "type": "Tir à côté",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 34,
+      "type": "Tir à côté",
+      "player": "Hugo Dumay",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 35,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 35,
+      "type": "Tir à côté",
+      "player": "Lilou Douny",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 35,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 38,
+      "type": "But",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 40,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 41,
+      "type": "Tir à côté",
+      "player": "Lilou Douny",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 43,
+      "type": "But",
+      "player": "Lilou Douny",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 44,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 44,
+      "type": "But",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 45,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 47,
+      "type": "But",
+      "player": "Nathan Blyweert Doumont",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 47,
+      "type": "Tir à côté",
+      "player": "Nathan Blyweert Doumont",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 48,
+      "type": "But",
+      "player": "Nathan Blyweert Doumont",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 50,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 50,
+      "type": "But",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 50,
+      "type": "But",
+      "player": "Nathan Blyweert Doumont",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    }
+  ]
+}

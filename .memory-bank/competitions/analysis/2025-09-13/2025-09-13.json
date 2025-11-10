@@ -1,0 +1,426 @@
+{
+  "matchday": "2025-11-10",
+  "match_header": "RES.Orgeotoise 5-12 USAO U8",
+  "team1": "RES.Orgeotoise",
+  "team2": "USAO U8",
+  "score1": 5,
+  "score2": 12,
+  "our_team": "USAO U8",
+  "opponent_team": "RES.Orgeotoise",
+  "events": [
+    {
+      "minute": 1,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 2,
+      "type": "Tir à côté",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 2,
+      "type": "But",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 3,
+      "type": "But",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 4,
+      "type": "But",
+      "player": null,
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 6,
+      "type": "Tir à côté",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 7,
+      "type": "But",
+      "player": null,
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 9,
+      "type": "Arrêt",
+      "player": null,
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_subite"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "minute": 12,
+      "type": "But",
+      "player": null,
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 13,
+      "type": "Tir arrêté",
+      "player": "Hugo Dumay",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_subite"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 18,
+      "type": "Tir à côté",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 19,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 20,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 22,
+      "type": "Arrêt",
+      "player": null,
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_subite"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "minute": 25,
+      "type": "Arrêt",
+      "player": null,
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_subite"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "minute": 26,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 27,
+      "type": "But",
+      "player": null,
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 27,
+      "type": "But",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 28,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 29,
+      "type": "Tir à côté",
+      "player": null,
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 31,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 31,
+      "type": "Tir à côté",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 33,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 33,
+      "type": "Carton jaune",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": null,
+      "inferred_actions": [],
+      "confidence": 0.5
+    },
+    {
+      "minute": 35,
+      "type": "Arrêt",
+      "player": "Louis Burgraff",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_subite"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 35,
+      "type": "Arrêt",
+      "player": "Louis Burgraff",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_subite"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 36,
+      "type": "Arrêt",
+      "player": "Louis Burgraff",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_subite"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 37,
+      "type": "But",
+      "player": null,
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 38,
+      "type": "Tir à côté",
+      "player": null,
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 39,
+      "type": "Tir à côté",
+      "player": "Hugo Dumay",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 40,
+      "type": "Tir à côté",
+      "player": "Lilou Douny",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 40,
+      "type": "Tir à côté",
+      "player": null,
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 41,
+      "type": "Tir à côté",
+      "player": null,
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 42,
+      "type": "Tir à côté",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 44,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 44,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 45,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 46,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 47,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 49,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    }
+  ]
+}

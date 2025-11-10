@@ -1,0 +1,464 @@
+{
+  "matchday": "2025-10-11_USAO_vs_Wallonia",
+  "match_header": "USAO U8 25-0 Wallonia libin",
+  "team1": "USAO U8",
+  "team2": "Wallonia libin",
+  "score1": 25,
+  "score2": 0,
+  "our_team": "USAO U8",
+  "opponent_team": "Wallonia libin",
+  "events": [
+    {
+      "minute": 1,
+      "type": "But",
+      "player": "Tiago Wauthia",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 2,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 4,
+      "type": "But",
+      "player": "Tiago Wauthia",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 5,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 5,
+      "type": "Tir à côté",
+      "player": "adversaire",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 6,
+      "type": "Tir à côté",
+      "player": "Hugo Dumay",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 7,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 8,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 9,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 11,
+      "type": "But",
+      "player": "Lilou Douny",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 15,
+      "type": "Tir à côté",
+      "player": "Nathan Blyweert Doumont",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 17,
+      "type": "But",
+      "player": "Hugo Dumay",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 18,
+      "type": "But",
+      "player": "Robin Lambert",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 19,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 20,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 20,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 21,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 21,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 23,
+      "type": "Tir à côté",
+      "player": "Auguste Robinet",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 23,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 24,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 24,
+      "type": "Tir à côté",
+      "player": "Maxence Jonckheere",
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 24,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 25,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 26,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 27,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 29,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 30,
+      "type": "But",
+      "player": "Tiago Wauthia",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 31,
+      "type": "But",
+      "player": "Tiago Wauthia",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 31,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 33,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 39,
+      "type": "But",
+      "player": "Nathan Blyweert Doumont",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 40,
+      "type": "But",
+      "player": "Lilou Douny",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 40,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 41,
+      "type": "But",
+      "player": "Nathan Blyweert Doumont",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 43,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 44,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 46,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 47,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 47,
+      "type": "But",
+      "player": "Tiago Wauthia",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 48,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 49,
+      "type": "But",
+      "player": "Hugo Dumay",
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 50,
+      "type": "Arrêt",
+      "player": "adversaire",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_créée"
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

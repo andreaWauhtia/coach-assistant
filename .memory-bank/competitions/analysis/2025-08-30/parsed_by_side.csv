@@ -1,0 +1,30 @@
+minute,type,player,assist,side,team,classification
+2,shot_off,Nestor Arnould,,left,us,shot_off
+3,goal,Tiago Wauthia,Nestor Arnould,left,us,goal
+4,goal,Tiago Wauthia,Nestor Arnould,left,us,goal
+4,crossbar,Nestor Arnould,,left,us,misfortune
+5,shot_off,Nestor Arnould,,left,us,shot_off
+6,goal,Nestor Arnould,Maxence Jonckheere,left,us,goal
+7,goal,Nestor Arnould,Nestor Arnould,left,us,goal
+9,goal,Nathan Blyweert Doumont,Nathan Blyweert Doumont,left,us,goal
+9,save,Louis Burgraff,,left,us,save_against_opponent
+12,shot_off,Nathan Blyweert Doumont,,left,us,shot_off
+14,save,Louis Burgraff,,left,us,save_against_opponent
+21,goal,ES.Saint-Pierre,,right,opponent,goal
+22,goal,Nestor Arnould,Nestor Arnould,left,us,goal
+26,save,Louis Burgraff,,left,us,save_against_opponent
+27,goal,Maxence Jonckheere,Lilou Douny,left,us,goal
+28,goal,Maxence Jonckheere,Maxence Jonckheere,left,us,goal
+29,save,Louis Burgraff,,left,us,save_against_opponent
+30,shot_off,Lilou Douny,,left,us,shot_off
+32,goal,Nathan Blyweert Doumont,Nathan Blyweert Doumont,left,us,goal
+32,goal,Lilou Douny,Maxence Jonckheere,left,us,goal
+34,shot_off,Lilou Douny,,left,us,shot_off
+36,goal,Nestor Arnould,Nestor Arnould,left,us,goal
+36,shot_off,Auguste Robinet,,left,us,shot_off
+39,shot_off,Nestor Arnould,,left,us,shot_off
+39,shot_off,Nestor Arnould,,left,us,shot_off
+42,yellow,Auguste Robinet,,left,us,card
+48,shot_off,Tiago Wauthia,,left,us,shot_off
+49,shot_off,Maxence Jonckheere,,left,us,shot_off
+49,goal,Tiago Wauthia,Tiago Wauthia,left,us,goal

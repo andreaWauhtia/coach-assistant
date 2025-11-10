@@ -1,0 +1,35 @@
+minute,type,player,side,team,classification,inferred_actions,confidence
+1,Tir à côté,Auguste Robinet,left,us,shoot,,1.00
+5,Transversale,Nestor Arnould,left,us,shoot,,1.00
+8,Tir à côté,Maxence Jonckheere,left,us,shoot,,1.00
+8,But,Nestor Arnould,left,us,goal,,1.00
+9,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
+10,Arrêt,,right,opponent,shoot,frappe_créée,0.75
+11,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
+11,Tir à côté,Maxence Jonckheere,left,us,shoot,,1.00
+12,But,Maxence Jonckheere,left,us,goal,,1.00
+14,But,Nestor Arnould,left,us,goal,,1.00
+15,Tir à côté,Tiago Wauthia,left,us,shoot,,1.00
+16,But,Nestor Arnould,left,us,goal,,1.00
+17,But,Nestor Arnould,left,us,goal,,1.00
+19,Arrêt,,right,opponent,shoot,frappe_créée,0.75
+20,Arrêt,,right,opponent,shoot,frappe_créée,0.75
+21,But (csc),,right,opponent,,,0.50
+23,But,Maxence Jonckheere,left,us,goal,,1.00
+25,Tir à côté,Tiago Wauthia,left,us,shoot,,1.00
+26,Tir à côté,,left,us,shoot,,0.75
+28,But,Tiago Wauthia,left,us,goal,,1.00
+30,But,Tiago Wauthia,left,us,goal,,1.00
+32,But,Nathan Blyweert Doumont,left,us,goal,,1.00
+36,But,Nestor Arnould,left,us,goal,,1.00
+37,But,Auguste Robinet,left,us,goal,,1.00
+38,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
+38,Tir à côté,Auguste Robinet,left,us,shoot,,1.00
+39,But,Nestor Arnould,left,us,goal,,1.00
+40,Tir à côté,Auguste Robinet,left,us,shoot,,1.00
+41,But,Nestor Arnould,left,us,goal,,1.00
+44,But,,left,us,goal,,0.75
+46,Arrêt,Louis Burgraff,left,us,shoot,frappe_subite,1.00
+48,But,Nathan Blyweert Doumont,left,us,goal,,1.00
+48,But,,left,us,goal,,0.75
+49,But,Nathan Blyweert Doumont,left,us,goal,,1.00
