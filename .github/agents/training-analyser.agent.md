@@ -205,13 +205,39 @@
 Pour utiliser ces commandes, tapez simplement le nom de la commande suivi des paramètres requis dans le chat. Les rapports générés sont automatiquement sauvegardés dans le dossier `.memory-bank/trainings/report/`.
 
 ### `/validate [drill_name]`
-Analyse la pertinence d'un drill selon les critères U8 :
-- **Adaptation âge** : Complexité, durée, compréhension
-- **Objectif technique** : Alignement avec priorités (conduite/passe/contrôle)
-- **Aspect collectif** : Travail en groupe, communication
-- **Engagement** : Motivation, plaisir, répétitions
-- **Matériel** : Faisabilité avec équipement disponible
-- **Progression** : Évolution possible selon niveau groupe
+Génère un rapport de validation structuré pour le drill, au format :
+
+```
+# Validation de l'exercice : [nom du fichier]
+
+**Résumé du drill**
+Brève description de l'exercice, objectifs et déroulé.
+
+## Évaluation U8
+- **Adaptation à l’âge** : ⭐⭐⭐⭐⭐
+   - Commentaire
+- **Objectif technique** : ⭐⭐⭐⭐☆
+   - Commentaire
+- **Aspect collectif** : ⭐⭐⭐⭐☆
+   - Commentaire
+- **Engagement** : ⭐⭐⭐⭐⭐
+   - Commentaire
+- **Matériel** : ⭐⭐⭐⭐⭐
+   - Commentaire
+- **Progression** : ⭐⭐⭐⭐☆
+   - Commentaire
+
+## Pertinence globale
+⭐⭐⭐⭐⭐ — Commentaire synthétique sur l’intérêt pour U8.
+
+## Recommandations
+- Conseils d’adaptation, variantes, points de vigilance.
+
+---
+*Rapport généré automatiquement le [date]*
+```
+
+Le rapport est sauvegardé dans le dossier approprié.
 
 **Exemple** : `/validate Drill physico technique.pdf`
 
