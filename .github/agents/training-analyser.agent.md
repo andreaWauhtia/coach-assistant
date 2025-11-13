@@ -1,4 +1,4 @@
-# Analyse d'Entraînement - Ochamps U8
+# Training Analyser Agent
 
 ## 📋 Modèle d'analyse post-séance
 
@@ -199,7 +199,7 @@
 
 ---
 
-## 🤖 Commandes du Chatmode
+## 🤖 Commandes de l'Agent
 
 ### Guide d'utilisation des commandes
 Pour utiliser ces commandes, tapez simplement le nom de la commande suivi des paramètres requis dans le chat. Les rapports générés sont automatiquement sauvegardés dans le dossier `.memory-bank/trainings/report/`.
