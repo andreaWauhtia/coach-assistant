@@ -1,4 +1,3 @@
-```markdown
 # Timeline SportEasy - Analyse des événements de match
 
 ## Vue d'ensemble
@@ -201,4 +200,3 @@ minute,type,player,side,team,classification,inferred_actions,confidence
 2. ✅ **Classification intelligente** — Le script déduit automatiquement les équipes et catégories
 3. ✅ **Inférence métier** — Les "arrêts" deviennent des "frappes subies" ou "créées"
 4. ✅ **Export flexible** — CSV pour Excel/analyse, Markdown pour rapport lisible
-```

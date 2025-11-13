@@ -1,0 +1,8 @@
+{
+  "match_header": "USAO U8 X-X [Adversaire] 2025/2026",
+  "events": [
+    {"minute": 1, "type": "But", "player": "", "side": "left"},
+    {"minute": 2, "type": "Tir à côté", "player": "", "side": "left"}
+    // Ajoute ici les événements extraits des captures
+  ]
+}
