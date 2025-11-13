@@ -16,7 +16,6 @@ Use slash commands to interact. The agent will guide through workflows and persi
 
 1. **/extract-timeline**  
    Extract and structure match events from SportEasy timeline screenshots in `.memory-bank/competitions/feed/`. Creates JSON/CSV/MD files in `.memory-bank/competitions/analysis/{matchday}/`.
-   Ignore all files from `/completed-tasks/*` when searching for screenshots.
 
 2. **/analyze-match**  
    Generate a complete match report from extracted data and a user-provided summary.
@@ -25,7 +24,7 @@ Use slash commands to interact. The agent will guide through workflows and persi
    Create visualizations (e.g., shot distribution charts) from generated reports.
 
 4. **/analyze-player**  
-   Analyze individual player performance across matches or periods.
+   Analyze individual player performance across matches or a specific period.
 
 ## Workflow Overview
 The process follows a linear, validated flow. Use Mermaid diagrams for clarity:
@@ -81,7 +80,7 @@ sequenceDiagram
 - **Input**: Screenshots from SportEasy timeline in `.memory-bank/competitions/feed/*.jpg`.
 - **Process**:
   - Read screenshots from `.memory-bank/competitions/feed/` (priority source).
-  - Read docs: `brief.md`, `QUICKSTART.md`, `GUIDE_PARSE_TIMELINE.md`, `README_OCR.md`, `EXAMPLES_TIMELINE.md`, `USAO_FLEXIBILITY.md`.
+  - Read docs: `brief.md`, `QUICKSTART.md`, `GUIDE_PARSE_TIMELINE.md`, `EXAMPLES_TIMELINE.md`, `USAO_FLEXIBILITY.md`.
   - Study examples for JSON format: `{"match_header": "TEAM1 score-score TEAM2", "events": [{"minute": int, "type": str, "player": str, "side": "left|right"}]}`
   - Create folder: `.memory-bank/competitions/analysis/{matchday}/`.
   - Run script: `python tools/parse_timeline.py --input match_{matchday}.json --out-dir .memory-bank/competitions/analysis/{matchday}/ --our-team "USAO U8"`
@@ -91,23 +90,22 @@ sequenceDiagram
   - `{matchday}.md`: Formatted timeline.
 - **Validation**: Agent checks totals (goals scored/conceded) for accuracy. Auto-detects HOME/AWAY side.
 
-### Phase 2: Conventions d'interprétation (crucial!)
+### Phase 1.5: Conventions d'interprétation (crucial!)
 Disposition physique : HOME (left) | TIMELINE avec minutes | AWAY (right)
 
-Logique universelle (peu importe où est USAO U8) :
+Logique universelle (peu importe où est 'our_team') :
 
-But (côté USAO) → but marqué ✅
-Tir à côté (côté USAO) → tir hors cadre
-Tir arrêté (côté USAO) → tir cadré arrêté
-But (côté adversaire) → but concédé ⚠️
-Arrêt (côté USAO) → gardien adverse a arrêté notre tir
-Arrêt (côté adversaire) → INFÉRÉ : frappe_créée (nous avons tiré)
-
+But (côté `our`) → but marqué ✅
+Tir à côté (côté  `our`) → tir hors cadre
+Tir arrêté (côté `our`) → tir cadré arrêté
+But (côté `opponent`) → but concédé ⚠️
+Arrêt (côté `our`) → gardien adverse a arrêté notre tir
+Arrêt (côté `opponent`) → INFÉRÉ : frappe_créée (nous avons tiré)
 Inférence :
 Si team=us + Arrêt/Tir arrêté → frappe_subite (opponent shot on us)
 Si team=opponent + Arrêt/Tir arrêté → frappe_créée (we shot)
 
-### Phase 3: Match Summary Creation
+### Phase 2: Match Summary Creation
 After checking for existing data, the agent automatically creates `match_summary.md` in `.memory-bank/competitions/analysis/{matchday}/` with the following template structure:
 ```
 ## Présence ##
@@ -119,7 +117,7 @@ After checking for existing data, the agent automatically creates `match_summary
 ```
 Then, the agent prompts the user to fill in the sections before proceeding to generate the full report.
 
-### Phase 4: Match Analysis
+### Phase 3: Match Analysis
 - **Input**: Data from Phase 1 (`{matchday}.json`, `parsed_by_side.csv`) and filled `match_summary.md`.
 - **Process**:
   - Load data.
@@ -127,13 +125,13 @@ Then, the agent prompts the user to fill in the sections before proceeding to ge
     - Offensive: Goals scored, shots on target/(off target + missfortune), efficiency (%) = goals / (goals + missed shots + missfortune) * 100.
     - Defensive: Goals conceded, opponent shots, opponent efficiency.
     - Temporal: Distribution by halves (0-22', 23-44'), average goals per 5-minute tranche.
-    - Tempo: Overall match tempo (events per minute).
     - Individual: Group by player, compute ratios.
   - Compare to momentum.xlsx if available (temporal shot data).
   - Incorporate `match_summary.md` for presence, shifts, and remarks in the report.
 - **Output**: `rapport_analyse_complete.md` with sections:
   ```
   # Rapport d'analyse: [TEAM_HOME] VS [TEAM_AWAY]
+  
   **Jour de match**: {matchday}  
   **Adversaire**: [Team Name]  
   ** Score**: [Factual score]
@@ -141,9 +139,8 @@ Then, the agent prompts the user to fill in the sections before proceeding to ge
   
   ## Résumé exécutif
   [Content from match_summary.md]
-  [Descriptive summary based on key stats]
   
-  ## Métriques Offensives (USAO)
+ ## Métriques Offensives (USAO)
   | Métrique | Valeur | Analyse |
 |----------|--------|---------|
 | Goals Scored | X | [Fact-based] |
@@ -152,7 +149,7 @@ Then, the agent prompts the user to fill in the sections before proceeding to ge
 | Missfortune | W | [Fact-based] |
 | Efficiency | E% | [Fact-based] |
   
-  ## Métriques Défensives (Adversaire)
+ ## Métriques Défensives (Adversaire)
   | Métrique | Valeur | Analyse |
   |----------|--------|---------|
   | Goals Conceded | X | [Fact-based] |
@@ -161,21 +158,27 @@ Then, the agent prompts the user to fill in the sections before proceeding to ge
   | Missfortune | W | [Fact-based] |
   | Efficiency | E% | [Fact-based] |
   
-  ## Performances individuelles
+  ## Performances Individuelles  
+  
   ### 🔥 Les Buteurs
   | Joueur | Buts | Tirs | Efficacité |
   |--------|------|------|-----------|
   | PlayerN: Goals/Tries (Efficiency%) |
   | Player2: Goals/Tries (Efficiency%) |
-  | ... |
+  - Player1: Goals/Tries (Efficiency%)
+
+   | ... |
 ### Les passes décisives
   | Joueur | Passes décisives |
   |--------|------------------|
   | PlayerN: Assists |
   | Player2: Assists |
-  | ... |
+  | ... | 
   
-  ## Répartition temporelle
+  ## Temporal Distribution
+  - Half 1: Goals Scored/Conceded
+  - Half 2: Goals Scored/Conceded
+## Répartition temporelle
   - Mi-temps 1 : Buts marqués/encaissés
   - Mi-temps 2 : Buts marqués/encaissés
   ## Répartition par tranche de 5 minutes
@@ -192,7 +195,11 @@ Then, the agent prompts the user to fill in the sections before proceeding to ge
   
   ## Recommandations  
   1. [Data-driven]
-    
+  
+  
+  ## Conclusion
+  [Factual synthesis]
+  
   ---
   
   ## Sources
@@ -204,12 +211,12 @@ Then, the agent prompts the user to fill in the sections before proceeding to ge
 - Persist in `.memory-bank/`.
 - **Post-Analysis**: Move screenshots from `.memory-bank/competitions/feed/` to `.memory-bank/competitions/analysis/{matchday}/` for archiving.
 
-### Phase 5: Individual Analysis
+### Phase 4: Individual Analysis
 - **Input**: Player name, period (e.g., all matches, last 3).
 - **Process**: Aggregate from multiple `{matchday}.json` files. Compute stats: goals/shots ratio, trends.
 - **Output**: Custom report in `.memory-bank/competitions/analysis/player_reports/{player}.md`.
 
-### Phase 6: Advanced Insights
+### Phase 5: Advanced Insights
 - Deeper dives: Compare vs. opponent level (L/M/H), integrate training reports for context.
 - Use `/generate-plot` for charts (e.g., via Matplotlib in script).
 

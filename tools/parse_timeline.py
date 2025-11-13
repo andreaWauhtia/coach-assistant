@@ -264,16 +264,12 @@ def build_report(enriched_events, header_info, matchday, out_dir):
     score1 = header_info.get('score1', 0)
     score2 = header_info.get('score2', 0)
     
-    # Count metrics
-    our_goals = sum(1 for e in enriched_events 
-                    if e['team'] == 'us' and e['classification'] == 'goal')
-    opponent_goals = sum(1 for e in enriched_events 
-                         if e['team'] == 'opponent' and e['classification'] == 'goal')
-    
-    our_shots = sum(1 for e in enriched_events 
-                    if e['team'] == 'us' and e['classification'] == 'shoot')
-    opponent_shots = sum(1 for e in enriched_events 
-                         if e['team'] == 'opponent' and e['classification'] == 'shoot')
+    # Count metrics by side (left/right) to ensure header mapping is correct
+    left_goals = sum(1 for e in enriched_events if e.get('side') == 'left' and e.get('classification') == 'goal')
+    right_goals = sum(1 for e in enriched_events if e.get('side') == 'right' and e.get('classification') == 'goal')
+
+    left_shots = sum(1 for e in enriched_events if e.get('side') == 'left' and e.get('classification') == 'shoot')
+    right_shots = sum(1 for e in enriched_events if e.get('side') == 'right' and e.get('classification') == 'shoot')
     
     # Group by minute
     by_minute = {}
@@ -288,8 +284,9 @@ def build_report(enriched_events, header_info, matchday, out_dir):
     md_lines.append(f"*Généré le {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n")
     
     md_lines.append("## Résumé")
-    md_lines.append(f"- **{team1}**: {opponent_goals} buts, {opponent_shots} tirs")
-    md_lines.append(f"- **{team2}**: {our_goals} buts, {our_shots} tirs\n")
+    # team1 corresponds to left side, team2 to right side in header parsing
+    md_lines.append(f"- **{team1}**: {left_goals} buts, {left_shots} tirs")
+    md_lines.append(f"- **{team2}**: {right_goals} buts, {right_shots} tirs\n")
     
     md_lines.append("## Distribution temporelle (par tranche 5')\n")
     for min_key in sorted(by_minute.keys()):
