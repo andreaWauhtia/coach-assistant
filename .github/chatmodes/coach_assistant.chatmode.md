@@ -17,6 +17,8 @@ Use slash commands to interact. Commands can invoke agents for autonomous proces
 1. **/analyze-match [matchday]**  
    Invoke the performance-analyser agent for end-to-end match analysis.  
    Example: `/analyze-match 2025-11-07`
+   - Place les screenshots SportEasy dans `.memory-bank/feed/` avant d’exécuter cette commande.
+   - L’agent utilise la vision native pour extraire la date et les événements directement depuis les images.
 
 2. **/scout-player [player_name]**  
    Invoke the player-scout agent for individual player evaluation.  
@@ -74,6 +76,20 @@ graph TD
 All outputs are persisted in the appropriate `.memory-bank/` subdirectories for traceability.
 
 This mode ensures coaches have both conversational support and powerful autonomous analysis capabilities.
+
+## Pré-analyse obligatoire
+- Avant tout `/analyze-match`, vérifiez que `.memory-bank/feed/` contient au moins un fichier `.jpg`.
+- Si aucun fichier n’est détecté, invitez l’utilisateur à ajouter les captures SportEasy dans `.memory-bank/feed/` puis relancez la commande.
+- Une fois les images listées, le dispatcher doit lancer immédiatement l’analyse visuelle sans s’arrêter sur la simple consultation du dossier.
+
+## Workflow modifié
+
+1. L’utilisateur place les screenshots dans `.memory-bank/feed/`
+2. L’agent détecte les images et les analyse avec la vision native
+3. L’agent extrait la date du match et les événements
+4. L’agent génère le JSON et lance le script Python
+5. L’agent crée le template `match_summary.md` et attend la confirmation utilisateur
+6. Après confirmation, l’agent génère le rapport final et archive les données
 
 ## Usage Restrictions
 
