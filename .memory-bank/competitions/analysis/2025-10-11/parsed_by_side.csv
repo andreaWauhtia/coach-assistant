@@ -1,0 +1,36 @@
+minute,type,player,side,team,classification,inferred_actions,confidence
+1,But,Tiago Wauthia,left,USAO U8,goal,,0.95
+2,But,Nestor Arnould,left,USAO U8,goal,,0.95
+4,But,Tiago Wauthia,left,USAO U8,goal,,0.9
+5,Arrêt,,right,Wallonia libin,shot_on,frappe_créée,0.9
+5,Tir à côté,Nestor Arnould,left,USAO U8,shot_off,,0.9
+6,Tir à côté,Nestor Arnould,left,USAO U8,shot_off,,0.85
+7,But,Nestor Arnould,left,USAO U8,goal,,0.95
+8,But,Maxence Jonckheere,left,USAO U8,goal,,0.95
+9,Arrêt,,right,Wallonia libin,shot_on,frappe_créée,0.9
+11,But,Lilou Douny,left,USAO U8,goal,,0.9
+15,Tir à côté,Nathan Blyweert Doumont,left,USAO U8,shot_off,,0.9
+17,But,Hugo Dumay,left,USAO U8,goal,,0.95
+18,But,Robin Lambert,left,USAO U8,goal,,0.9
+19,Tir à côté,Nestor Arnould,left,USAO U8,shot_off,,0.85
+20,Tir à côté,Nestor Arnould,left,USAO U8,shot_off,,0.8
+20,But,Nestor Arnould,left,USAO U8,goal,,0.9
+21,But,Maxence Jonckheere,left,USAO U8,goal,,0.9
+23,Tir à côté,Auguste Robinet,left,USAO U8,shot_off,,0.9
+24,But,Auguste Robinet,left,USAO U8,goal,,0.9
+25,Arrêt,,right,Wallonia libin,shot_on,frappe_créée,0.9
+26,But,Nestor Arnould,left,USAO U8,goal,,0.95
+27,But,Maxence Jonckheere,left,USAO U8,goal,,0.95
+29,But,Nestor Arnould,left,USAO U8,goal,,0.95
+30,But,Tiago Wauthia,left,USAO U8,goal,,0.95
+31,But,Tiago Wauthia,left,USAO U8,goal,,0.9
+33,Arrêt,,right,Wallonia libin,shot_on,frappe_créée,0.85
+39,But,Nathan Blyweert Doumont,left,USAO U8,goal,,0.9
+40,But,Lilou Douny,left,USAO U8,goal,,0.9
+43,But,Nestor Arnould,left,USAO U8,goal,,0.9
+44,But,Maxence Jonckheere,left,USAO U8,goal,,0.9
+46,Arrêt,,right,Wallonia libin,shot_on,frappe_créée,0.85
+47,But,Tiago Wauthia,left,USAO U8,goal,,0.9
+48,But,Nestor Arnould,left,USAO U8,goal,,0.9
+49,But,Hugo Dumay,left,USAO U8,goal,,0.9
+50,Arrêt,,right,Wallonia libin,shot_on,frappe_créée,0.9

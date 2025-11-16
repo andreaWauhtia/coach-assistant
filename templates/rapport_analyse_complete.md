@@ -1,49 +1,144 @@
-# Rapport Analyse Complète
+# Rapport d'analyse : [TEAM_HOME] VS [TEAM_AWAY]
 
-## Métadonnées Match
-| Clé | Valeur |
-| --- | --- |
-| Compétition | _À renseigner_ |
-| Matchday | _YYYY-MM-DD_ |
-| Résultat | _Score_ |
-| Lieu | _Stade_ |
-| Coach | _Nom_ |
+**Jour de match** : {matchday}  
+**Adversaire** : [Team Name]  
+**Score** : [Factual score]
 
-## Résumé du Match
-- Résumer en 3 phrases maximum les faits marquants.
-- Mentionner la dynamique (pressing, possession, transitions).
-- Indiquer l’état physique et mental ressenti sur le terrain.
+## Résumé exécutif
+
+[Content from match_summary.md]
+
+## Métriques Offensives ([TEAM_NAME])
+
+| Métrique        | Valeur | Analyse      |
+| --------------- | ------ | ------------ |
+| Buts marqués    | X      | [Fact-based] |
+| Tirs totaux     | Y      | [Fact-based] |
+| Tirs hors cadre | Z      | [Fact-based] |
+| Efficacité (%)  | E%     | [Fact-based] |
+
+## Métriques Défensives (Adversaire)
+
+| Métrique       | Valeur | Analyse      |
+| -------------- | ------ | ------------ |
+| Buts encaissés | X      | [Fact-based] |
+| Tirs subis     | Y      | [Fact-based] |
+| Efficacité (%) | E%     | [Fact-based] |
 
 ## KPI Collectifs
-| Indicateur | Valeur | Référence |
-| --- | --- | --- |
-| Possession | _%_ | _% adverse_ |
-| Tirs cadrés | _n_ | _n adverse_ |
-| xG | _valeur_ | _valeur adverse_ |
-| Pertes hautes | _n_ | _objectif_ |
-| Pressing Efficiency | _indice_ | _objectif_ |
 
-## Analyse Qualitative
-### Points Positifs
-- Bullet 1
-- Bullet 2
+| Indicateur          | Valeur   | Référence        |
+| ------------------- | -------- | ---------------- |
+| Possession          | _%_      | _% adverse_      |
+| Tirs cadrés         | _n_      | _n adverse_      |
+| xG                  | _valeur_ | _valeur adverse_ |
+| Pertes hautes       | _n_      | _objectif_       |
+| Pressing Efficiency | _indice_ | _objectif_       |
 
-### Axes d'Amélioration
-- Bullet 1
-- Bullet 2
+## Performances Individuelles
 
-## Focus Joueurs
-| Joueur | Note | Commentaire principal |
-| --- | --- | --- |
-| Joueur A | _/10_ | _Synthèse_ |
-| Joueur B | _/10_ | _Synthèse_ |
-| Joueur C | _/10_ | _Synthèse_ |
+### 🔥 Les Buteurs
 
-## Recommandations Opérationnelles
-1. Action prioritaire n°1
-2. Action prioritaire n°2
-3. Action prioritaire n°3
+| Joueur  | Buts | Tirs | Efficacité |
+| ------- | ---- | ---- | ---------- |
+| Player1 | X    | Y    | Z%         |
+| Player2 | X    | Y    | Z%         |
+| ...     | ...  | ...  | ...        |
 
-## Annexes
-- Liens vers vidéos / screenshots clés
-- Références vers exports JSON / CSV
+---
+
+### Focus individuel : [Player Name]
+
+**Poste(s) occupé(s) :** [Positions]
+
+**Statistiques offensives :**
+
+- X buts marqués
+- X passes décisives
+- X tirs tentés
+- [Other stats]
+
+**Statistiques défensives et jeu collectif :**
+
+- [Defensive stats]
+
+**Observation coach :**
+
+- [Coach notes]
+
+**Points à améliorer :**
+
+- [Improvements]
+
+**Synthèse :**
+[Player summary]
+
+### Les passes décisives
+
+| Joueur  | Passes décisives |
+| ------- | ---------------- |
+| Player1 | X                |
+| Player2 | Y                |
+| ...     | ...              |
+
+## Répartition temporelle
+
+| Tranche (min) | Buts marqués |
+| ------------- | ------------ |
+| 0-9           | X            |
+| 10-19         | Y            |
+| 20-29         | Z            |
+| 30-39         | W            |
+| 40-49         | V            |
+
+## Analyse du Momentum
+
+### Évolution du score
+
+0-0 (0') → 1-0 (X') → ... → [Final score] ([time]')
+
+### Fenêtres de scoring
+
+| Équipe | Période | Buts | Durée | Momentum |
+| ------ | ------- | ---- | ----- | -------- |
+| [TEAM] | X'-Y'   | Z    | W min | 🔥 Fort  |
+| ...    | ...     | ...  | ...   | ...      |
+
+### Résilience
+
+Temps moyen de réaction après but encaissé : X minutes
+Buts marqués dans les 3 minutes suivant un but encaissé : Y/Z
+
+### Phases de pression
+
+Périodes de domination [TEAM] : [ranges]
+Périodes de domination adverse : [ranges]
+
+## Points forts
+
+1. [Fact-based]
+2. [Fact-based]
+3. [Fact-based]
+
+## Améliorations possibles
+
+1. [Fact-based]
+2. [Fact-based]
+
+## Recommandations
+
+1. [Data-driven]
+2. [Data-driven]
+
+## Conclusion
+
+[Factual synthesis]
+
+---
+
+## Sources
+
+- {matchday}.json
+- parsed_by_side.csv
+- match_summary.md
+- INDEX.md

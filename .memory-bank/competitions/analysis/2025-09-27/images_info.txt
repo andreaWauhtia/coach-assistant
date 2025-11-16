@@ -1,0 +1,7 @@
+Images SportEasy extraites pour le match du 27 septembre 2025 :
+- 6 screenshots attachés dans la discussion
+- Source : application SportEasy, timeline du match FC.Paliseulois vs USAO U8
+- Score final : 4 - 19
+- Utilisées pour extraction des événements et génération du rapport
+
+Les images doivent être archivées dans ce dossier pour traçabilité.
