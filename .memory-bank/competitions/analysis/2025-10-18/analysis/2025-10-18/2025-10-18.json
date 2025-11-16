@@ -1,0 +1,202 @@
+{
+  "matchday": "2025-10-18",
+  "match_header": "ES.Saint-Pierre 5-7 USAO U8",
+  "team1": "ES.Saint-Pierre",
+  "team2": "USAO U8",
+  "score1": 5,
+  "score2": 7,
+  "our_team": "USAO U8",
+  "opponent_team": "ES.Saint-Pierre",
+  "events": [
+    {
+      "minute": 2,
+      "type": "But",
+      "player": "Tiago Wauthia (assist: Nestor Arnould)",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 12,
+      "type": "Remplacement",
+      "player": "Auguste Robinet (in) - Lilou Douny (out)",
+      "side": "right",
+      "team": "us",
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 13,
+      "type": "Remplacement",
+      "player": "Hugo Dumay (in) - Tiago Wauthia (out)",
+      "side": "right",
+      "team": "us",
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 15,
+      "type": "Remplacement",
+      "player": "Tiago Wauthia (in) - Lysian Lugen (out)",
+      "side": "right",
+      "team": "us",
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 16,
+      "type": "Remplacement",
+      "player": "Auguste Robinet (in) - Nestor Arnould (out)",
+      "side": "right",
+      "team": "us",
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 17,
+      "type": "Remplacement",
+      "player": "Lysian Lugen (in) - Tiago Wauthia (out)",
+      "side": "right",
+      "team": "us",
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 18,
+      "type": "But",
+      "player": "Lilou Douny (assist: Robin Lambert)",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 20,
+      "type": "Remplacement",
+      "player": "Lilou Douny (in) - Hugo Dumay (out)",
+      "side": "right",
+      "team": "us",
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 21,
+      "type": "But",
+      "player": "ES.Saint-Pierre scorer (unknown)",
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 22,
+      "type": "Remplacement",
+      "player": "Nestor Arnould (in) - Auguste Robinet (out)",
+      "side": "right",
+      "team": "us",
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 22,
+      "type": "Remplacement",
+      "player": "Lysian Lugen (in) - Auguste Robinet (out)",
+      "side": "right",
+      "team": "us",
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 23,
+      "type": "But",
+      "player": "Nestor Arnould (assist: Lilou Douny)",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 30,
+      "type": "But",
+      "player": "ES.Saint-Pierre scorer (unknown)",
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 32,
+      "type": "But",
+      "player": "Nestor Arnould (assist: Robin Lambert)",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 37,
+      "type": "Remplacement",
+      "player": "Tiago Wauthia (in) - Robin Lambert (out)",
+      "side": "right",
+      "team": "us",
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 39,
+      "type": "But",
+      "player": "Lilou Douny (assist: Auguste Robinet)",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 47,
+      "type": "But",
+      "player": "ES.Saint-Pierre scorer (unknown)",
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 49,
+      "type": "But",
+      "player": "ES.Saint-Pierre scorer (unknown)",
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 51,
+      "type": "But",
+      "player": "Tiago Wauthia (assist: Auguste Robinet)",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    }
+  ]
+}

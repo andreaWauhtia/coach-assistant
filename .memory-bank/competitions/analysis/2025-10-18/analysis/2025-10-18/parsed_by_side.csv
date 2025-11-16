@@ -1,0 +1,20 @@
+minute,type,player,side,team,classification,inferred_actions,confidence
+2,But,Tiago Wauthia (assist: Nestor Arnould),right,us,goal,,1.00
+12,Remplacement,Auguste Robinet (in) - Lilou Douny (out),right,us,substitution,,1.00
+13,Remplacement,Hugo Dumay (in) - Tiago Wauthia (out),right,us,substitution,,1.00
+15,Remplacement,Tiago Wauthia (in) - Lysian Lugen (out),right,us,substitution,,1.00
+16,Remplacement,Auguste Robinet (in) - Nestor Arnould (out),right,us,substitution,,1.00
+17,Remplacement,Lysian Lugen (in) - Tiago Wauthia (out),right,us,substitution,,1.00
+18,But,Lilou Douny (assist: Robin Lambert),right,us,goal,,1.00
+20,Remplacement,Lilou Douny (in) - Hugo Dumay (out),right,us,substitution,,1.00
+21,But,ES.Saint-Pierre scorer (unknown),left,opponent,goal,,1.00
+22,Remplacement,Nestor Arnould (in) - Auguste Robinet (out),right,us,substitution,,1.00
+22,Remplacement,Lysian Lugen (in) - Auguste Robinet (out),right,us,substitution,,1.00
+23,But,Nestor Arnould (assist: Lilou Douny),right,us,goal,,1.00
+30,But,ES.Saint-Pierre scorer (unknown),left,opponent,goal,,1.00
+32,But,Nestor Arnould (assist: Robin Lambert),right,us,goal,,1.00
+37,Remplacement,Tiago Wauthia (in) - Robin Lambert (out),right,us,substitution,,1.00
+39,But,Lilou Douny (assist: Auguste Robinet),right,us,goal,,1.00
+47,But,ES.Saint-Pierre scorer (unknown),left,opponent,goal,,1.00
+49,But,ES.Saint-Pierre scorer (unknown),left,opponent,goal,,1.00
+51,But,Tiago Wauthia (assist: Auguste Robinet),right,us,goal,,1.00
