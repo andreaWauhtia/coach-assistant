@@ -25,15 +25,6 @@
 | Tirs subis     | Y      | [Fact-based] |
 | Efficacité (%) | E%     | [Fact-based] |
 
-## KPI Collectifs
-
-| Indicateur          | Valeur   | Référence        |
-| ------------------- | -------- | ---------------- |
-| Possession          | _%_      | _% adverse_      |
-| Tirs cadrés         | _n_      | _n adverse_      |
-| xG                  | _valeur_ | _valeur adverse_ |
-| Pertes hautes       | _n_      | _objectif_       |
-| Pressing Efficiency | _indice_ | _objectif_       |
 
 ## Performances Individuelles
 
@@ -44,34 +35,6 @@
 | Player1 | X    | Y    | Z%         |
 | Player2 | X    | Y    | Z%         |
 | ...     | ...  | ...  | ...        |
-
----
-
-### Focus individuel : [Player Name]
-
-**Poste(s) occupé(s) :** [Positions]
-
-**Statistiques offensives :**
-
-- X buts marqués
-- X passes décisives
-- X tirs tentés
-- [Other stats]
-
-**Statistiques défensives et jeu collectif :**
-
-- [Defensive stats]
-
-**Observation coach :**
-
-- [Coach notes]
-
-**Points à améliorer :**
-
-- [Improvements]
-
-**Synthèse :**
-[Player summary]
 
 ### Les passes décisives
 

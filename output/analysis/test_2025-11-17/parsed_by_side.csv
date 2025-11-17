@@ -1,0 +1,11 @@
+minute,type,player,side,team,classification,inferred_actions,confidence
+90,But,Benzema,right,us,goal,,1.00
+85,Arrêt,Areola,left,opponent,shoot,frappe_crée,1.00
+80,But,Messi,left,opponent,goal,,1.00
+75,Carton Jaune,Défenseur Lyon,right,us,card,,1.00
+70,Tir à côté,Messi,left,opponent,shoot,,1.00
+65,But,Mbappé,left,opponent,goal,,1.00
+60,Tir arrêté,Keeper Lyon,right,us,shoot,frappe_subite,1.00
+50,Tir à côté,Benzema,right,us,shoot,,1.00
+45,But,Benzema,right,us,goal,,1.00
+30,Remplacement,Joueur A vs Joueur B,left,opponent,substitution,,1.00

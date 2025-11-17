@@ -59,10 +59,15 @@ prompt_interactive_input()
 
 ### 4. Constantes ajoutées
 
-```python
-SHOOT_KEYWORDS = {"Tir à côté", "Poteau", "Transversale", "Arrêt", "Tir arrêté"}
-HEADER_RE = re.compile(...)  # Pattern pour parser le header
-```
+The script loads event classifications and synonyms from `data/event_types.json`. A fallback `SHOOT_KEYWORDS` constant exists in `tools/parse_timeline.py` for compatibility; keep `data/event_types.json` as the source of truth.
+
+### 5. Externalisation des types d'événements et règles d'inférence
+- The types and rules are now defined in `data/event_types.json` and `data/inference_rules.json`.
+- `tools/parse_timeline.py` loads these files by default; the script falls back to in-code constants if the files are absent. See `docs/event_types.md` and `docs/inference.md` for canonical human-readable docs.
+
+### 6. Documentation consolidation (2025-11-17)
+- Created `docs/` with canonical documentation: `docs/event_types.md`, `docs/inference.md`, `docs/quickstart.md`, `docs/guide_parse_timeline.md`, and `docs/examples.md`.
+- Updated `.memory-bank/*` docs to point to the canonical `docs/` files and updated `README.md` to link to `docs/` as the primary documentation.
 
 ---
 

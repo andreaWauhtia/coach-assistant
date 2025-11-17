@@ -1,0 +1,52 @@
+{
+  "match_header": "FC.Paliseulois 4-19 USAO U8 2025/2026",
+  "our_team": "USAO U8",
+  "events": [
+    {"minute": 2, "type": "But", "player": "Auguste Robinet", "side": "right"},
+    {"minute": 2, "type": "Arrêt", "player": null, "side": "left"},
+    {"minute": 4, "type": "Poteau", "player": "Auguste Robinet", "side": "right"},
+    {"minute": 5, "type": "But", "player": null, "side": "left"},
+    {"minute": 6, "type": "Arrêt", "player": null, "side": "left"},
+    {"minute": 6, "type": "But", "player": "Auguste Robinet", "side": "right"},
+    {"minute": 7, "type": "Arrêt", "player": null, "side": "left"},
+
+    {"minute": 8, "type": "Arrêt", "player": null, "side": "left"},
+    {"minute": 8, "type": "But", "player": "Auguste Robinet", "side": "right"},
+    {"minute": 9, "type": "But", "player": "Maxence Jonckheere", "side": "right"},
+    {"minute": 13, "type": "Tir à côté", "player": "Hugo Dumay", "side": "right"},
+    {"minute": 16, "type": "But", "player": "Nathan Blyweert Doumont", "side": "right"},
+    {"minute": 17, "type": "But", "player": null, "side": "left"},
+    {"minute": 18, "type": "Poteau", "player": null, "side": "left"},
+
+    {"minute": 21, "type": "But", "player": "Maxence Jonckheere", "side": "right"},
+    {"minute": 23, "type": "Arrêt", "player": "Louis Burgraff", "side": "right"},
+    {"minute": 24, "type": "But", "player": "Lilou Douny", "side": "right"},
+    {"minute": 24, "type": "Arrêt", "player": null, "side": "left"},
+    {"minute": 25, "type": "But", "player": "Auguste Robinet", "side": "right"},
+
+    {"minute": 26, "type": "Arrêt", "player": null, "side": "left"},
+    {"minute": 26, "type": "But", "player": "Auguste Robinet", "side": "right"},
+    {"minute": 28, "type": "But", "player": "Robin Lambert", "side": "right"},
+    {"minute": 30, "type": "But", "player": null, "side": "left"},
+    {"minute": 31, "type": "But", "player": "Hugo Dumay", "assist": "Robin Lambert", "side": "right"},
+    {"minute": 32, "type": "Tir à côté", "player": null, "side": "left"},
+    {"minute": 34, "type": "Tir à côté", "player": "Hugo Dumay", "side": "right"},
+
+    {"minute": 35, "type": "Arrêt", "player": null, "side": "left"},
+    {"minute": 35, "type": "But", "player": "Auguste Robinet", "assist": "Lilou Douny", "side": "right"},
+    {"minute": 35, "type": "Tir à côté", "player": "Lilou Douny", "side": "right"},
+    {"minute": 38, "type": "But", "player": null, "side": "left"},
+    {"minute": 40, "type": "But", "player": "Maxence Jonckheere", "side": "right"},
+    {"minute": 41, "type": "Tir à côté", "player": "Lilou Douny", "side": "right"},
+    {"minute": 43, "type": "But", "player": "Lilou Douny", "side": "right"},
+
+    {"minute": 44, "type": "But", "player": "Maxence Jonckheere", "assist": "Hugo Dumay", "side": "right"},
+    {"minute": 45, "type": "But", "player": "Maxence Jonckheere", "side": "right"},
+    {"minute": 47, "type": "Tir à côté", "player": "Nathan Blyweert Doumont", "side": "right"},
+    {"minute": 47, "type": "But", "player": "Nathan Blyweert Doumont", "assist": "Robin Lambert", "side": "right"},
+    {"minute": 48, "type": "But", "player": "Nathan Blyweert Doumont", "side": "right"},
+
+    {"minute": 50, "type": "Arrêt", "player": null, "side": "left"},
+    {"minute": 50, "type": "But", "player": "Tiago Wauthia", "side": "right"}
+  ]
+}

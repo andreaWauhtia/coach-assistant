@@ -160,19 +160,7 @@ sequenceDiagram
 
 ### Phase 1.5: Conventions d’interprétation (crucial!)
 
-Disposition physique : HOME (gauche) | TIMELINE avec minutes | AWAY (droite)
-
-Logique universelle (peu importe l’emplacement de `our_team`) :
-
-But (côté `our`) → but marqué ✅  
-Tir à côté (côté `our`) → tir hors cadre  
-Tir arrêté (côté `our`) → tir cadré arrêté  
-But (côté `opponent`) → but concédé ⚠️  
-Arrêt (côté `our`) → le gardien adverse a arrêté notre tir  
-Arrêt (côté `opponent`) → INFÉRÉ : frappe_créée (nous avons tiré)  
-Inférence :  
-Si team=us + Arrêt/Tir arrêté → frappe_subite (tir adverse sur nous)  
-Si team=opponent + Arrêt/Tir arrêté → frappe_créée (nous avons tiré)
+The canonical event types and inference rules are maintained in `docs/event_types.md` and `docs/inference.md` (machine-readable sources under `data/`). Please consult those files for the definitive behavior and examples.
 
 ### Phase 2: Création du résumé de match (ENTRÉE UTILISATEUR REQUISE - SEUL POINT D’ARRÊT)
 

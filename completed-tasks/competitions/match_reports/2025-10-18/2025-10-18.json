@@ -1,0 +1,27 @@
+{
+  "match_header": "ES.Saint-Pierre 5-7 USAO U8 2025/2026",
+  "team": "USAO U8",
+  "opponent": "ES.Saint-Pierre",
+  "events": [
+    {"type": "But", "player": "Tiago Wauthia", "minute": 2, "detail": "Passe décisive de Nestor Arnould"},
+    {"type": "But", "minute": 18},
+    {"type": "But", "minute": 21},
+    {"type": "Remplacement", "player_in": "Auguste Robinet", "player_out": "Lilou Douny", "minute": 12},
+    {"type": "Remplacement", "player_in": "Hugo Dumay", "player_out": "Tiago Wauthia", "minute": 13},
+    {"type": "Remplacement", "player_in": "Tiago Wauthia", "player_out": "Lysian Lugen", "minute": 15},
+    {"type": "Remplacement", "player_in": "Auguste Robinet", "player_out": "Nestor Arnould", "minute": 16},
+    {"type": "But", "player": "Nestor Arnould", "minute": 23, "detail": "Passe décisive de Lilou Douny"},
+    {"type": "Remplacement", "player_in": "Lilou Douny", "player_out": "Hugo Dumay", "minute": 20},
+    {"type": "Remplacement", "player_in": "Lysian Lugen", "player_out": "Auguste Robinet", "minute": 22},
+    {"type": "But", "player": "Nestor Arnould", "minute": 32, "detail": "Passe décisive de Robin Lambert"},
+    {"type": "But", "minute": 30},
+    {"type": "Début période", "minute": 1},
+    {"type": "Fin période", "minute": 30},
+    {"type": "But", "player": "Lilou Douny", "minute": 24, "detail": "Passe décisive de Robin Lambert"},
+    {"type": "But", "player": "Lilou Douny", "minute": 39, "detail": "Passe décisive de Auguste Robinet"},
+    {"type": "But", "player": "Nestor Arnould", "minute": 39, "detail": "Passe décisive de Lilou Douny"},
+    {"type": "But", "minute": 47},
+    {"type": "But", "minute": 49},
+    {"type": "But", "player": "Tiago Wauthia", "minute": 50, "detail": "Passe décisive de Auguste Robinet", "extra": "+2"}
+  ]
+}

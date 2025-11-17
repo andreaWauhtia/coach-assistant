@@ -15,7 +15,7 @@ This Chat Mode provides a comprehensive coaching assistant for football teams. I
 Use slash commands to interact. Commands can invoke agents for autonomous processing.
 
 1. **/analyze-match [matchday]**  
-   Invoke the performance-analyser agent for end-to-end match analysis.  
+   Invoke the performance-analysis agent for end-to-end match analysis.  
    Example: `/analyze-match 2025-11-07`
    - Attachez les screenshots SportEasy directement dans la discussion avant d’exécuter la commande.
    - L’agent utilise la vision native pour extraire le texte des images, construit un JSON brut, puis colle le JSON, le Markdown et les images dans le dossier `.memory-bank/competitions/analysis/{matchday}/`.
@@ -54,7 +54,7 @@ Use slash commands to interact. Commands can invoke agents for autonomous proces
 ## Agent Integration
 This chat mode serves as the interface to invoke specialized agents:
 
-- **Performance Analyser Agent**: Handles match data extraction, analysis, and reporting
+- **Performance Analysis Agent**: Handles match data extraction, analysis, and reporting
 - **Player Scout Agent**: Evaluates individual player performance and development
 - **Training Analyser Agent**: Assesses training sessions and recommends improvements
 
@@ -117,6 +117,6 @@ This mode ensures coaches have both conversational support and powerful autonomo
 ## Usage Restrictions
 
 ### Agent Protection
-- **No Editing of Agents**: The agent files (`performance-analyser.agent.md`, `player-scout.agent.md`, `training-analyser.agent.md`) are protected and must not be edited, modified, or altered in any way. All interactions with agents must occur through the defined commands in this chat mode.
-- **Scope Limitation**: All requests and commands must strictly align with the available commands and workflows defined in this `coach_assistant.chatmode.md` file, as well as the capabilities outlined in `performance-analyser.agent.md` and `player-scout.agent.md`. Requests outside this framework (e.g., general programming tasks, unrelated analyses, or modifications to agent behavior) will not be processed.
+- **No Editing of Agents**: The agent files (`performance-analysis.agent.md`, `player-scout.agent.md`, `training-analyser.agent.md`) are protected and must not be edited, modified, or altered in any way. All interactions with agents must occur through the defined commands in this chat mode.
+- **Scope Limitation**: All requests and commands must strictly align with the available commands and workflows defined in this `coach_assistant.chatmode.md` file, as well as the capabilities outlined in `performance-analysis.agent.md` and `player-scout.agent.md`. Requests outside this framework (e.g., general programming tasks, unrelated analyses, or modifications to agent behavior) will not be processed.
 - **Enforcement**: The chat mode will reject or redirect any attempt to deviate from the established coaching assistant framework. Use only the slash commands provided for agent invocations and data-driven insights.

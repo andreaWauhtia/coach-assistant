@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+"""Simple wrapper to run parse_timeline and produce final artifacts for a match.
+
+Usage:
+  python tools/analyze_match.py --matchday 2025-10-18
+
+This script will call `tools/parse_timeline.py` with sensible defaults
+based on the repository layout. It is intentionally small and uses
+subprocess to invoke the existing parser so we don't duplicate logic.
+"""
+import argparse
+import subprocess
+import sys
+from pathlib import Path
+
+
+def main():
+    ap = argparse.ArgumentParser(description='Run full match analysis wrapper')
+    ap.add_argument('--matchday', '-m', required=True, help='Match identifier / folder (e.g. 2025-10-18)')
+    ap.add_argument('--input', '-i', default=None, help='Path to source timeline JSON (overrides default)')
+    ap.add_argument('--our-team', '-t', default='USAO U8', help='Name of our team to pass to parser')
+    ap.add_argument('--out-dir', '-o', default='.memory-bank/competitions', help='Base output directory')
+    args = ap.parse_args()
+
+    matchday = args.matchday
+    base = Path('.').resolve()
+
+    # Default input path if not provided
+    input_path = Path(args.input) if args.input else base / '.memory-bank' / 'competitions' / 'match_reports' / matchday / f"{matchday}.json"
+    if not input_path.exists():
+        print(f"Error: input file not found: {input_path}")
+        return 2
+
+    cmd = [sys.executable, str(base / 'tools' / 'parse_timeline.py'), '--input', str(input_path), '--our-team', args.our_team, '--matchday', matchday, '--out-dir', args.out_dir]
+
+    print('Running:', ' '.join(cmd))
+    res = subprocess.run(cmd)
+    return res.returncode
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())
