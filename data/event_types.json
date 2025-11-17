@@ -1,0 +1,13 @@
+[
+  {"type": "But", "classification": "goal", "synonyms": ["But", "Goal"]},
+  {"type": "Assist", "classification": "assist", "synonyms": ["Assist", "Passe décisive"]},
+  {"type": "Carton Jaune", "classification": "card", "synonyms": ["Carton Jaune", "Yellow Card"]},
+  {"type": "Carton Rouge", "classification": "card", "synonyms": ["Carton Rouge", "Red Card"]},
+  {"type": "Remplacement", "classification": "substitution", "synonyms": ["Remplacement", "Substitution", "Changement"]},
+  {"type": "Arrêt", "classification": "shoot", "synonyms": ["Arrêt", "Save", "Arrêt du gardien"]},
+  {"type": "Tir à côté", "classification": "shoot", "synonyms": ["Tir à côté", "Tir à coté", "Wide", "Off target"]},
+  {"type": "Poteau", "classification": "shoot", "synonyms": ["Poteau", "Post"]},
+  {"type": "Transversale", "classification": "shoot", "synonyms": ["Transversale", "Crossbar"]},
+  {"type": "Tir arrêté", "classification": "shoot", "synonyms": ["Tir arrêté", "Blocked shot"]},
+  {"type": "Blessé", "classification": "injury", "synonyms": ["Blessé", "Injury"]}
+]

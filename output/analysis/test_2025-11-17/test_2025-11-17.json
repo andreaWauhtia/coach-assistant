@@ -1,0 +1,116 @@
+{
+  "matchday": "test_2025-11-17",
+  "match_header": "Paris 3-2 Lyon",
+  "team1": "Paris",
+  "team2": "Lyon",
+  "score1": 3,
+  "score2": 2,
+  "our_team": "USAO U8",
+  "opponent_team": "Lyon",
+  "events": [
+    {
+      "minute": 90,
+      "type": "But",
+      "player": "Benzema",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 85,
+      "type": "Arrêt",
+      "player": "Areola",
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_crée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 80,
+      "type": "But",
+      "player": "Messi",
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 75,
+      "type": "Carton Jaune",
+      "player": "Défenseur Lyon",
+      "side": "right",
+      "team": "us",
+      "classification": "card",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 70,
+      "type": "Tir à côté",
+      "player": "Messi",
+      "side": "left",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 65,
+      "type": "But",
+      "player": "Mbappé",
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 60,
+      "type": "Tir arrêté",
+      "player": "Keeper Lyon",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_subite"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 50,
+      "type": "Tir à côté",
+      "player": "Benzema",
+      "side": "right",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 45,
+      "type": "But",
+      "player": "Benzema",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 30,
+      "type": "Remplacement",
+      "player": "Joueur A vs Joueur B",
+      "side": "left",
+      "team": "opponent",
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 1.0
+    }
+  ]
+}

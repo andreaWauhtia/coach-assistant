@@ -25,14 +25,9 @@
       "minute": 4,
       "type": "But",
       "player": "Nestor Arnould",
+      "assist": "Lilou Douny",
       "side": "right"
-    },
-    {
-      "minute": 4,
-      "type": "Passe décisive",
-      "player": "Nestor Arnould",
-      "side": "right"
-    },
+    }, 
     {
       "minute": 5,
       "type": "Tir arrêté",
@@ -55,12 +50,14 @@
       "minute": 10,
       "type": "But",
       "player": "Nestor Arnould",
+      "assist": "Tiago Wauthia",
       "side": "right"
     },
     {
       "minute": 11,
       "type": "But",
       "player": "Maxence Jonckheere",
+      "assist": "Nestor Arnould",
       "side": "right"
     },
     {

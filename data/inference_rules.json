@@ -1,0 +1,14 @@
+[
+  {
+    "trigger_event_types": ["Arrêt", "Tir arrêté"],
+    "if_team": "us",
+    "inferred_action": "frappe_subite",
+    "description": "Our side shows a save -> opponent shot on us"
+  },
+  {
+    "trigger_event_types": ["Arrêt", "Tir arrêté"],
+    "if_team": "opponent",
+    "inferred_action": "frappe_crée",
+    "description": "Opponent side shows a save -> we shot and opponent blocked it"
+  }
+]
