@@ -1,0 +1,212 @@
+{
+  "matchday": "2025-10-18",
+  "match_header": "ES.Saint-Pierre 5-7 USAO U8",
+  "team1": "ES.Saint-Pierre",
+  "team2": "USAO U8",
+  "score1": 5,
+  "score2": 7,
+  "our_team": "USAO U8",
+  "opponent_team": "ES.Saint-Pierre",
+  "events": [
+    {
+      "minute": 2,
+      "type": "But",
+      "player": "Tiago Wauthia",
+      "side": null,
+      "team": null,
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 18,
+      "type": "But",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 21,
+      "type": "But",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 12,
+      "type": "Remplacement",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 13,
+      "type": "Remplacement",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 15,
+      "type": "Remplacement",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 16,
+      "type": "Remplacement",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 23,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": null,
+      "team": null,
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 20,
+      "type": "Remplacement",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 22,
+      "type": "Remplacement",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": "substitution",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 32,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": null,
+      "team": null,
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 30,
+      "type": "But",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 1,
+      "type": "Début période",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": null,
+      "inferred_actions": [],
+      "confidence": 0.5
+    },
+    {
+      "minute": 30,
+      "type": "Fin période",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": null,
+      "inferred_actions": [],
+      "confidence": 0.5
+    },
+    {
+      "minute": 24,
+      "type": "But",
+      "player": "Lilou Douny",
+      "side": null,
+      "team": null,
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 39,
+      "type": "But",
+      "player": "Lilou Douny",
+      "side": null,
+      "team": null,
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 39,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": null,
+      "team": null,
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 47,
+      "type": "But",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 49,
+      "type": "But",
+      "player": null,
+      "side": null,
+      "team": null,
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 50,
+      "type": "But",
+      "player": "Tiago Wauthia",
+      "side": null,
+      "team": null,
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    }
+  ]
+}
