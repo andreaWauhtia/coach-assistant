@@ -90,7 +90,7 @@
 
 - **Exercice** : Drill physico technique
 - **Source** : 📁 drills/Drill physico technique.pdf
-- ![Drill physico technique](completed-tasks/trainings/drills/Drill physico technique.pdf)
+- ![Drill physico technique]("../drills/Drill_physico_technique.PNG")
 - **Pertinence** : ⭐⭐⭐⭐
 - **Efficacité réelle** : Moyenne — Précision et dosage des passes très moyen, terrain boueux n'aidait pas; intensité physique satisfaisante
 - **Adaptation appliquée** : Intervention pour lenteur rangement (comptage à voix haute, pompes équivalentes aux secondes — 15 sec)
@@ -100,7 +100,7 @@
 
 - **Exercice** : Réactivité
 - **Source** : 📁 drills/Réactivité.png
-- ![Réactivité](completed-tasks/trainings/drills/Réactivité.png)
+- ![Réactivité]("../drills/réactivité.png")
 - **Pertinence** : ⭐⭐⭐⭐⭐
 - **Efficacité réelle** : Bonne — Participation du groupe bonne; petite altercation Firmin/Auguste gérée
 - **Adaptation appliquée** : Rangement lent, comptage jusque 8 => 8 squats
@@ -110,7 +110,7 @@
 
 - **Exercice** : Circulation (Drill 4 x décrochage)
 - **Source** : 📁 drills/Circulation (Drill 4 x décrochage).png
-- ![Circulation décrochage](completed-tasks/trainings/drills/Circulation (Drill 4 x décrochage).png)
+- ![Circulation décrochage](<"../drills/Circulation_(Drlil4Xdécrochage).png">)
 - **Pertinence** : ⭐⭐⭐⭐
 - **Efficacité réelle** : Moyenne — Auguste et Nestor mou, Lilou difficultés compréhension, Nathan oubliait appels; manque intensité
 - **Adaptation appliquée** : Reprise groupe pour expliquer importance intensité entraînement pour match
@@ -199,5 +199,4 @@
 
 ---
 
-_Brouillon rempli automatiquement le 2025-11-17 à partir des réponses fournies — revérifiez et ajustez si nécessaire._</content>
-<parameter name="filePath">c:\dev\mystuff\completed-tasks\trainings\report\2025-11-17-training-report.md
+### Brouillon rempli automatiquement le 2025-11-17 par ASSIST à partir des données fournies</content>
