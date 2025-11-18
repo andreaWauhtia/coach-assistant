@@ -39,18 +39,6 @@ Use slash commands to interact. Commands can invoke agents for autonomous proces
 6. **/help-coach**  
    Display detailed help and available commands.
 
-7. **/provision-match [matchday]**  
-   Provision and validate match analysis folder using `match_memory_guard.py`.  
-   Example: `/provision-match 2025-11-07`
-
-8. **/validate-report [report_path]**  
-   Validate report structure against template using `report_template_validator.py`.  
-   Example: `/validate-report .memory-bank/competitions/analysis/2025-11-07/rapport_analyse_complete.md`
-
-9. **/archive-match [matchday]**  
-   Archive completed match analysis using `archive_match.py`.  
-   Example: `/archive-match 2025-11-07`
-
 ## Agent Integration
 This chat mode serves as the interface to invoke specialized agents:
 
@@ -65,17 +53,13 @@ Agents execute autonomously but can be guided through this chat interface.
 ### Match Analysis Flow
 ```mermaid
 graph TD
-    A[User: /provision-match 2025-11-07] --> B[Chat Mode runs match_memory_guard.py]
-    B --> C[User attaches SportEasy screenshots]
-    C --> D[User: /analyze-match 2025-11-07]
-    D --> E[Chat Mode invokes Performance Agent]
-    E --> F[Agent processes screenshots and data]
-    F --> G[Agent generates reports]
-    G --> H[User: /validate-report path]
-    H --> I[Chat Mode runs report_template_validator.py]
-    I --> J[User: /archive-match 2025-11-07]
-    J --> K[Chat Mode runs archive_match.py]
-    K --> L[Chat Mode summarizes results]
+    A[User attaches SportEasy screenshots] --> B[User: /analyze-match 2025-11-07]
+    B --> C{Chat Mode invokes Performance Agent}
+    C --> D[Agent runs entire flow automatically: provision, extract, parse]
+    D --> E[Agent pauses and asks User to fill match_summary.md]
+    E --> F[User confirms completion]
+    F --> G[Agent resumes automatically: analyze, validate, archive]
+    G --> H[Chat Mode summarizes completion and provides link to archived report]
 ```
 
 ### Player Scouting Flow

@@ -36,7 +36,7 @@ Tous les livrables sont factuels, avec des données persistées dans `.memory-ba
 L’agent répond aux invocations depuis le mode assistant coach ou via des commandes directes.
 
 1. **/extract-timeline**  
-   Extraire et structurer les événements de match à partir des captures de timeline SportEasy jointes à la discussion. **L’agent lit automatiquement chaque image jointe avec la vision avant traitement.** Crée des fichiers JSON/CSV/MD (plus les images originales) dans `.memory-bank/competitions/analysis/{matchday}/`.
+   Extraire et structurer les événements de match à partir des captures de timeline SportEasy jointes à la discussion. **L’agent lit automatiquement chaque image jointe avec la vision avant traitement.** Crée des fichiers JSON/CSV/MD (plus les images originales) dans `.memory-bank/competitions/analysis/{matchday}/x`.
 
 2. **/analyze-match**  
    **SEMI-AUTONOME**: Exécuter le pipeline de bout en bout avec un point d’entrée utilisateur. L’agent effectue automatiquement:
@@ -110,15 +110,13 @@ sequenceDiagram
     participant A as Agent
 
     U->>A: /analyze-match 2025-11-07 [TEAM_NAME]
-    A->>A: Vérifier la présence de données dans .memory-bank/competitions/analysis/2025-11-07/
-    A->>A: Si absentes, demander à joindre des captures et les analyser via la vision
-    A->>A: Extraire la date du match depuis l’interface SportEasy
-    A->>A: Créer match_{matchday}.json depuis l’analyse des captures
+    A-->A: Lancer la Phase 0 (Capturer les captures dans la discussion et créer le JSON)
     A->>A: Lancer la Phase 1 (parse_timeline.py)
-    A->>A: Créer le gabarit match_summary.md avec sections vides
+    A-->A: Lancer la Phase  1.5 (Conventions d’interprétation (crucial!))
+    A->>A: Lancer la Phase 2 (Création du résumé de match)
     A->>U: ⏸️ Merci de compléter match_summary.md (Présence, Absence, Shift, Remarque). Répondez quand c’est fait.
     U->>A: C’est fait / Done
-    A->>A: Charger {matchday}.json, parsed_by_side.csv, match_summary.md
+    A->>A: Lancer la Phase 3
     A->>A: Calculer toutes les métriques et générer rapport_analyse_complete.md
     A->>A: S’assurer que JSON/MD/images sont dans analysis/{matchday}/
     A->>A: Archiver vers completed-tasks/competitions/match_reports/{matchday}/
@@ -132,7 +130,7 @@ sequenceDiagram
 
 - **Entrée**: Captures d’écran de la timeline SportEasy jointes à la discussion.
 - **Processus**:
-  - \*\*ÉTAPE 0 - LIRE les fichiers `EXAMPLES_TIMELINE.md`, `GUIDE_PARSE_TIMELINE.md`, `timelineDataExtractions.md`, `USAO_FLEXIBILITY.md`.
+  - **ÉTAPE 0 - LIRE les fichiers**: `timelineDataExtractions.md`, `EXAMPLES_TIMELINE.md`, `GUIDE_PARSE_TIMELINE.md`, , `USAO_FLEXIBILITY.md`.
   - **ÉTAPE 1 - LISTER LES PIÈCES JOINTES**: S’assurer qu’au moins une capture est présente avant de poursuivre.
   - **ÉTAPE 2 - ANALYSER LES IMAGES**: Utiliser la vision native pour lire chaque capture, extraire les informations du match, et détecter la date réelle affichée dans l’interface SportEasy (PAS la date du nom de fichier).
   - **ÉTAPE 3 - CONSTRUIRE JSON & MD BRUTS**: Convertir la timeline extraite au format JSON requis (`match_header`, `events`, `our_team`) et noter un court résumé Markdown de ce qui a été capturé.
@@ -140,6 +138,7 @@ sequenceDiagram
   - **ÉTAPE 5 - PRÊT POUR LE PARSEUR**: Une fois le dossier du match rempli de données brutes, lancer `parse_timeline.py` (voir Phase 1) pour classifier les événements par équipe.
 - **Sortie**: `match_{matchday}.json`, `{matchday}.md` brut, et les captures originales stockées dans `.memory-bank/competitions/analysis/{matchday}/`.
 - **Validation**:
+  - L'agent indique: « Read documentations. »
   - L’agent indique: « Analyzed [X] screenshots attached to the discussion. »
   - **L’agent déclare explicitement la date du match extraite de l’interface SportEasy** (ex: « Match date identified from SportEasy interface: 2025-11-08 »).
   - L’agent vérifie que le `match_header` suit les exemples et s’assure que tous les événements visibles, y compris les côtés (gauche/droite), sont capturés.
@@ -150,7 +149,7 @@ sequenceDiagram
 
 - **Entrée**: `match_{matchday}.json` créé en Phase 0 et stocké dans `.memory-bank/competitions/analysis/{matchday}/`, où `{matchday}` est la date RÉELLE extraite des captures.
 - **Processus**:
-  - Confirmer que `.memory-bank/competitions/analysis/{matchday}/` contient le JSON, le Markdown et les copies des captures produits en Phase 0.
+  - Confirmer que `.memory-bank/competitions/analysis/{matchday}/` contient le JSON, le Markdown et les captures d'écran entrée en pièce jointe de la Phase 0.
   - Lancer: `python tools/parse_timeline.py --input .memory-bank/competitions/analysis/{matchday}/match_{matchday}.json --out-dir .memory-bank/competitions/analysis/{matchday}/ --our-team [TEAM_NAME]`
 - **Sorties** (générées automatiquement):
   - `{matchday}.json`: Données enrichies avec classifications.
@@ -164,7 +163,7 @@ The canonical event types and inference rules are maintained in `docs/event_type
 
 ### Phase 2: Création du résumé de match (ENTRÉE UTILISATEUR REQUISE - SEUL POINT D’ARRÊT)
 
-Après la Phase 1, l’agent crée `match_summary.md` dans `.memory-bank/competitions/analysis/{matchday}/` avec le gabarit:
+Après la Phase 1.5, l’agent crée `match_summary.md` dans `.memory-bank/competitions/analysis/{matchday}/` avec le gabarit:
 
 ```
 ## Présence ##
