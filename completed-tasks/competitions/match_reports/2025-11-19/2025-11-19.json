@@ -1,0 +1,53 @@
+{
+  "date": "2025-11-19",
+  "opponent": "US WALTZING",
+  "competition": "WM Youth Cup",
+  "venue": "Terrain synthétique de Virton",
+  "result": {
+    "usao": 1,
+    "opponent": 14
+  },
+  "players_present": [
+    "Louis",
+    "Firmin",
+    "Nathan",
+    "Nestor",
+    "Tiago",
+    "Lilou",
+    "Auguste",
+    "Maxence"
+  ],
+  "players_not_selected": ["Lysian", "Robin", "Hugo"],
+  "shots": {
+    "on_target": 3,
+    "off_target": 1
+  },
+  "observations": [
+    "Adversaire très athlétique et très grand.",
+    "Jeu agressif avec un gardien volant.",
+    "Terrain synthétique mouillé et ballon très dur.",
+    "Pas de jeu de notre côté.",
+    "Maxence marque un but de raccroc.",
+    "Nous avons eu 3 frappes cadrées et 1 frappe à côté.",
+    "De notre côté : Firmin sort des réflexes énormes, Tiago récupère un nombre énorme de balles.",
+    "On n'entendait pas l'arbitre (coach de Waltzing)."
+  ],
+  "alarming_points": [
+    "Aucun mouvement travaillé à l'entraînement n'est ressorti.",
+    "Jeux au pied des gardiens trop faible.",
+    "Placement trop lent.",
+    "Attitude défaitiste à l'entame."
+  ],
+  "evaluations": {
+    "Louis": "lent, quelques erreurs, relances catastrophiques, le manque d'entraînement récent s'est fait ressentir.",
+    "Firmin": "sort pas mal de ballon, erreurs sur relances, 2 erreurs de placements.",
+    "Nestor": "caricature de ses mauvais matchs, à forcer tout le long sans jamais passer.",
+    "Lilou": "Pas dedans au début, défaitiste, mieux en 2eme.",
+    "Nathan": "techniquement intéressant mais ne lève pas les yeux.",
+    "Auguste": "Pas dedans au tout début, mais battant une fois qu'il a enclenché.",
+    "Maxence": "s'est démené mais sevré de ballon, manque de gnac sauf sur son but.",
+    "Tiago": "récupère beaucoup de ballon, mais manque d'impact au duel et a tenter de forcer ses passes pour casser les lignes..."
+  },
+  "score_evolution": "0-0 (0') → 6-0 (fin 1ère mi-temps) → 6-1 (25') → 14-1 (fin match)",
+  "additional_insights": "6 buts évitables dus à 5 erreurs de gardiens. Quelques moments où les adversaires étaient en difficulté, mais incapacité à les inquiéter."
+}
