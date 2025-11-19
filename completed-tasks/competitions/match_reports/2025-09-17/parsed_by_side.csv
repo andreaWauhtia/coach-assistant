@@ -1,0 +1,24 @@
+minute,type,player,side,team,classification,inferred_actions,confidence
+3,Arrêt,Louis Burgraff,left,us,shoot,frappe_subite,1.00
+4,But,,right,opponent,goal,,0.75
+9,But,,right,opponent,goal,,0.75
+10,Arrêt,Louis Burgraff,left,us,shoot,frappe_subite,1.00
+10,But,,right,opponent,goal,,0.75
+16,Arrêt,Louis Burgraff,left,us,shoot,frappe_subite,1.00
+17,But,,right,opponent,goal,,0.75
+18,But,,right,opponent,goal,,0.75
+19,But,,right,opponent,goal,,0.75
+22,But,Nestor Arnould,left,us,goal,,1.00
+24,But,,right,opponent,goal,,0.75
+26,Arrêt,,left,us,shoot,frappe_subite,0.75
+31,But,,right,opponent,goal,,0.75
+33,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
+34,But,Tiago Wauthia,left,us,goal,,1.00
+35,Tir à côté,,right,opponent,shoot,,0.75
+36,Tir à côté,Maxence Jonckheere,left,us,shoot,,1.00
+38,But,,right,opponent,goal,,0.75
+39,But,,right,opponent,goal,,0.75
+40,But,Nathan Blyweert Doumont,left,us,goal,,1.00
+41,Tir à côté,,right,opponent,shoot,,0.75
+41,But,,right,opponent,goal,,0.75
+48,But,Nestor Arnould,left,us,goal,,1.00

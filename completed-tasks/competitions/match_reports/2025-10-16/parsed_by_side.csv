@@ -1,0 +1,19 @@
+minute,type,player,side,team,classification,inferred_actions,confidence
+3,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+3,But,Nestor Arnould,left,us,goal,,1.00
+7,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+8,But,Maxence Jonckheere,left,us,goal,,1.00
+9,Arrêt,Louis Burgraff,left,us,shoot,frappe_subite,1.00
+14,Arrêt,Louis Burgraff,left,us,shoot,frappe_subite,1.00
+15,But,Robin Lambert,left,us,goal,,1.00
+24,Poteau,Tiago Wauthia,left,us,shoot,frappe_crée,1.00
+30,But,,right,opponent,goal,,0.75
+31,But,Nestor Arnould,left,us,goal,,1.00
+31,But,,right,opponent,goal,,0.75
+31,But,,right,opponent,goal,,0.75
+33,But,Maxence Jonckheere,left,us,goal,,1.00
+36,But,Maxence Jonckheere,left,us,goal,,1.00
+37,Arrêt,Louis Burgraff,left,us,shoot,frappe_subite,1.00
+44,But,,right,opponent,goal,,0.75
+48,Tir à côté,Nathan Blyweert Doumont,left,us,shoot,,1.00
+49,But,Robin Lambert,left,us,goal,,1.00

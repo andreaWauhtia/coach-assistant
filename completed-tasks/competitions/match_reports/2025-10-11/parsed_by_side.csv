@@ -1,0 +1,46 @@
+minute,type,player,side,team,classification,inferred_actions,confidence
+1,But,Tiago Wauthia,left,us,goal,,1.00
+2,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+2,But,Nestor Arnould,left,us,goal,,1.00
+4,But,Tiago Wauthia,left,us,goal,,1.00
+5,Tir à côté,,right,opponent,shoot,,0.75
+5,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+6,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
+7,But,Nestor Arnould,left,us,goal,,1.00
+8,But,Maxence Jonckheere,left,us,goal,,1.00
+9,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+11,But,Lilou Douny,left,us,goal,,1.00
+15,Tir à côté,Nathan Blyweert Doumont,left,us,shoot,,1.00
+17,But,Hugo Dumay,left,us,goal,,1.00
+18,But,Robin Lambert,left,us,goal,,1.00
+19,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
+20,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
+20,But,Nestor Arnould,left,us,goal,,1.00
+21,But,Nestor Arnould,left,us,goal,,1.00
+21,But,Maxence Jonckheere,left,us,goal,,1.00
+23,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+23,Tir à côté,Auguste Robinet,left,us,shoot,,1.00
+24,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+24,But,Auguste Robinet,left,us,goal,,1.00
+24,Tir à côté,Maxence Jonckheere,left,us,shoot,,1.00
+25,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+26,But,Nestor Arnould,left,us,goal,,1.00
+27,But,Maxence Jonckheere,left,us,goal,,1.00
+29,But,Nestor Arnould,left,us,goal,,1.00
+30,But,Tiago Wauthia,left,us,goal,,1.00
+31,But,Tiago Wauthia,left,us,goal,,1.00
+31,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+33,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+39,But,Nathan Blyweert Doumont,left,us,goal,,1.00
+40,But,Nathan Blyweert Doumont,left,us,goal,,1.00
+40,But,Lilou Douny,left,us,goal,,1.00
+41,But,Nathan Blyweert Doumont,left,us,goal,,1.00
+43,But,Nestor Arnould,left,us,goal,,1.00
+44,But,Maxence Jonckheere,left,us,goal,,1.00
+46,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+46,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+47,But,Tiago Wauthia,left,us,goal,,1.00
+47,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+48,But,Nestor Arnould,left,us,goal,,1.00
+49,But,Hugo Dumay,left,us,goal,,1.00
+50,Arrêt,,right,opponent,shoot,frappe_crée,0.75

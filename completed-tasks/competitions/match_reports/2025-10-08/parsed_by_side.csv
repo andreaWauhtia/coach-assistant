@@ -1,0 +1,23 @@
+minute,type,player,side,team,classification,inferred_actions,confidence
+1,Tir à côté,Nestor Arnould,right,us,shoot,,1.00
+1,But,Maxence Jonckheere,right,us,goal,,1.00
+3,Tir arrêté,Louis Burgraff,right,us,shoot,frappe_subite,1.00
+7,Tir à côté,Nestor Arnould,right,us,shoot,,1.00
+8,Tir à côté,,left,opponent,shoot,,0.75
+11,But,,left,opponent,goal,,0.75
+13,Tir à côté,,left,opponent,shoot,,0.75
+16,But,Nestor Arnould,right,us,goal,,1.00
+17,Tir à côté,Nestor Arnould,right,us,shoot,,1.00
+19,But,,left,opponent,goal,,0.75
+35,But,Nestor Arnould,right,us,goal,,1.00
+35,But,,left,opponent,goal,,0.75
+36,But,,left,opponent,goal,,0.75
+37,But,,left,opponent,goal,,0.75
+39,Tir à côté,Lilou Douny,right,us,shoot,,1.00
+41,But,Lilou Douny,right,us,goal,,1.00
+42,But,Lilou Douny,right,us,goal,,1.00
+47,But,Nestor Arnould,right,us,goal,,1.00
+48,But,,left,opponent,goal,,0.75
+49,But,Maxence Jonckheere,right,us,goal,,1.00
+54,Tir à côté,Tiago Wauthia,right,us,shoot,,1.00
+55,But,Nestor Arnould,right,us,goal,,1.00
