@@ -1,3 +1,10 @@
+# Résumé du match – à compléter par le coach
+
+- Date : 16 octobre 2025
+- Adversaire :  Bertrix
+- Score : 7-3 (domicile)
+- Lieu : Domicile
+
 ## Présence ##
 Louis, Tiago, Lysian, Nathan, Hugo, Nestor, Maxence, Robin
 ## Absence ##

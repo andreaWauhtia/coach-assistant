@@ -1,4 +1,3 @@
-```markdown
 # Fiche d'analyse — Tiago Wauthia (U8)
 
 _Généré le 2025-11-13_
@@ -110,7 +109,3 @@ _Généré le 2025-11-13_
 
 - Lundi (séance intensive / préparation match vs Waltzing) : inclure Tiago dans les ateliers Transition rapide (20 min) + 10 min Jockeying + 5–7 minutes d’atelier respiration/retour au calme. Confier un mini-rôle leader positif.
 
----
-
-_Fiche sauvegardée le 2025-11-13._
-```

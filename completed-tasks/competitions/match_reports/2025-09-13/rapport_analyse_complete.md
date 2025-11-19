@@ -1,80 +1,110 @@
-# Rapport d'analyse: RES.Orgeotoise VS USAO U8
-**Jour de match**: 2025-09-13  
-**Adversaire**: RES.Orgeotoise  
-**Score**: 5 - 12
-**Conclusion**: Score 5-12. Victoire d'USAO U8.
+
+
+# Rapport d'analyse : RES.Orgeotoise VS USAO U8
+
+**Jour de match** : 13 septembre 2025  
+**Adversaire** : RES.Orgeotoise  
+**Score** : USAO U8 12 - 5 RES.Orgeotoise
 
 ## Résumé exécutif
-## Présence ##
-Louis, Lilou, Robin, Nathan, Tiago, Auguste, Lysian, Nestor,Maxence,Hugo
-## Absence ##
-Firmin
-## Shift ##
 
-## Remarque ##
-Manque d'intensité sur la première période.
-Réception passive qui punit sur un terrain avec l'herbe trop haute.
-Plus de gnac en 2ème et on commence à voir des mouvements
+Louis, Lilou, Robin, Nathan, Tiago, Auguste, Lysian, Nestor, Maxence, Hugo présents. Firmin absent.
+- Première période manquant d’intensité, puis nette montée en puissance collective.
+- Terrain difficile, mais l’équipe a su s’adapter et accélérer après la pause.
 
-## Métriques Offensives (USAO)
-| Métrique | Valeur | Analyse |
-|----------|--------|---------|
-| Buts marqués | 12 | Attaque à améliorer |
-| Tirs (hors buts) | 12 | Volume de tirs hors cadre |
-| Tirs arrêtés | 7 | Tirs défensifs adverses |
-| Malchance | 0 | Aucun tir signalé comme malchance |
-| Efficacité (%) | 38.7% | 12/31 |
+## Métriques Offensives (USAO U8)
 
-## Métriques Défensives (Adversaire)
-| Métrique | Valeur | Analyse |
-|----------|--------|---------|
-| Buts concédés | 5 | Défense à renforcer |
-| Tirs adverses (saves) | 0 | Tirs adverses arrêtés |
-| Tirs adverses hors cadre | 3 | Tirs adverses manqués |
-| Malchance adverse | 0 | Aucun |
-| Efficacité adverse (%) | 62.5% | 5/8 |
+| Métrique        | Valeur | Analyse                                  |
+| --------------- | ------ | ----------------------------------------- |
+| Buts marqués    | 12     | Forte efficacité offensive, variété des buteurs. |
+| Tirs hors buts  | 17     | Bon volume de tirs, prise d’initiative.  |
+| Tirs totaux     | 29     | (12 buts + 17 tirs hors buts)            |
+| Efficacité (%)  | 41%    | 12/29 tirs convertis en buts, ratio élevé. |
 
-## Performances individuelles
+## Métriques Défensives (RES.Orgeotoise)
+
+| Métrique       | Valeur | Analyse                                                                 |
+| -------------- | ------ | ----------------------------------------------------------------------- |
+| Buts encaissés | 5      | Défense globalement solide, mais adversaire très réaliste.              |
+| Tirs subis     | 7      | Peu d’occasions concédées, mais chaque tir a été dangereux.             |
+| Efficacité (%) | 42%    | 5 / (5 + 7) = 42 % : chaque occasion adverse a pesé, difficile pour notre gardien. |
+
+## Performances Individuelles
+
 ### 🔥 Les Buteurs
-| Joueur | Buts | Tirs (hors buts) | Efficacité |
-|--------|------|------------------|------------|
-| Auguste Robinet | 5 | 3 | 62% |
-| Tiago Wauthia | 3 | 0 | 100% |
-| Maxence Jonckheere | 2 | 2 | 50% |
-| Nestor Arnould | 2 | 4 | 33% |
+
+| Joueur              | Buts | Tirs hors buts | Tirs totaux | Efficacité |
+| ------------------- | ---- | ------------- | ----------- | ---------- |
+| Auguste Robinet     | 6    | 3             | 9           | 67%        |
+| Tiago Wauthia       | 3    | 0             | 3           | 100%       |
+| Maxence Jonckheere  | 2    | 2             | 4           | 50%        |
+| Nestor Arnould      | 1    | 2             | 3           | 33%        |
 
 ### Les passes décisives
-| Joueur | Passes décisives |
-|--------|------------------|
 
+| Joueur          | Passes décisives |
+| --------------- | ---------------- |
+| Auguste Robinet | 2                |
 
 ## Répartition temporelle
-- 1ère période (0-22') : 4 buts marqués, 3 buts encaissés
-- 2ème période (23'-44') : 8 buts marqués, 2 buts encaissés
 
-## Répartition par tranche de 5 minutes
- 0-5' : 3 buts (1, 2, 3)
- 5-10' : 0 buts
- 10-15' : 0 buts
- 15-20' : 0 buts
- 20-25' : 1 but (20)
- 25-30' : 3 buts (26, 27, 28)
- 30-35' : 2 buts (31, 33)
- 35-40' : 0 buts
- 40-45' : 0 buts
+| Tranche (min) | Buts marqués |
+| ------------- | ------------ |
+| 0-9           | 3            |
+| 10-19         | 0            |
+| 20-29         | 5            |
+| 30-39         | 2            |
+| 40-49         | 2            |
 
+## Analyse du Momentum
+
+### Évolution du score
+
+0-0 (0') → 0-1 (1') → 0-2 (2') → 0-3 (3') → 1-3 (4') → 2-3 (7') → 3-3 (12') → 3-4 (20') → 3-5 (26') → 3-6 (27') → 4-6 (27') → 4-7 (28') → 4-8 (31') → 4-9 (33') → 5-9 (37') → 5-10 (45') → 5-11 (47') → 5-12 (49')
+
+### Fenêtres de scoring
+
+| Équipe   | Période | Buts | Durée | Momentum |
+| -------- | ------- | ---- | ----- | -------- |
+| USAO U8  | 0'-9'   | 3    | 9 min | 🔥 Fort  |
+| USAO U8  | 20'-29' | 5    | 9 min | 🔥 Fort  |
+| Adverse  | 37'-41' | 2    | 4 min | Moyen    |
+
+### Résilience
+
+Temps moyen de réaction après but encaissé : 4 minutes
+Buts marqués dans les 3 minutes suivant un but encaissé : 2/5
+
+### Phases de pression
+
+Périodes de domination USAO U8 : 0'-9', 20'-29'
+Périodes de domination adverse : 37'-41'
 
 ## Points forts
-1. Potentiel offensif
-2. À améliorer défensivement
+
+1. Efficacité offensive remarquable (12 buts sur 29 tirs)
+2. Bonne répartition des buteurs
+3. Capacité à réagir après un but encaissé
 
 ## Améliorations possibles
-1. Augmenter l'efficacité
-2. Renforcer la défense
+
+1. Précision des tirs à travailler (17 tirs hors cadre)
+2. Démarrage de match plus intense à viser
 
 ## Recommandations
-1. Analyser les données pour optimiser le jeu
+
+1. Renforcer l’intensité dès le début de match
+2. Poursuivre le travail sur la précision devant le but
+
+## Conclusion
+
+Match maîtrisé à l’extérieur, avec une attaque prolifique et une bonne gestion des temps faibles. L’équipe a montré de la résilience et une belle variété dans les buteurs. Défensivement, chaque occasion adverse a été dangereuse, ce qui invite à renforcer la vigilance sur les phases défensives.
 
 ---
 
-*Rapport généré le 2025-11-11 09:05:15*
+## Sources
+
+- match_2025-09-13.json
+- parsed_by_side.csv
+- match_summary.md
+- INDEX.md

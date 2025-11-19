@@ -1,0 +1,278 @@
+{
+  "matchday": "2025-11-01",
+  "match_header": "R.St.FC.Bouillon 4-12 USAO U8",
+  "team1": "R.St.FC.Bouillon",
+  "team2": "USAO U8",
+  "score1": 4,
+  "score2": 12,
+  "our_team": "R.St.FC.Bouillon",
+  "opponent_team": "USAO U8",
+  "events": [
+    {
+      "minute": 2,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 3,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 3,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 3,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 4,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 5,
+      "type": "Tir arrêté",
+      "player": "Lilou Douny",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_crée"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "minute": 7,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 7,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 10,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 11,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 12,
+      "type": "Tir à côté",
+      "player": null,
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 13,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 14,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "opponent",
+      "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 16,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 17,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 27,
+      "type": "But",
+      "player": null,
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 30,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 30,
+      "type": "But",
+      "player": null,
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 32,
+      "type": "But",
+      "player": "Lilou Douny",
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 34,
+      "type": "Arrêt",
+      "player": null,
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_subite"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "minute": 36,
+      "type": "But",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 37,
+      "type": "But",
+      "player": null,
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    },
+    {
+      "minute": 39,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 42,
+      "type": "Arrêt",
+      "player": null,
+      "side": "left",
+      "team": "us",
+      "classification": "shoot",
+      "inferred_actions": [
+        "frappe_subite"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "minute": 43,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "opponent",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 44,
+      "type": "But",
+      "player": null,
+      "side": "left",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 0.75
+    }
+  ]
+}

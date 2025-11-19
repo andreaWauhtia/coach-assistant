@@ -1,3 +1,9 @@
+# Résumé du match — 2025-08-30
+
+**Équipes :** USAO U8 vs ES.Saint-Pierre
+**Score final :** 12-1
+**Date :** 30 août 2025
+
 ## Présence ##
 Louis, Lilou, Nestor, Maxence, Robin, Lysian, Auguste, Nathan, Hugo, Tiago
 
@@ -8,6 +14,6 @@ Firmin (nous a rejoint plus tard)
 J'ai ensuite réparti le temps de jeu et le positionnement plus sagement.
 
 ## Remarque ##
-Hugo n'a pas eu de temps de jeu suite à une crise d'angoisse.
-Construction pauvre, beaucoup de but sur récupération.
-Début de match canon avec le 1er shift, ils n'ont pas vu le ballon.
+- Hugo n'a pas eu de temps de jeu suite à une crise d'angoisse.
+- Construction pauvre, beaucoup de but sur récupération.
+- Début de match canon avec le 1er shift, ils n'ont pas vu le ballon.

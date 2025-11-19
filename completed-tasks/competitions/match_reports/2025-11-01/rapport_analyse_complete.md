@@ -1,82 +1,105 @@
-# Rapport d'analyse: R.St.FC.Bouillon VS USAO U8
-**Jour de match**: 2025-11-01  
-**Adversaire**: R.St.FC.Bouillon  
-**Score**: 4 - 12
-**Conclusion**: Score 4-12. Victoire d'USAO U8.
+# Rapport d'analyse : R.St.FC.Bouillon VS USAO U8
+
+**Jour de match** : 2025-11-01  
+**Adversaire** : R.St.FC.Bouillon  
+**Score** : 4-12
 
 ## Résumé exécutif
-## Présence ##
+Large victoire à l’extérieur sur terrain difficile. USAO U8 a dominé offensivement, avec de nombreux tirs et une implication collective. Quelques buts concédés mais match maîtrisé.
+
+### Présence
 Louis, Firmin, Lilou, Nestor, Maxence, Robin, Lysian, Auguste
 
-## Absence ##
-Tiago, Natha, Hugo 
+### Absence
+Tiago, Nathan, Hugo
 
-## Remarque ## 
-Louis a joué pour Bouillon car ils n'avaient pas de gardien.
-Terrain très très boueux.
-Quelques phases de jeux notables.
-## Shifts ##
+## Métriques Offensives (USAO U8)
 
-## Métriques Offensives (USAO)
-| Métrique | Valeur | Analyse |
-|----------|--------|---------|
-| Buts marqués | 12 | Attaque efficace |
-| Tirs (hors buts) | 5 | Volume de tirs hors cadre |
-| Tirs arrêtés | 1 | Tirs défensifs adverses |
-| Malchance | 0 | Aucun tir signalé comme malchance |
-| Efficacité (%) | 66.7% | 12/18 |
+| Métrique        | Valeur | Analyse |
+| --------------- | ------ | ------- |
+| Buts marqués    | 12     | Efficacité offensive très élevée |
+| Tirs totaux     | 21     | 12 buts, 9 tirs hors buts (données timeline) |
+| Tirs hors cadre | 9      | Beaucoup de tentatives, volume élevé |
+| Efficacité (%)  | 57,1%  | 12/21 tirs |
 
-## Métriques Défensives (Adversaire)
-| Métrique | Valeur | Analyse |
-|----------|--------|---------|
-| Buts concédés | 4 | Défense solide |
-| Tirs adverses (saves) | 2 | Tirs adverses arrêtés |
-| Tirs adverses hors cadre | 3 | Tirs adverses manqués |
-| Malchance adverse | 0 | Aucun |
-| Efficacité adverse (%) | 44.4% | 4/9 |
+## Métriques Défensives (Bouillon)
 
-## Performances individuelles
+| Métrique       | Valeur | Analyse |
+| -------------- | ------ | ------- |
+| Buts encaissés | 4      | Défense globalement solide, mais USAO a trouvé la faille |
+| Tirs subis     | 6      | 4 buts, 2 arrêts (timeline) |
+| Tirs hors cadre | 0     | Peu de tirs non cadrés pour Bouillon |
+| Efficacité (%) | 66,7%  | 4/6 tirs |
+
+## Performances Individuelles
+
 ### 🔥 Les Buteurs
-| Joueur | Buts | Tirs (hors buts) | Efficacité |
-|--------|------|------------------|------------|
-| Nestor Arnould | 6 | 5 | 55% |
-| Maxence Jonckheere | 4 | 0 | 100% |
-| Lilou Douny | 1 | 0 | 100% |
-| Auguste Robinet | 1 | 0 | 100% |
+
+| Joueur            | Buts | Tirs | Efficacité |
+|-------------------|------|------|------------|
+| Nestor Arnould    | 6    | 11   | 54,5%      |
+| Maxence Jonckheere| 4    | 4    | 100%       |
+| Lilou Douny       | 1    | 2    | 50%        |
+| Auguste Robinet   | 1    | 1    | 100%       |
 
 ### Les passes décisives
-| Joueur | Passes décisives |
-|--------|------------------|
-| Nestor Arnould | 1 |
 
+| Joueur                | Passes décisives |
+|-----------------------|------------------|
+| Nestor Arnould        | 2                |
+| Lilou Douny           | 3                |
+| Maxence Jonckheere    | 1                |
+| Robin Lambert         | 0                |
+| Auguste Robinet       | 0                |
 
 ## Répartition temporelle
-- 1ère période (0-22') : 7 buts marqués, 0 buts encaissés
-- 2ème période (23'-44') : 5 buts marqués, 4 buts encaissés
 
-## Répartition par tranche de 5 minutes
- 0-5' : 1 but (4)
- 5-10' : 1 but (7)
- 10-15' : 3 buts (10, 11, 13)
- 15-20' : 2 buts (16, 17)
- 20-25' : 0 buts
- 25-30' : 0 buts
- 30-35' : 2 buts (30, 32)
- 35-40' : 2 buts (36, 39)
- 40-45' : 1 but (43)
+| Tranche (min) | Buts marqués |
+| ------------- | ------------ |
+| 0-9           | 2            |
+| 10-19         | 4            |
+| 20-29         | 1            |
+| 30-39         | 3            |
+| 40-49         | 2            |
 
+## Analyse du Momentum
+
+### Évolution du score
+0-0 (0') → 0-1 (4', Nestor Arnould) → 0-2 (7', Nestor Arnould) → 0-3 (10', Nestor Arnould) → 0-4 (11', Maxence Jonckheere) → 0-5 (13', Maxence Jonckheere) → 0-6 (16', Maxence Jonckheere) → 0-7 (17', Nestor Arnould) → 1-7 (27', Bouillon) → 2-7 (30', Bouillon) → 2-8 (30', Nestor Arnould) → 2-9 (32', Lilou Douny) → 2-10 (36', Auguste Robinet) → 3-10 (37', Bouillon) → 3-11 (39', Maxence Jonckheere) → 3-12 (43', Nestor Arnould) → 4-12 (44', Bouillon)
+
+### Fenêtres de scoring
+| Équipe | Période | Buts | Durée | Momentum |
+|--------|---------|------|-------|----------|
+| USAO   | 10'-17' | 5    | 7min  | 🔥 Fort  |
+| Bouillon| 27'-30'| 2    | 3min  | 🔥 Fort  |
+| USAO   | 30'-39' | 3    | 9min  | 🔥 Fort  |
+
+### Résilience
+Temps moyen de réaction après but encaissé : 2 minutes
+Buts marqués dans les 3 minutes suivant un but encaissé : 2/3
+
+### Phases de pression
+Périodes de domination USAO : 10'-17', 30'-39'
+Périodes de domination adverse : 27'-30'
 
 ## Points forts
-1. Efficacité offensive
-2. Défense
+1. Volume offensif exceptionnel
+2. Multiplicité des buteurs et passeurs
+3. Bonne gestion des temps forts
 
 ## Améliorations possibles
-1. Maintenir la performance
-2. Continuer la solidité défensive
+1. Mieux convertir les occasions (beaucoup de tirs hors cadre)
+2. Continuer à travailler la défense sur les temps faibles
 
 ## Recommandations
-1. Analyser les données pour optimiser le jeu
+1. Poursuivre le travail sur la finition
+2. Renforcer la concentration défensive
+
+## Conclusion
+Large victoire, équipe très offensive et impliquée. À poursuivre !
 
 ---
 
-*Rapport généré le 2025-11-11 09:08:04*
+## Sources
+- .memory-bank/competitions/analysis/2025-11-01/match_2025-11-01.json
+- .memory-bank/competitions/analysis/2025-11-01/match_summary.md

@@ -3,7 +3,7 @@
   "events": [
     {"minute": 90, "type": "But", "player": "Benzema", "side": "right"},
     {"minute": 85, "type": "Arrêt", "player": "Areola", "side": "left"},
-    {"minute": 80, "type": "But", "player": "Messi", "side": "left"},
+    {"minute": 80, "type": "But", "player": "Messi", "assist": "Neymar", "side": "left"},
     {"minute": 75, "type": "Carton Jaune", "player": "Défenseur Lyon", "side": "right"},
     {"minute": 70, "type": "Tir à côté", "player": "Messi", "side": "left"},
     {"minute": 65, "type": "But", "player": "Mbappé", "side": "left"},

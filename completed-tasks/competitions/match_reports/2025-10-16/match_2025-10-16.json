@@ -1,0 +1,28 @@
+{
+  "match_header": "USAO U8 7-3 Bertrix 2025/2026",
+  "our_team": "USAO U8",
+  "opponent_team": "Bertrix",
+  "season": "2025/2026",
+  "date": "2025-10-16",
+  "score": {"usao": 7, "bertrix": 3},
+  "events": [
+    {"minute": 3, "type": "Arrêt","side": "right"},
+    {"minute": 3, "type": "But", "player": "Nestor Arnould", "side": "left"},
+    {"minute": 7, "type": "Arrêt","side": "right"},
+    {"minute": 8, "type": "But", "player": "Maxence Jonckheere", "assist": "Hugo Dumay", "side": "left"},
+    {"minute": 9, "type": "Arrêt", "player": "Louis Burgraff", "side": "left"},
+    {"minute": 14, "type": "Arrêt", "player": "Louis Burgraff", "side": "left"},
+    {"minute": 15, "type": "But", "player": "Robin Lambert", "side": "left"},
+    {"minute": 24, "type": "Poteau", "player": "Tiago Wauthia", "side": "left"},
+    {"minute": 30, "type": "But", "side": "right"},
+    {"minute": 31, "type": "But", "player": "Nestor Arnould", "side": "left"},
+    {"minute": 31, "type": "But", "side": "right"},
+    {"minute": 31, "type": "But", "side": "right"},
+    {"minute": 33, "type": "But", "player": "Maxence Jonckheere", "side": "left"},
+    {"minute": 36, "type": "But", "player": "Maxence Jonckheere", "assist": "Nathan Blyweert Doumont", "side": "left"},
+    {"minute": 37, "type": "Arrêt", "player": "Louis Burgraff", "side": "left"},
+    {"minute": 44, "type": "But", "side": "right"},
+    {"minute": 48, "type": "Tir à côté", "player": "Nathan Blyweert Doumont", "side": "left"},
+    {"minute": 49, "type": "But", "player": "Robin Lambert", "assist": "Nestor Arnould", "side": "left"}
+  ]
+}

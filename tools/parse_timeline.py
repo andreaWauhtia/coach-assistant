@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Parse SportEasy timeline data into structured events with team classification.
 
 This tool processes manually-read timeline data from SportEasy screenshots.
@@ -23,6 +24,9 @@ Input format (JSON):
 }
 
 Or use --interactive mode to enter data interactively.
+
+Additional options:
+    --data-dir PATH   Path to a directory containing data/event_types.json and data/inference_rules.json (default: data/ in repository root)
 
 Saves:
   - CSV with classified events: {out_dir}/parsed_by_side.csv
@@ -51,7 +55,81 @@ EVENT_KEYWORDS = [
 ]
 
 # Events that represent shots
+# This constant is a backward-compatibility fallback; canonical values are loaded from `data/event_types.json`.
 SHOOT_KEYWORDS = {"Tir à côté", "Poteau", "Transversale", "Arrêt", "Tir arrêté"}
+
+
+def load_definitions(root_dir=None):
+    """Load canonical event types and inference rules from the data directory.
+
+    The loader falls back to the in-code constants when the JSON files are missing
+    or malformed, so the script remains backward compatible.
+    """
+    repo_root = Path(root_dir) if root_dir else Path(__file__).resolve().parents[1]
+    data_dir = repo_root / 'data'
+    event_file = data_dir / 'event_types.json'
+    inference_file = data_dir / 'inference_rules.json'
+
+    # Defaults
+    event_keywords = list(EVENT_KEYWORDS)
+    classification_map = {et: 'shoot' for et in SHOOT_KEYWORDS}
+    classification_map.update({
+        'But': 'goal',
+        'Remplacement': 'substitution',
+        'Carton Jaune': 'card',
+        'Carton Rouge': 'card',
+        'Blessé': 'injury',
+    })
+
+    shoot_keywords = set(SHOOT_KEYWORDS)
+    inference_map = {}  # (if_team, event_type) -> inferred_action
+
+    # Try load event types file
+    if event_file.exists():
+        try:
+            with open(event_file, 'r', encoding='utf-8') as ef:
+                evs = json.load(ef)
+            # evs expected to be a list with objects: {type, classification, synonyms}
+            event_keywords = []
+            classification_map = {}
+            shoot_keywords = set()
+            for it in evs:
+                typ = it.get('type')
+                cls = it.get('classification')
+                if typ:
+                    event_keywords.append(typ)
+                    if cls:
+                        classification_map[typ] = cls
+                        if cls == 'shoot':
+                            shoot_keywords.add(typ)
+                    # Also index synonyms
+                    for s in it.get('synonyms', []) or []:
+                        # do not add synonyms to keywords list (keeps primary types)
+                        classification_map[s] = cls
+                        if cls == 'shoot':
+                            shoot_keywords.add(s)
+        except Exception:
+            print(f"⚠️ Warning: failed to load {event_file}, using defaults")
+
+    # Try load inference rules
+    if inference_file.exists():
+        try:
+            with open(inference_file, 'r', encoding='utf-8') as inf:
+                rules = json.load(inf)
+            for r in rules:
+                action = r.get('inferred_action')
+                team = r.get('if_team')
+                for t in r.get('trigger_event_types', []) or []:
+                    inference_map[(team, t)] = action
+        except Exception:
+            print(f"⚠️ Warning: failed to load {inference_file}, using defaults")
+
+    return {
+        'event_keywords': event_keywords,
+        'classification_map': classification_map,
+        'shoot_keywords': shoot_keywords,
+        'inference_map': inference_map,
+    }
 
 # Header pattern to extract teams and score
 # Format: "Team1 Name" | "score1 - score2" | "Team2 Name season"
@@ -119,7 +197,15 @@ def parse_header(text_or_dict):
     return {'team1': None, 'score1': None, 'score2': None, 'team2': None}
 
 
-def classify_and_enrich_events(events_list, our_team_name, opponent_team_name, our_team_side=None):
+def classify_and_enrich_events(
+    events_list,
+    our_team_name,
+    opponent_team_name,
+    our_team_side=None,
+    classification_map=None,
+    shoot_keywords=None,
+    inference_map=None,
+):
     """Classify events by team and add inferred actions.
     
     Args:
@@ -169,29 +255,31 @@ def classify_and_enrich_events(events_list, our_team_name, opponent_team_name, o
             else:
                 team = None
         
-        # Classify event
-        classification = None
-        if event_type == 'But':
-            classification = 'goal'
-        elif event_type in SHOOT_KEYWORDS:
-            classification = 'shoot'
-        elif event_type == 'Remplacement':
-            classification = 'substitution'
-        elif event_type in ('Carton Jaune', 'Carton Rouge'):
-            classification = 'card'
-        elif event_type == 'Blessé':
-            classification = 'injury'
+        # Classify event using provided classification_map or fallback
+        if classification_map is None:
+            # Build a default classification_map fallback from constants
+            classification_map = {et: 'shoot' for et in SHOOT_KEYWORDS}
+            classification_map.update({
+                'But': 'goal',
+                'Remplacement': 'substitution',
+                'Carton Jaune': 'card',
+                'Carton Rouge': 'card',
+                'Blessé': 'injury',
+                'Assist': 'assist',
+            })
+
+        classification = classification_map.get(event_type)
         
-        # Infer additional actions
+        # Infer additional actions using inference_map if provided
         inferred_actions = []
-        if team == 'us':
-            # If we had a save or blocked shot, we conceded an opponent shot
-            if event_type in ('Arrêt', 'Tir arrêté'):
-                inferred_actions.append('frappe_subite')  # opponent shot on us
-        elif team == 'opponent':
-            # If opponent had a save or blocked shot, we had a shot
-            if event_type in ('Arrêt', 'Tir arrêté'):
-                inferred_actions.append('frappe_créée')  # we shot
+        if inference_map is None:
+            # Fallback inference rules: canonical rules are loaded from `data/inference_rules.json` when available
+            inference_map = {('us', 'Arrêt'): 'frappe_subite', ('us', 'Tir arrêté'): 'frappe_subite', ('opponent', 'Arrêt'): 'frappe_créée', ('opponent', 'Tir arrêté'): 'frappe_créée'}
+
+        if team in ('us', 'opponent'):
+            action = inference_map.get((team, event_type))
+            if action:
+                inferred_actions.append(action)
         
         # Confidence: higher if player name present and classification found
         confidence = 0.5
@@ -268,9 +356,20 @@ def build_report(enriched_events, header_info, matchday, out_dir):
     left_goals = sum(1 for e in enriched_events if e.get('side') == 'left' and e.get('classification') == 'goal')
     right_goals = sum(1 for e in enriched_events if e.get('side') == 'right' and e.get('classification') == 'goal')
 
-    left_shots = sum(1 for e in enriched_events if e.get('side') == 'left' and e.get('classification') == 'shoot')
-    right_shots = sum(1 for e in enriched_events if e.get('side') == 'right' and e.get('classification') == 'shoot')
-    
+    def shot_side(e):
+        if e.get('classification') != 'shoot':
+            return None
+        event_type = e.get('type')
+        side = e.get('side')
+        if event_type in ('Arrêt', 'Tir arrêté'):
+            if side == 'left':
+                return 'right'
+            if side == 'right':
+                return 'left'
+        return side
+
+    left_shots = sum(1 for e in enriched_events if shot_side(e) == 'left')
+    right_shots = sum(1 for e in enriched_events if shot_side(e) == 'right')
     # Group by minute
     by_minute = {}
     for e in enriched_events:
@@ -285,8 +384,8 @@ def build_report(enriched_events, header_info, matchday, out_dir):
     
     md_lines.append("## Résumé")
     # team1 corresponds to left side, team2 to right side in header parsing
-    md_lines.append(f"- **{team1}**: {left_goals} buts, {left_shots} tirs")
-    md_lines.append(f"- **{team2}**: {right_goals} buts, {right_shots} tirs\n")
+    md_lines.append(f"- **{team1}**: {left_goals} buts, {left_shots} tirs hors buts")
+    md_lines.append(f"- **{team2}**: {right_goals} buts, {right_shots} tirs hors buts\n")
     
     md_lines.append("## Distribution temporelle (par tranche 5')\n")
     for min_key in sorted(by_minute.keys()):
@@ -342,6 +441,11 @@ def main():
         default=None,
         help='Name of our team (auto-detected from header if not provided)'
     )
+    ap.add_argument(
+        '--data-dir',
+        default=None,
+        help='Path to directory containing data/event_types.json and data/inference_rules.json (default: repo data/)'
+    )
     args = ap.parse_args()
     
     events_data = None
@@ -351,7 +455,8 @@ def main():
         print(f"Loading events from {args.input}...")
         events_data = load_events_from_json(args.input)
     elif args.interactive:
-        events_data = prompt_interactive_input()
+        defs = load_definitions(args.data_dir)
+        events_data = prompt_interactive_input(defs.get('event_keywords'))
     else:
         ap.print_help()
         return 1
@@ -394,10 +499,24 @@ def main():
     print(f"   👥 Our team: {our_team} ({'HOME/left' if our_side == 'left' else 'AWAY/right' if our_side == 'right' else '?'})")
     print(f"   👥 Opponent: {opponent_team}\n")
     
+    # Load definitions (event types, classification mapping, inference rules)
+    defs = load_definitions(args.data_dir)
+    classification_map = defs.get('classification_map')
+    shoot_keywords = defs.get('shoot_keywords')
+    inference_map = defs.get('inference_map')
+
     # Classify events
     raw_events = events_data.get('events', [])
     print(f"Processing {len(raw_events)} events...")
-    enriched = classify_and_enrich_events(raw_events, our_team, opponent_team, our_team_side=our_side)
+    enriched = classify_and_enrich_events(
+        raw_events,
+        our_team,
+        opponent_team,
+        our_team_side=our_side,
+        classification_map=classification_map,
+        shoot_keywords=shoot_keywords,
+        inference_map=inference_map,
+    )
     
     # Generate outputs
     base_out = Path(args.out_dir)
@@ -439,7 +558,7 @@ def main():
     return 0
 
 
-def prompt_interactive_input():
+def prompt_interactive_input(event_keywords=None):
     """Interactive mode: collect match data and events from user input."""
     print("\n=== INTERACTIVE MODE ===\n")
     
@@ -451,10 +570,14 @@ def prompt_interactive_input():
     print("\nEnter events one by one (leave minute empty to finish):")
     print("Format: minute type player side")
     print("  minute: number (1-90)")
-    print("  type: But, Carton Jaune, Carton Rouge, Remplacement, Arrêt, Tir à côté, Poteau, Transversale, Tir arrêté, Blessé")
+    print("  type: choose from known event types (valid values shown below)")
     print("  player: name or empty")
     print("  side: left or right\n")
     
+    if event_keywords:
+        print('\nKnown event types:')
+        print(', '.join(event_keywords))
+
     while True:
         minute_str = input("Minute (or empty to finish): ").strip()
         if not minute_str:
@@ -467,8 +590,8 @@ def prompt_interactive_input():
             continue
         
         event_type = input("Event type: ").strip()
-        if event_type not in EVENT_KEYWORDS:
-            print(f"⚠️  Unknown event type. Known types: {', '.join(EVENT_KEYWORDS)}")
+        if event_type and event_keywords and event_type not in event_keywords:
+            print(f"⚠️  Unknown event type. Known types: {', '.join(event_keywords)}")
         
         player = input("Player (optional): ").strip() or None
         side = input("Side (left/right): ").strip().lower()

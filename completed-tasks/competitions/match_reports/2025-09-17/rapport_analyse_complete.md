@@ -1,85 +1,107 @@
-# Rapport d'analyse: USAO U8 VS Jeunesse MSN Tilleur
-**Jour de match**: 2025-09-17  
-**Adversaire**: Jeunesse MSN Tilleur  
-**Score**: 4 - 11
-**Conclusion**: Score 4-11. Défaite d'USAO U8.
+
+# Rapport d'analyse : USAO U8 VS Jeunesse MSN Tilleur
+
+**Jour de match** : 2025-09-17  
+**Adversaire** : Jeunesse MSN Tilleur  
+**Score** : 4-11
 
 ## Résumé exécutif
-## Présence ##
-Louis, Tiago, Nathan, Nestor, Maxence, Auguste, Lilou
 
-## Absence ##
-Robin, Lysian
+**Présence :** Louis, Tiago, Nathan, Nestor, Maxence, Auguste, Lilou  
+**Absence :** Robin, Lysian
 
-## Shifts ##
-## Remarque ## 
-Équipe beaucoup plus matures en face (combinaison travaillée à l'entrainement sur corner)
-Prise à 3 bien coordonné de l'adversaire sur Tiago et Nestor.
-Repositionnement défensif cata.
-Tiago trop bas en pointe basse et visiblement stressé.
-Nestor qui sort très très frustré.
-Nous avons une double arme nucléaire sur coup franc (Tiago, Nestor).
-Nathan adroit sur le 1vs1 en contre.
-Maxence un poil lent dans la transition rapide.
+**Faits marquants :**
+- Arrêts décisifs de Louis Burgraff en première période.
+- Buts pour USAO U8 : Nestor Arnould (2), Nathan Blyweert Doumont (2), Tiago Wauthia (1)
+- Passe décisive : Lilou Douny pour Nestor Arnould.
+- Plusieurs tirs à côté en seconde période.
 
-## Métriques Offensives (USAO)
-| Métrique | Valeur | Analyse |
-|----------|--------|---------|
-| Buts marqués | 4 | Attaque à améliorer |
-| Tirs (hors buts) | 2 | Volume de tirs hors cadre |
-| Tirs arrêtés | 3 | Tirs défensifs adverses |
-| Malchance | 0 | Aucun tir signalé comme malchance |
-| Efficacité (%) | 44.4% | 4/9 |
+**Shifts :**
+- Équipe beaucoup plus mature en face (combinaison travaillée à l'entraînement sur corner)
+- Prise à 3 bien coordonnée de l'adversaire sur Tiago et Nestor.
+- Repositionnement défensif difficile.
+- Tiago trop bas en pointe basse et visiblement stressé.
+- Nestor qui sort très frustré.
+- Double arme sur coup franc (Tiago, Nestor).
+- Nathan adroit sur le 1vs1 en contre.
+- Maxence un peu lent dans la transition rapide.
+
+## Métriques Offensives (USAO U8)
+
+| Métrique        | Valeur | Analyse      |
+| --------------- | ------ | ------------ |
+| Buts marqués    | 4      | Efficacité correcte malgré la domination adverse |
+| Tirs totaux     | 6      | Peu d'occasions créées |
+| Tirs hors cadre | 2      | Précision perfectible |
+| Efficacité (%)  | 67%    | 4/6 tirs convertis en buts, ratio flatteur mais peu d'occasions. |
 
 ## Métriques Défensives (Adversaire)
-| Métrique | Valeur | Analyse |
-|----------|--------|---------|
-| Buts concédés | 11 | Défense à renforcer |
-| Tirs adverses (saves) | 1 | Tirs adverses arrêtés |
-| Tirs adverses hors cadre | 3 | Tirs adverses manqués |
-| Malchance adverse | 0 | Aucun |
-| Efficacité adverse (%) | 73.3% | 11/15 |
 
-## Performances individuelles
+| Métrique       | Valeur | Analyse                                                                 |
+| -------------- | ------ | ----------------------------------------------------------------------- |
+| Buts encaissés | 11     | Défense en grande difficulté face à une équipe très réaliste.           |
+| Tirs subis     | 7      | Peu d’occasions concédées, mais chaque tir adverse a fait mouche.       |
+| Efficacité (%) | 61%    | 11 / (11 + 7) = 61 % : chaque frappe adverse a été dangereuse, Louis Burgraff n’a pu en stopper que quelques-unes. |
+
+## Performances Individuelles
+
 ### 🔥 Les Buteurs
-| Joueur | Buts | Tirs (hors buts) | Efficacité |
-|--------|------|------------------|------------|
-| Nestor Arnould | 2 | 1 | 67% |
-| Tiago Wauthia | 1 | 0 | 100% |
-| Nathan Blyweert Doumont | 1 | 0 | 100% |
+
+| Joueur                  | Buts | Tirs | Efficacité |
+|------------------------ |------|------|------------|
+| Nestor Arnould          | 2    | 2    | 100%       |
+| Nathan Blyweert Doumont | 2    | 2    | 100%       |
+| Tiago Wauthia           | 1    | 1    | 100%       |
 
 ### Les passes décisives
-| Joueur | Passes décisives |
-|--------|------------------|
 
+| Joueur      | Passes décisives |
+|-------------|------------------|
+| Lilou Douny | 1                |
 
 ## Répartition temporelle
-- 1ère période (0-22') : 1 buts marqués, 6 buts encaissés
-- 2ème période (23'-44') : 3 buts marqués, 5 buts encaissés
 
-## Répartition par tranche de 5 minutes
- 0-5' : 0 buts
- 5-10' : 0 buts
- 10-15' : 0 buts
- 15-20' : 0 buts
- 20-25' : 1 but (22)
- 25-30' : 0 buts
- 30-35' : 1 but (34)
- 35-40' : 0 buts
- 40-45' : 1 but (40)
+| Tranche (min) | Buts marqués |
+|---------------|--------------|
+| 0-10          | 0            |
+| 11-20         | 0            |
+| 21-30         | 1            |
+| 31-40         | 2            |
+| 41-50         | 1            |
 
+## Analyse du Momentum
+
+### Évolution du score
+0-1 (4') → 0-2 (9') → 0-3 (10') → 0-4 (17') → 0-5 (18') → 0-6 (19') → 1-6 (22') → 1-7 (24') → 1-8 (31') → 2-8 (34') → 2-9 (38') → 2-10 (39') → 3-10 (40') → 3-11 (41') → 4-11 (48')
+
+### Fenêtres de scoring
+| Équipe                | Période      | Buts | Durée | Momentum |
+|-----------------------|--------------|------|-------|----------|
+| Jeunesse MSN Tilleur  | 0'-20'       | 6    | 20'   | Fort     |
+| USAO U8               | 21'-50'      | 4    | 29'   | Moyen    |
+
+### Résilience
+- L’équipe n’a pas lâché malgré l’écart.
+
+### Phases de pression
+- Pression adverse continue en première période.
 
 ## Points forts
-1. Potentiel offensif
-2. À améliorer défensivement
+- Réaction collective en seconde période
+- Efficacité des buteurs
 
 ## Améliorations possibles
-1. Augmenter l'efficacité
-2. Renforcer la défense
+- Solidité défensive
+- Création d’occasions
 
 ## Recommandations
-1. Analyser les données pour optimiser le jeu
+- Travailler la relance et la couverture défensive
+- Encourager la prise d’initiative offensive
 
----
+## Conclusion
+Match difficile mais des motifs d’espoir dans l’attitude et la réaction.
 
-*Rapport généré le 2025-11-11 09:05:18*
+## Sources
+- Timeline SportEasy (captures)
+- Fichier match_2025-09-17.json
+- Rapport généré automatiquement

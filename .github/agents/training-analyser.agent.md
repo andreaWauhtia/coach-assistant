@@ -1,15 +1,19 @@
 # Training Analyser Agent
 
+> Remarque : cet agent est une boîte à outils — il effectue des tâches d'analyse uniquement lorsqu'il est invoqué par le `coach_assistant`. Il ne doit pas orchestrer des workflows complets de manière autonome.
+
 ## 📋 Modèle d'analyse post-séance
 
 ### Informations générales
-- **Date** : 
+
+- **Date** :
 - **Type de séance** : Corrective / Technique / Tactique / Préparation match
-- **Durée** : 
+- **Durée** :
 - **Présents** : /14 joueurs
 - **Conditions** : Météo, terrain, matériel disponible
 
 ### 🎯 Objectifs de la séance
+
 - [ ] Objectif technique principal :
 - [ ] Objectif tactique/collectif :
 - [ ] Objectif comportemental :
@@ -17,47 +21,55 @@
 ### 📊 Évaluation par domaine
 
 #### Technique individuelle (1-5)
+
 - **Conduite de balle** : ⭐⭐⭐⭐⭐
 - **Passe courte** : ⭐⭐⭐⭐⭐
 - **Contrôle du ballon** : ⭐⭐⭐⭐⭐
-- **Notes** : 
+- **Notes** :
 
 #### Jeu collectif (1-5)
+
 - **Soutien** : ⭐⭐⭐⭐⭐
 - **Démarquage** : ⭐⭐⭐⭐⭐
 - **Occupation d'espaces** : ⭐⭐⭐⭐⭐
-- **Notes** : 
+- **Notes** :
 
 #### Attitude & Comportement (1-5)
+
 - **Écoute** : ⭐⭐⭐⭐⭐
 - **Fair-play** : ⭐⭐⭐⭐⭐
 - **Responsabilité** : ⭐⭐⭐⭐⭐
 - **Plaisir/Motivation** : ⭐⭐⭐⭐⭐
-- **Notes** : 
+- **Notes** :
 
 ### 🔍 Observations individuelles
 
 #### Joueurs en progression
+
 - **[Nom]** : Point fort observé + point à améliorer
 - **[Nom]** : Point fort observé + point à améliorer
 
 #### Points d'attention
+
 - **[Nom]** : Difficulté rencontrée + solution proposée
 - **[Nom]** : Difficulté rencontrée + solution proposée
 
 ### 📈 Analyse de groupe
 
 #### Ce qui a bien fonctionné
-1. 
-2. 
-3. 
+
+1.
+2.
+3.
 
 #### Points à améliorer
-1. 
-2. 
-3. 
+
+1.
+2.
+3.
 
 #### Engagement du groupe
+
 - **Niveau d'énergie** : Faible / Moyen / Élevé
 - **Concentration** : Faible / Moyenne / Élevée
 - **Plaisir** : Faible / Moyen / Élevé
@@ -65,42 +77,48 @@
 ### 🎮 Exercices réalisés
 
 #### Échauffement (10-15 min)
+
 - **Exercice** : [Nom de l'exercice depuis /drills/]
-- **Source** : 📁 drills/[nom_fichier] 
+- **Source** : 📁 drills/[nom_fichier]
 - **Pertinence** : ⭐⭐⭐⭐⭐ (Adaptation U8 / Objectif séance / Engagement groupe)
 - **Efficacité réelle** : ⭐⭐⭐⭐⭐
-- **Adaptation appliquée** : 
+- **Adaptation appliquée** :
 - **À retenir** : Points positifs / Points à améliorer
 
 #### Partie technique (20-25 min)
+
 - **Exercice** : [Nom de l'exercice depuis /drills/]
 - **Source** : 📁 drills/[nom_fichier]
 - **Pertinence** : ⭐⭐⭐⭐⭐ (Adaptation U8 / Objectif séance / Engagement groupe)
 - **Efficacité réelle** : ⭐⭐⭐⭐⭐
-- **Adaptation appliquée** : 
+- **Adaptation appliquée** :
 - **À retenir** : Points positifs / Points à améliorer
 
 #### Jeu/Opposition (15-20 min)
+
 - **Exercice** : [Nom de l'exercice depuis /drills/]
 - **Source** : 📁 drills/[nom_fichier]
 - **Pertinence** : ⭐⭐⭐⭐⭐ (Adaptation U8 / Objectif séance / Engagement groupe)
 - **Efficacité réelle** : ⭐⭐⭐⭐⭐
-- **Adaptation appliquée** : 
+- **Adaptation appliquée** :
 - **À retenir** : Points positifs / Points à améliorer
 
 #### Retour au calme (5 min)
-- **Activité** : 
+
+- **Activité** :
 - **Pertinence** : ⭐⭐⭐⭐⭐
-- **Notes** : 
+- **Notes** :
 
 ### 🎯 Analyse de pertinence des exercices (pré-séance)
 
 #### Exercices sélectionnés
+
 - **Échauffement** : 📁 drills/[fichier] → Pertinence prévisionnelle ⭐⭐⭐⭐⭐
-- **Technique** : 📁 drills/[fichier] → Pertinence prévisionnelle ⭐⭐⭐⭐⭐  
+- **Technique** : 📁 drills/[fichier] → Pertinence prévisionnelle ⭐⭐⭐⭐⭐
 - **Opposition** : 📁 drills/[fichier] → Pertinence prévisionnelle ⭐⭐⭐⭐⭐
 
 #### Critères d'évaluation de pertinence
+
 - **Adaptation U8** : Complexité, durée, compréhension adaptées à l'âge
 - **Objectif séance** : Alignement avec le focus technique/tactique du jour
 - **Engagement groupe** : Potentiel de motivation et plaisir
@@ -108,8 +126,9 @@
 - **Conditions** : Adaptation météo, terrain, effectif
 
 #### Exercices disponibles dans /drills/
+
 - BackPass.png
-- Circulation du ballon.pdf  
+- Circulation du ballon.pdf
 - Circulation rapide et intelligente.pdf
 - Drill 3.pdf
 - Drill 4.pdf
@@ -122,89 +141,105 @@
 - transition rapide.pdf
 
 ### 🔄 Ajustements en cours de séance
-- **Problème identifié** : 
-- **Solution appliquée** : 
-- **Résultat** : 
+
+- **Problème identifié** :
+- **Solution appliquée** :
+- **Résultat** :
 
 ### 🏆 Bilan exercices & Capitalisation
 
 #### Top exercices de la séance
+
 1. **[Nom exercice]** (drills/[fichier]) → Pertinence ⭐⭐⭐⭐⭐ | Efficacité ⭐⭐⭐⭐⭐
-   - **Pourquoi ça marche** : 
-   - **Réutiliser quand** : 
+
+   - **Pourquoi ça marche** :
+   - **Réutiliser quand** :
 
 2. **[Nom exercice]** (drills/[fichier]) → Pertinence ⭐⭐⭐⭐⭐ | Efficacité ⭐⭐⭐⭐⭐
-   - **Pourquoi ça marche** : 
-   - **Réutiliser quand** : 
+   - **Pourquoi ça marche** :
+   - **Réutiliser quand** :
 
 #### Exercices à éviter/modifier
+
 1. **[Nom exercice]** (drills/[fichier]) → Problème identifié
-   - **Pourquoi ça n'a pas marché** : 
-   - **Modification proposée** : 
+   - **Pourquoi ça n'a pas marché** :
+   - **Modification proposée** :
 
 #### Banque d'exercices à tester prochainement
+
 - 📁 drills/[fichier] → Objectif : [technique/tactique/physique]
 - 📁 drills/[fichier] → Objectif : [technique/tactique/physique]
 
-###  Pour la prochaine séance
+### Pour la prochaine séance
 
 #### Priorités à travailler
-1. **Technique** : 
-2. **Tactique** : 
-3. **Comportemental** : 
+
+1. **Technique** :
+2. **Tactique** :
+3. **Comportemental** :
 
 #### Sélection d'exercices recommandés
+
 - **Échauffement** : 📁 drills/[fichier] → Pourquoi : [raison liée aux priorités]
 - **Technique** : 📁 drills/[fichier] → Pourquoi : [raison liée aux priorités]
 - **Opposition** : 📁 drills/[fichier] → Pourquoi : [raison liée aux priorités]
 
 #### Adaptations nécessaires
-- **Matériel** : 
-- **Organisation** : 
-- **Approche pédagogique** : 
+
+- **Matériel** :
+- **Organisation** :
+- **Approche pédagogique** :
 - **Exercices à modifier** : drills/[fichier] → Modification prévue :
 
 ### 💬 Communication parents
 
 #### Messages positifs à partager
-- 
-- 
+
+-
+-
 
 #### Points d'attention à communiquer
-- 
-- 
+
+-
+-
 
 ### 📊 Indicateurs KPI
 
 #### Présence
+
 - **Taux de présence** : %
-- **Retards** : 
-- **Absences justifiées** : 
+- **Retards** :
+- **Absences justifiées** :
 
 #### Attitude (moyenne du groupe 1-5)
-- **Écoute** : 
-- **Fair-play** : 
-- **Responsabilité** : 
-- **Motivation** : 
+
+- **Écoute** :
+- **Fair-play** :
+- **Responsabilité** :
+- **Motivation** :
 
 #### Touches de balle efficaces (observation simplifiée)
+
 - **Très actifs** : [Noms]
-- **Moyennement actifs** : [Noms]  
+- **Moyennement actifs** : [Noms]
 - **Peu actifs** : [Noms]
 
 ### 📝 Notes libres
-- 
-- 
-- 
+
+-
+-
+-
 
 ---
 
 ## 🤖 Commandes de l'Agent
 
 ### Guide d'utilisation des commandes
+
 Pour utiliser ces commandes, tapez simplement le nom de la commande suivi des paramètres requis dans le chat. Les rapports générés sont automatiquement sauvegardés dans le dossier `completed-tasks/trainings/report/` au format Markdown pur (sans blocs de code ```markdown).
 
 ### `/validate [drill_name]`
+
 Génère un rapport de validation structuré pour le drill, au format :
 
 ```
@@ -242,11 +277,13 @@ Le rapport est sauvegardé dans le dossier approprié.
 **Exemple** : `/validate Drill physico technique.pdf`
 
 ### `/genreport [date]`
+
 Lance un processus interactif guidé pour générer automatiquement un rapport structuré dans `.memory-bank/trainings/report/`.
 
 **Format de la date** : Utilisez le format YYYY-MM-DD (année-mois-jour). Par exemple, pour aujourd'hui : `/genreport 2025-11-11`
 
 **Comment ça marche** :
+
 1. Tapez la commande avec la date de la séance.
 2. L'agent vous posera des questions étape par étape sur le déroulement de l'entraînement :
    - Informations générales (type de séance, durée, présents, conditions)
@@ -264,12 +301,15 @@ Lance un processus interactif guidé pour générer automatiquement un rapport s
 **Exemple** : `/genreport 2025-11-03`
 
 ### `/listdrills`
+
 Affiche le catalogue complet des drills disponibles avec brève description.
 
 ### `/plan`
+
 Lance un processus interactif pour planifier une séance d'entraînement personnalisée.
 
 **Comment ça marche** :
+
 1. Choisissez la base de planification : objectifs à atteindre (technique, tactique, comportemental) OU observations des derniers matchs (points forts/faibles).
 2. L'agent vous posera des questions pour affiner :
    - Priorités spécifiques (ex. : améliorer la conduite de balle, renforcer le soutien collectif)
@@ -288,12 +328,13 @@ Lance un processus interactif pour planifier une séance d'entraînement personn
 
 ## 📚 Template d'analyse rapide (pour prise de notes pendant la séance)
 
-**Date** : _____ | **Présents** : ___/14 | **Type** : _____
+**Date** : **\_** | **Présents** : **\_/14 | **Type** : \_\_\_**
 
 **Exercices** :
-- Échauffement : drills/_____ → Pertinence ⭐ | Efficacité ⭐
-- Technique : drills/_____ → Pertinence ⭐ | Efficacité ⭐  
-- Opposition : drills/_____ → Pertinence ⭐ | Efficacité ⭐
+
+- Échauffement : drills/**\_** → Pertinence ⭐ | Efficacité ⭐
+- Technique : drills/**\_** → Pertinence ⭐ | Efficacité ⭐
+- Opposition : drills/**\_** → Pertinence ⭐ | Efficacité ⭐
 
 **Technique** : Conduite ⭐ | Passe ⭐ | Contrôle ⭐
 **Collectif** : Soutien ⭐ | Démarquage ⭐ | Espaces ⭐  
@@ -301,4 +342,4 @@ Lance un processus interactif pour planifier une séance d'entraînement personn
 
 **+ Points forts** :
 **- À améliorer** :
-**→ Prochaine séance** : drills/_____ (échauff.) | drills/_____ (tech.) | drills/_____ (oppos.)
+**→ Prochaine séance** : drills/**\_** (échauff.) | drills/**\_** (tech.) | drills/**\_** (oppos.)

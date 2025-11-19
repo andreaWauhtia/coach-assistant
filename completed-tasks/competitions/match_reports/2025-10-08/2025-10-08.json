@@ -29,16 +29,6 @@
       "confidence": 1.0
     },
     {
-      "minute": 1,
-      "type": "Passe décisive",
-      "player": "Nestor Arnould",
-      "side": "right",
-      "team": "us",
-      "classification": null,
-      "inferred_actions": [],
-      "confidence": 0.75
-    },
-    {
       "minute": 3,
       "type": "Tir arrêté",
       "player": "Louis Burgraff",
@@ -123,16 +113,6 @@
     {
       "minute": 35,
       "type": "But",
-      "player": null,
-      "side": "left",
-      "team": "opponent",
-      "classification": "goal",
-      "inferred_actions": [],
-      "confidence": 0.75
-    },
-    {
-      "minute": 35,
-      "type": "But",
       "player": "Nestor Arnould",
       "side": "right",
       "team": "us",
@@ -142,11 +122,11 @@
     },
     {
       "minute": 35,
-      "type": "Passe décisive",
-      "player": "Nathan Blyweert Doumont",
-      "side": "right",
-      "team": "us",
-      "classification": null,
+      "type": "But",
+      "player": null,
+      "side": "left",
+      "team": "opponent",
+      "classification": "goal",
       "inferred_actions": [],
       "confidence": 0.75
     },
@@ -221,16 +201,6 @@
       "confidence": 0.75
     },
     {
-      "minute": 48,
-      "type": "But",
-      "player": "Maxence Jonckheere",
-      "side": "right",
-      "team": "us",
-      "classification": "goal",
-      "inferred_actions": [],
-      "confidence": 1.0
-    },
-    {
       "minute": 49,
       "type": "But",
       "player": "Maxence Jonckheere",
@@ -239,16 +209,6 @@
       "classification": "goal",
       "inferred_actions": [],
       "confidence": 1.0
-    },
-    {
-      "minute": 49,
-      "type": "Passe décisive",
-      "player": "Tiago Wauthia",
-      "side": "right",
-      "team": "us",
-      "classification": null,
-      "inferred_actions": [],
-      "confidence": 0.75
     },
     {
       "minute": 54,
@@ -257,6 +217,16 @@
       "side": "right",
       "team": "us",
       "classification": "shoot",
+      "inferred_actions": [],
+      "confidence": 1.0
+    },
+    {
+      "minute": 55,
+      "type": "But",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
       "inferred_actions": [],
       "confidence": 1.0
     }

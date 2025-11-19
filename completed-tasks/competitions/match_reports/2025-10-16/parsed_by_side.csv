@@ -1,18 +1,19 @@
-minute,type,player,assist,side
-3,goal,Nestor Arnould,,left
-3,shot_saved,,,right
-7,shot_saved,,,right
-8,goal,Maxence Jonckheere,Hugo Dumay,left
-9,save,Louis Burgraff,,left
-14,save,Louis Burgraff,,left
-15,goal,Robin Lambert,,left
-24,post,Tiago Wauthia,,left
-30,goal,,,,right
-31,goal,Nestor Arnould,,left
-31,goal,,,,right
-33,goal,Maxence Jonckheere,,left
-36,goal,Maxence Jonckheere,Nathan Blyweert Doumont,left
-37,save,Louis Burgraff,,left
-44,goal,,,,right
-48,shot_off_target,Nathan Blyweert Doumont,,left
-49,goal,Robin Lambert,Nestor Arnould,left
+minute,type,player,side,team,classification,inferred_actions,confidence
+3,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+3,But,Nestor Arnould,left,us,goal,,1.00
+7,Arrêt,,right,opponent,shoot,frappe_crée,0.75
+8,But,Maxence Jonckheere,left,us,goal,,1.00
+9,Arrêt,Louis Burgraff,left,us,shoot,frappe_subite,1.00
+14,Arrêt,Louis Burgraff,left,us,shoot,frappe_subite,1.00
+15,But,Robin Lambert,left,us,goal,,1.00
+24,Poteau,Tiago Wauthia,left,us,shoot,frappe_crée,1.00
+30,But,,right,opponent,goal,,0.75
+31,But,Nestor Arnould,left,us,goal,,1.00
+31,But,,right,opponent,goal,,0.75
+31,But,,right,opponent,goal,,0.75
+33,But,Maxence Jonckheere,left,us,goal,,1.00
+36,But,Maxence Jonckheere,left,us,goal,,1.00
+37,Arrêt,Louis Burgraff,left,us,shoot,frappe_subite,1.00
+44,But,,right,opponent,goal,,0.75
+48,Tir à côté,Nathan Blyweert Doumont,left,us,shoot,,1.00
+49,But,Robin Lambert,left,us,goal,,1.00

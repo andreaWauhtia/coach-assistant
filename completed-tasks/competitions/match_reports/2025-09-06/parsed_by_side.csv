@@ -14,12 +14,13 @@ minute,type,player,side,team,classification,inferred_actions,confidence
 23,But,Nestor Arnould,left,us,goal,,1.00
 24,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
 25,Tir à côté,Nestor Arnould,left,us,shoot,,1.00
-47,But,Auguste Robinet,left,us,goal,,1.00
 47,Tir à côté,Lilou Douny,left,us,shoot,,1.00
+47,But,Auguste Robinet,left,us,goal,,1.00
 51,But,Auguste Robinet,left,us,goal,,1.00
-52,But,Hugo Dumay,left,us,goal,,1.00
 52,Tir à côté,Auguste Robinet,left,us,shoot,,1.00
+52,But,Hugo Dumay,left,us,goal,,1.00
 55,Arrêt,Louis Burgraff,left,us,shoot,frappe_subite,1.00
+61,Arrêt,Louis Burgraff,left,us,shoot,frappe_subite,1.00
 61,Arrêt,Louis Burgraff,left,us,shoot,frappe_subite,1.00
 62,But,Maxence Jonckheere,left,us,goal,,1.00
 62,But,Nestor Arnould,left,us,goal,,1.00

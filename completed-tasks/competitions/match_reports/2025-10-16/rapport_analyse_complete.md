@@ -1,79 +1,99 @@
-# Rapport d'analyse: USAO U8 VS Bertrix
-**Jour de match**: 2025-10-16  
-**Adversaire**: Bertrix  
-**Score**: 7 - 3
-**Conclusion**: Score 7-3. Victoire d'USAO U8.
+# Rapport d'analyse : USAO U8 VS Bertrix
+
+**Jour de match** : 2025-10-16  
+**Adversaire** : Bertrix  
+**Score** : 7-3
 
 ## Résumé exécutif
-## Présence ##
-Louis, Tiago, Lysian, Nathan, Hugo, Nestor, Maxence, Robin
-## Absence ##
-Firmin, Lilou, Auguste
-## Shift ##
-## Remarque ##
-- Hugo est sorti en court de route car coup sur la tête et n'a plus voulu joué.
-- Tiago met un corner rentrant sur la latte.
-- Match contre une très belle équipe de Bertriw
-- Victoire mature, on a punit des qu'on le pouvait
+Victoire mature à domicile contre une très belle équipe de Bertrix. Efficacité offensive, engagement collectif, plusieurs joueurs décisifs. À noter : Hugo blessé, corner rentrant de Tiago sur la latte.
 
-## Métriques Offensives (USAO)
-| Métrique | Valeur | Analyse |
-|----------|--------|---------|
-| Buts marqués | 7 | Attaque efficace |
-| Tirs (hors buts) | 3 | Volume de tirs hors cadre |
-| Tirs arrêtés | 0 | Tirs défensifs adverses |
-| Malchance | 0 | Aucun tir signalé comme malchance |
-| Efficacité (%) | 70.0% | 7/10 |
 
-## Métriques Défensives (Adversaire)
-| Métrique | Valeur | Analyse |
-|----------|--------|---------|
-| Buts concédés | 3 | Défense à renforcer |
-| Tirs adverses (saves) | 0 | Tirs adverses arrêtés |
-| Tirs adverses hors cadre | 2 | Tirs adverses manqués |
-| Malchance adverse | 0 | Aucun |
-| Efficacité adverse (%) | 60.0% | 3/5 |
+## Métriques Offensives (USAO U8)
 
-## Performances individuelles
+| Métrique        | Valeur | Analyse |
+| --------------- | ------ | ------- |
+| Buts marqués    | 7      | Bonne efficacité |
+| Tirs totaux     | 11     | 7 buts, 4 tirs hors buts |
+| Tirs hors cadre | 4      | Plusieurs tentatives non cadrées |
+| Efficacité (%)  | 63,6%  | 7/11 tirs, ratio réaliste |
+
+
+## Métriques Défensives (Bertrix)
+
+| Métrique       | Valeur | Analyse |
+| -------------- | ------ | ------- |
+| Buts encaissés | 3      | 3 buts encaissés en 2 minutes (30'-31') |
+| Tirs subis     | 7      | 4 buts, 3 tirs hors buts (Bertrix) |
+| Tirs hors cadre | 3     | Plusieurs tentatives non cadrées |
+| Efficacité (%) | 57,1%  | 4/7 tirs, efficacité offensive de Bertrix |
+
+## Performances Individuelles
+
 ### 🔥 Les Buteurs
-| Joueur | Buts | Tirs (hors buts) | Efficacité |
-|--------|------|------------------|------------|
-| Maxence Jonckheere | 3 | 0 | 100% |
-| Nestor Arnould | 2 | 0 | 100% |
-| Robin Lambert | 2 | 0 | 100% |
+
+| Joueur            | Buts | Tirs | Efficacité |
+|-------------------|------|------|------------|
+| Maxence Jonckheere| 3    | 4    | 75%        |
+| Robin Lambert     | 2    | 3    | 66,7%      |
+| Nestor Arnould    | 2    | 2    | 100%       |
 
 ### Les passes décisives
-| Joueur | Passes décisives |
-|--------|------------------|
 
+| Joueur                | Passes décisives |
+|-----------------------|------------------|
+| Hugo Dumay            | 1                |
+| Nathan Blyweert Doumont| 1               |
+| Nestor Arnould        | 1                |
 
 ## Répartition temporelle
-- 1ère période (0-22') : 3 buts marqués, 0 buts encaissés
-- 2ème période (23'-44') : 4 buts marqués, 3 buts encaissés
 
-## Répartition par tranche de 5 minutes
- 0-5' : 1 but (3)
- 5-10' : 1 but (8)
- 10-15' : 0 buts
- 15-20' : 1 but (15)
- 20-25' : 0 buts
- 25-30' : 0 buts
- 30-35' : 2 buts (31, 33)
- 35-40' : 1 but (36)
- 40-45' : 0 buts
+| Tranche (min) | Buts marqués |
+| ------------- | ------------ |
+| 0-9           | 2            |
+| 10-19         | 1            |
+| 20-29         | 0            |
+| 30-39         | 3            |
+| 40-49         | 1            |
 
+## Analyse du Momentum
+
+### Évolution du score
+0-0 (0') → 1-0 (3', Arnould) → 2-0 (8', Jonckheere) → 3-0 (15', Lambert) → 3-1 (30', Bertrix) → 3-2 (31', Bertrix) → 3-3 (31', Bertrix) → 4-3 (31', Arnould) → 5-3 (33', Jonckheere) → 6-3 (36', Jonckheere) → 7-3 (49', Lambert)
+
+### Fenêtres de scoring
+| Équipe | Période | Buts | Durée | Momentum |
+|--------|---------|------|-------|----------|
+| USAO   | 0'-15'  | 3    | 15min | 🔥 Fort  |
+| Bertrix| 30'-31' | 3    | 2min  | 🔥 Fort  |
+| USAO   | 31'-36' | 3    | 5min  | 🔥 Fort  |
+
+### Résilience
+Temps moyen de réaction après but encaissé : 1 minute
+Buts marqués dans les 3 minutes suivant un but encaissé : 3/3
+
+### Phases de pression
+Périodes de domination USAO : 0'-15', 31'-36'
+Périodes de domination adverse : 30'-31'
 
 ## Points forts
-1. Efficacité offensive
-2. À améliorer défensivement
+1. Efficacité offensive remarquable
+2. Réaction immédiate après égalisation adverse
+3. Engagement collectif et implication de plusieurs joueurs
 
 ## Améliorations possibles
-1. Maintenir la performance
-2. Renforcer la défense
+1. Mieux gérer les temps faibles (30'-31')
+2. Continuer à travailler la relance sous pression
 
 ## Recommandations
-1. Analyser les données pour optimiser le jeu
+1. Renforcer la concentration après chaque but marqué
+2. Poursuivre le travail sur la relance et la gestion des temps faibles
+
+## Conclusion
+Très belle victoire, équipe solidaire et efficace. À poursuivre !
 
 ---
 
-*Rapport généré le 2025-11-11 09:07:21*
+## Sources
+- .memory-bank/competitions/analysis/2025-10-16/match_2025-10-16.json
+- .memory-bank/competitions/analysis/2025-10-16/match_summary.md
+- completed-tasks/competitions/match_reports/2025-10-16/match_summary.md

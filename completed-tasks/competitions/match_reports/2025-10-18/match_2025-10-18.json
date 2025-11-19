@@ -1,0 +1,31 @@
+{
+  "match_header": "ES.Saint-Pierre 5-7 USAO U8 2025/2026",
+  "our_team": "USAO U8",
+  "opponent_team": "ES.Saint-Pierre",
+  "season": "2025/2026",
+  "date": "2025-10-18",
+  "score": {"usao": 7, "saint_pierre": 5},
+  "events": [
+    {"minute": 2, "type": "But", "player": "Tiago Wauthia", "assist": "Nestor Arnould", "side": "right"},
+    {"minute": 12, "type": "Remplacement", "in": "Auguste Robinet", "out": "Lilou Douny", "side": "right"},
+    {"minute": 13, "type": "Remplacement", "in": "Hugo Dumay", "out": "Tiago Wauthia", "side": "right"},
+    {"minute": 15, "type": "Remplacement", "in": "Tiago Wauthia", "out": "Lysian Lugen", "side": "right"},
+    {"minute": 16, "type": "Remplacement", "in": "Auguste Robinet", "out": "Nestor Arnould", "side": "right"},
+    {"minute": 17, "type": "Remplacement", "in": "Lysian Lugen", "out": "Tiago Wauthia", "side": "right"},
+    {"minute": 18, "type": "But", "side": "left"},
+    {"minute": 20, "type": "Remplacement", "in": "Lilou Douny", "out": "Hugo Dumay", "side": "right"},
+    {"minute": 21, "type": "But", "side": "left"},
+    {"minute": 22, "type": "Remplacement", "in": "Nestor Arnould", "out": "Auguste Robinet", "side": "right"},
+    {"minute": 22, "type": "Remplacement", "in": "Lysian Lugen", "out": "Auguste Robinet", "side": "right"},
+    {"minute": 23, "type": "But", "player": "Nestor Arnould", "assist": "Lilou Douny", "side": "right"},
+    {"minute": 24, "type": "But", "player": "Lilou Douny", "assist": "Robin Lambert", "side": "right"},
+    {"minute": 30, "type": "But", "side": "left"},
+    {"minute": 32, "type": "But", "player": "Nestor Arnould", "assist": "Robin Lambert", "side": "right"},
+    {"minute": 37, "type": "Remplacement", "in": "Tiago Wauthia", "out": "Robin Lambert", "side": "right"},
+    {"minute": 39, "type": "But", "player": "Lilou Douny", "assist": "Auguste Robinet", "side": "right"},
+    {"minute": 39, "type": "But", "player": "Nestor Arnould", "assist": "Lilou Douny", "side": "right"},
+    {"minute": 47, "type": "But", "side": "left"},
+    {"minute": 49, "type": "But", "side": "left"},
+    {"minute": 49, "type": "But", "player": "Tiago Wauthia", "assist": "Auguste Robinet", "side": "right"}
+  ]
+}
