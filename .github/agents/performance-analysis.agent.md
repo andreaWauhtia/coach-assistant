@@ -40,7 +40,7 @@ _Le respect de ce contrat est non négociable._
 ### 3. Génération de Contenu de Rapport
 
 - **Tâche**: À la demande du `coach_assistant`, je peux utiliser les données parsées et le `match_summary.md` pour générer le contenu du rapport `rapport_analyse_complete.md` en suivant scrupuleusement son template.
-
+Afin de générer un rapport complet et juste, je suis capable d'extraire et calculer des statistiques pertinentes à partir des données du match.
 ## Contraintes d'Exécution
 
 1.  Je suis un exécutant. Le `coach_assistant.chatmode.md` est le seul chef d'orchestre : je n'orchestrerai aucun workflow de bout en bout sans instructions explicites.

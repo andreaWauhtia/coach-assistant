@@ -356,9 +356,20 @@ def build_report(enriched_events, header_info, matchday, out_dir):
     left_goals = sum(1 for e in enriched_events if e.get('side') == 'left' and e.get('classification') == 'goal')
     right_goals = sum(1 for e in enriched_events if e.get('side') == 'right' and e.get('classification') == 'goal')
 
-    left_shots = sum(1 for e in enriched_events if e.get('side') == 'left' and e.get('classification') == 'shoot')
-    right_shots = sum(1 for e in enriched_events if e.get('side') == 'right' and e.get('classification') == 'shoot')
-    
+    def shot_side(e):
+        if e.get('classification') != 'shoot':
+            return None
+        event_type = e.get('type')
+        side = e.get('side')
+        if event_type in ('Arrêt', 'Tir arrêté'):
+            if side == 'left':
+                return 'right'
+            if side == 'right':
+                return 'left'
+        return side
+
+    left_shots = sum(1 for e in enriched_events if shot_side(e) == 'left')
+    right_shots = sum(1 for e in enriched_events if shot_side(e) == 'right')
     # Group by minute
     by_minute = {}
     for e in enriched_events:
@@ -373,8 +384,8 @@ def build_report(enriched_events, header_info, matchday, out_dir):
     
     md_lines.append("## Résumé")
     # team1 corresponds to left side, team2 to right side in header parsing
-    md_lines.append(f"- **{team1}**: {left_goals} buts, {left_shots} tirs")
-    md_lines.append(f"- **{team2}**: {right_goals} buts, {right_shots} tirs\n")
+    md_lines.append(f"- **{team1}**: {left_goals} buts, {left_shots} tirs hors buts")
+    md_lines.append(f"- **{team2}**: {right_goals} buts, {right_shots} tirs hors buts\n")
     
     md_lines.append("## Distribution temporelle (par tranche 5')\n")
     for min_key in sorted(by_minute.keys()):

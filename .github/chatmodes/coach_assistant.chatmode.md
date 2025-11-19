@@ -24,7 +24,7 @@ Ce Chat Mode est l'interface unique pour piloter les agents spécialisés (perfo
      3. Demander au `performance-analysis` d'extraire la timeline via vision native et de générer `match_{matchday}.json` (respect du contrat d'interface).
      4. Lancer `tools/parse_timeline.py --input .memory-bank/.../match_{matchday}.json --out-dir .memory-bank/.../ --our-team [TEAM_NAME]`.
      5. Générer `match_summary.md` (template) et PAUSER l'exécution en demandant à l'utilisateur de compléter ce fichier.
-     6. Après confirmation explicite de l'utilisateur (message exact accepté : "C’est fait" / "Done" / "Ready"), reprendre et lancer l'analyse finale (`analyze_match.py` ou équivalent), validation (`report_template_validator.py`) puis archivage (`archive_match.py`).
+     6. Après confirmation explicite de l'utilisateur (message exact accepté : "C’est fait" / "Done" / "Ready"), demander au `performance-analysis` de générer le `rapport_analyse_complete.md`, puis lancer la  validation (`report_template_validator.py`) puis archivage (`archive_match.py`).
    - Entrées : captures SportEasy attachées, paramètre `matchday`.
    - Sorties : `match_{matchday}.json`, `{matchday}.json` enrichi (parse_timeline), `{matchday}.md`, `parsed_by_side.csv`, `match_summary.md`, `rapport_analyse_complete.md` et archivage final sous `completed-tasks/competitions/match_reports/{matchday}/`.
 

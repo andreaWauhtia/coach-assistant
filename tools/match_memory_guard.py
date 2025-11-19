@@ -25,8 +25,6 @@ def matchday_type(value: str) -> str:
 def ensure_structure(match_dir: Path) -> None:
     """Create the match directory and core subfolders if they do not exist."""
     match_dir.mkdir(parents=True, exist_ok=True)
-    raw_dir = match_dir / "raw"
-    raw_dir.mkdir(exist_ok=True)
 
 
 def find_missing_assets(match_dir: Path, matchday: str) -> list[str]:
@@ -36,12 +34,6 @@ def find_missing_assets(match_dir: Path, matchday: str) -> list[str]:
     for filename in expected_files:
         if not (match_dir / filename).is_file():
             missing.append(filename)
-
-    raw_dir = match_dir / "raw"
-    if not raw_dir.is_dir():
-        missing.append("raw/")
-    elif not any(child.is_file() for child in raw_dir.iterdir()):
-        missing.append("raw/ (no images found)")
 
     return missing
 

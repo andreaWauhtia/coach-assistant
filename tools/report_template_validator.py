@@ -86,20 +86,65 @@ def diff_tokens(expected: Iterable[str], actual: Iterable[str]) -> str:
     return "\n".join(diff)
 
 
+import re
+
+def extract_team_names(report_text: str):
+    # Extrait les noms d'équipes et le score depuis le rapport
+    # Titre principal : # Rapport d'analyse : USAO U8 VS Bouillon
+    m = re.search(r"# Rapport d'analyse : ([^V]+)VS ([^\n]+)", report_text)
+    if m:
+        team_home = m.group(1).strip()
+        team_away = m.group(2).strip()
+    else:
+        team_home = team_away = None
+    # Score : **Score** : 16-3
+    m2 = re.search(r"\*\*Score\*\* *: *([0-9]+)[-–]([0-9]+)", report_text)
+    if m2:
+        score_home, score_away = m2.group(1), m2.group(2)
+    else:
+        score_home = score_away = None
+    return team_home, team_away, score_home, score_away
+
+def normalize_dynamic(line: str, team_home, team_away, team_name=None):
+    # Remplace les valeurs réelles par les placeholders du template
+    # Pour la section Métriques Offensives, le template peut utiliser [TEAM_NAME] ou [TEAM_HOME]
+    # On harmonise les deux pour la validation
+    if team_name:
+        # Remplace d'abord le nom réel par [TEAM_NAME]
+        line = line.replace(team_name, '[TEAM_NAME]')
+    if team_home:
+        line = line.replace(team_home, '[TEAM_HOME]')
+    if team_away:
+        line = line.replace(team_away, '[TEAM_AWAY]')
+    # Si le template utilise [TEAM_NAME] ou [TEAM_HOME] de façon interchangeable, on harmonise
+    line = line.replace('[TEAM_NAME]', '[TEAM_HOME]')
+    return line
+
 def validate_report(report_path: Path, template_path: Path = DEFAULT_TEMPLATE) -> tuple[bool, str]:
     template_tokens = load_tokens(template_path)
-    report_tokens = load_tokens(report_path)
+    report_text = report_path.read_text(encoding="utf-8")
+    report_tokens = extract_structure(report_text)
+
+    team_home, team_away, _, _ = extract_team_names(report_text)
+    # Pour la section Métriques Offensives, on cherche le nom de l'équipe dans le titre
+    team_name = team_home
 
     expected_lines = [token.to_line() for token in template_tokens]
     actual_lines = [token.to_line() for token in report_tokens]
 
-    if expected_lines == actual_lines:
+    # Normalisation dynamique : remplace les noms réels par les placeholders
+    actual_lines_norm = []
+    for l in actual_lines:
+        l_norm = normalize_dynamic(l, team_home, team_away, team_name)
+        actual_lines_norm.append(l_norm)
+
+    if expected_lines == actual_lines_norm:
         return True, (
-            "Template compliance confirmed: "
+            "Template compliance confirmed (dynamic headings allowed): "
             f"{len(actual_lines)} structural elements (headings + tables)."
         )
 
-    diff = diff_tokens(expected_lines, actual_lines)
+    diff = diff_tokens(expected_lines, actual_lines_norm)
     if not diff:
         diff = "Report deviates from template but no diff could be generated."
 
