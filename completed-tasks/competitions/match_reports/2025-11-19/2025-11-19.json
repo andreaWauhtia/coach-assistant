@@ -3,10 +3,24 @@
   "opponent": "US WALTZING",
   "competition": "WM Youth Cup",
   "venue": "Terrain synthétique de Virton",
-  "result": {
-    "usao": 1,
-    "opponent": 14
-  },
+  "team1": "US WALTZING",
+  "team2": "USAO U8",
+  "our_team": "USAO U8",
+  "opponent_team": "US WALTZING",
+  "score1": 14,
+  "score2": 1,
+   "events": [
+    {
+      "minute": 24,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "team": "us",
+      "classification": "goal",
+      "inferred_actions": [],
+      "confidence": 1.0
+    }
+  ],
   "players_present": [
     "Louis",
     "Firmin",
