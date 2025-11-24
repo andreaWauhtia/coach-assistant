@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Revue de la saison 2025 - Parents</title>
+  <style>
+    :root {
+      color-scheme: light;
+    }
+    body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f5f7fb; color: #111; }
+    header { background: linear-gradient(135deg, #0e4d8c, #0e9a6b); color: #fff; padding: 2.5rem 2rem; }
+    header h1 { margin: 0; font-size: 2.4rem; }
+    header p { margin: 0.6rem 0 0; font-size: 1rem; max-width: 760px; }
+    .container { max-width: 1200px; margin: -1.5rem auto 2rem; padding: 0 2rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1rem; }
+    .summary-grid { grid-template-columns: repeat(5, minmax(210px, 1fr)); }
+    .card { background: #fff; border-radius: 18px; padding: 1.4rem 1.6rem; box-shadow: 0 25px 40px rgba(15,23,42,.08); }
+    .card h2 { margin-top: 0; margin-bottom: 0.35rem; font-size: 1.2rem; color: #0c3d77; }
+    .card p { margin: 0.6rem 0 0; line-height: 1.4; color: #323946; }
+    .card .stat { font-size: 2rem; font-weight: 600; margin: 0.2rem 0; }
+    .pie-wrapper { display: flex; flex-direction: column; gap: 1rem; align-items: center; }
+    .pie { width: 210px; aspect-ratio: 1 / 1; border-radius: 50%; background: conic-gradient(#0e9a6b 0 31.47%, #2196f3 31.47% 48.73%, #ffb703 48.73% 61.43%, #ff6b6b 61.43% 74.61%, #8b5cf6 74.61% 81.70%, #0e4d8c 81.70% 92.36%, #f97316 92.36% 96.42%, #6366f1 96.42% 100%); box-shadow: inset 0 0 15px rgba(0,0,0,.08); position: relative; transform: rotate(-90deg); }
+    .pie::after { content: ""; position: absolute; inset: 24px; border-radius: 50%; background: #f5f7fb; box-shadow: inset 0 0 0 1px rgba(15,23,42,.08); }
+    .legend { font-size: 0.9rem; }
+    .legend span { display: inline-flex; align-items: center; gap: 0.35rem; margin-bottom: 0.35rem; }
+    .legend i { width: 14px; height: 14px; border-radius: 3px; display: inline-block; }
+    .legend em { font-style: normal; color: #545b70; }
+    .assist-table { width: 100%; border-collapse: collapse; margin-top: 0.6rem; }
+    .assist-table th, .assist-table td { padding: 0.25rem 0.4rem; text-align: left; border-bottom: none; font-size: 0.82rem; }
+    .assist-table th { color: #0c3d77; font-weight: 600; font-size: 0.85rem; }
+    .analysis-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.9rem; }
+    .analysis-list li { font-size: 0.95rem; line-height: 1.5; }
+    table { width: 100%; border-collapse: collapse; margin-top: 0.6rem; }
+    th, td { padding: 0.45rem 0.55rem; text-align: left; border-bottom: 1px solid #e2e8f0; font-size: 0.93rem; }
+    th { font-size: 0.95rem; color: #0c3d77; font-weight: 600; }
+    .badge { display: inline-block; background: #e5f8f6; color: #047857; padding: 0.15rem 0.6rem; border-radius: 999px; font-size: 0.8rem; margin-left: 0.35rem; }
+    .section-title { margin-top: 2rem; margin-bottom: 0.8rem; font-size: 1.4rem; color: #0c3d77; }
+    footer { text-align: center; padding: 1.2rem; font-size: 0.9rem; color: #5a6173; }
+    .level-grid { margin-top: 0.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; }
+    .level-card { padding: 1rem; border-radius: 14px; background: #fdfdfd; border: 1px solid #e2e8f0; }
+    .level-card h3 { margin: 0; font-size: 1rem; color: #0e4d8c; }
+    .level-card p { margin: 0.45rem 0 0; font-size: 0.9rem; }
+    .nuanced-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+    .nuanced-card { background: #fff; padding: 1rem 1rem 1.1rem; border-radius: 14px; border: 1px solid #e2e8f0; box-shadow: inset 0 0 0 1px rgba(15,23,42,.04); }
+    .nuanced-card h4 { margin: 0 0 0.4rem; font-size: 1rem; color: #0c3d77; }
+    .nuanced-card ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.45rem; }
+    .nuanced-card li { display: flex; align-items: flex-start; gap: 0.45rem; font-size: 0.92rem; line-height: 1.45; }
+    .nuanced-card .indicator { width: 20px; height: 20px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: 600; color: #fff; flex-shrink: 0; }
+    .nuanced-card .indicator.plus { background: #0e9a6b; }
+    .nuanced-card .indicator.minus { background: #f97316; }
+    .nuanced-card li span:last-child { color: #2f3440; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Revue de la saison 2025 — Synthèse pour les parents</h1>
+    <p>Une session visuelle qui met en avant les faits marquants : performance collective, dynamique offensive, engagement des enfants et axes de progression.</p>
+  </header>
+  <div class="container">
+    <div class="grid summary-grid">
+      <div class="card">
+        <h2>Performance globale</h2>
+        <div class="stat">10 / 12 <small>victoires</small></div>
+        <p>10 victoires, 0 nul, 2 défaites. L’équipe a inscrit 139 buts pour 59 encaissés, ce qui confirme une attaque corrosive et une défense en amélioration constante.</p>
+      </div>
+      <div class="card">
+        <h2>Contribution par joueur</h2>
+        <div class="pie-wrapper">
+          <div class="pie" aria-label="Camembert contributions"></div>
+          <div class="legend">
+            <span><i style="background:#0e9a6b"></i>Nestor <em>31.5%</em></span>
+            <span><i style="background:#2196f3"></i>Maxence <em>17.3%</em></span>
+            <span><i style="background:#ffb703"></i>Tiago <em>13.7%</em></span>
+            <span><i style="background:#ff6b6b"></i>Auguste <em>12.2%</em></span>
+            <span><i style="background:#8b5cf6"></i>Nathan <em>6.1%</em></span>
+            <span><i style="background:#0e4d8c"></i>Lilou <em>10.7%</em></span>
+            <span><i style="background:#f97316"></i>Hugo <em>4.1%</em></span>
+            <span><i style="background:#6366f1"></i>Robin <em>4.6%</em></span>
+          </div>
+        </div>
+        <p class="note">Les parts correspondent aux contributions (buts + tirs passes décisives, 197 au total)</p>
+      </div>
+      <div class="card">
+        <h2>Top buteurs</h2>
+        <table>
+          <thead>
+            <tr><th>Joueur</th><th>Buts</th><th>Eff. (%)</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Nestor Arnould</td><td>46</td><td>63</td></tr>
+            <tr><td>Maxence Jonckheere</td><td>27</td><td>75</td></tr>
+            <tr><td>Tiago Wauthia</td><td>18</td><td>82</td></tr>
+            <tr><td>Auguste Robinet</td><td>17</td><td>61</td></tr>
+            <tr><td>Nathan Blyweert Doumont</td><td>12</td><td>71</td></tr>
+            <tr><td>Lilou Douny</td><td>10</td><td>53</td></tr>
+            <tr><td>Hugo Dumay</td><td>5</td><td>50</td></tr>
+            <tr><td>Robin Lambert</td><td>4</td><td>100</td></tr>
+          </tbody>
+        </table>
+        <p class="note">Les tirs cadrés ne peuvent pas être attribué, donc le % d'efficacité est un peu surestimé.</p>
+      </div>
+        <div class="card">
+        <h2>Top passeurs</h2>
+        <table>
+          <thead>
+            <tr><th>Joueur</th><th>Passes décisives</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Nestor Arnould</td><td>16</td></tr>
+            <tr><td>Lilou Douny</td><td>11</td></tr>
+            <tr><td>Tiago Wauthia</td><td>9</td></tr>
+            <tr><td>Maxence Jonckheere</td><td>7</td></tr>
+            <tr><td>Auguste Robinet</td><td>7</td></tr>
+            <tr><td>Robin Lambert</td><td>5</td></tr>
+            <tr><td>Nathan Blyweert Doumont</td></tr>
+            <tr><td>Hugo Dumay</td><td>3</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <h2>Participation</h2>
+        <table>
+          <thead>
+            <tr><th>Joueur</th><th>Matches</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Auguste Robinet</td><td>11</td></tr>
+            <tr><td>Tiago Wauthia</td><td>11</td></tr>
+            <tr><td>Nestor Arnould</td><td>11</td></tr>
+            <tr><td>Maxence Jonckheere</td><td>11</td></tr>
+            <tr><td>Louis Burgraff</td><td>11</td></tr>
+            <tr><td>Lilou Douny</td><td>10</td></tr>
+            <tr><td>Nathan Blyweert Doumont</td><td>9</td></tr> 
+            <tr><td>Hugo Dumay</td><td>9</td></tr>
+            <tr><td>Robin Lambert</td><td>8</td></tr>
+            <tr><td>Lysian Lutgen</td><td>8</td></tr>
+            <tr><td>Firmin Douny</td><td>7</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="section-title">Analyse par niveau d’adversaire</div>
+    <div class="level-grid">
+      <div class="level-card">
+        <h3>Adversaires accessibles (5 matchs)</h3>
+        <p><b>84 (16.8)</b> buts pour / <b>12 (2.4)</b> contre </p>
+        <p><b>137 (27.4)</b> tirs pour / <b>34 (6.8)</b> tirs contre.</p>
+        <p>Contrôle total du jeu, principe : garder le ballon et permuter.</p>
+      </div>
+      <div class="level-card">
+        <h3>Adversaires moyens (4 matchs)</h3>
+        <p><b>42 (10.5)</b> buts pour / <b>16 (4)</b> contre </p>
+        <p><b>77 (19.25)</b> tirs pour / <b>29 (7.25)</b> tirs contre.</p>
+        <p>Solide pressing mais on peut hausser encore la qualité des tirs.</p>
+      </div>
+      <div class="level-card">
+        <h3>Adversaires avancés (3 matchs)</h3>
+        <p><b>13 (4.3)</b> buts pour / <b>31 (10.3)</b> contre </p>
+        <p><b>25 (8.3)</b> tirs pour / <b>41 (13.7)</b> tirs contre.</p>
+        <p>Les rencontres physiques montrent la nécessité d’un placement défensif plus rigoureux.</p>
+        <p>La construction s'effrondre totalement dans ce type de match.</p>
+      </div>
+    </div>
+    <div class="section-title">Rapport nuancé par joueur</div>
+    <div class="nuanced-grid">
+      <div class="nuanced-card">
+        <h4>Nestor</h4>
+        <ul>
+          <li><span class="indicator plus">+</span><span>Se procure énormément d’occasions.</span></li>
+          <li><span class="indicator plus">+</span><span>Abnégation et travail défensif appréciables.</span></li>
+          <li><span class="indicator minus">-</span><span>Doit mieux choisir des frappes pour améliorer l'efficacité</span></li>
+        <li><span class="indicator minus">-</span><span>Contribution en chute libre contre forte opposition</span></li>
+        </ul>
+      </div>
+      <div class="nuanced-card">
+        <h4>Tiago</h4>
+        <ul>
+          <li><span class="indicator plus">+</span><span>Efficacité offensive.</span></li>
+          <li><span class="indicator plus">+</span><span>Récupère beaucoup de ballons.</span></li>
+          <li><span class="indicator minus">-</span><span>Pas assez de passes décisives</span></li>
+          <li><span class="indicator minus">-</span><span>Pression insuffisante sur l’attaquant adverse, défend trop bas.</span></li>
+        </ul>
+      </div>
+      <div class="nuanced-card">
+        <h4>Maxence</h4>
+        <ul>
+          <li><span class="indicator plus">+</span><span>Régularité exemplaire.</span></li>
+          <li><span class="indicator plus">+</span><span>Déplacement intelligent.</span></li>
+          <li><span class="indicator minus">-</span><span>Manque encore de volume de frappes par match.</span></li>
+          <li><span class="indicator minus">-</span><span>Doit offrir un duel physique</span></li>
+        </ul>
+      </div>
+      <div class="nuanced-card">
+        <h4>Auguste</h4>
+        <ul>
+          <li><span class="indicator plus">+</span><span>A clairement passé un palier cette saison.</span></li>
+          <li><span class="indicator plus">+</span><span>Très fort au duel.</span></li>
+          <li><span class="indicator minus">-</span><span>Régularité encore à améliorer.</span></li>
+          <li><span class="indicator minus">-</span><span>Manque de passes décisives.</span></li>
+        </ul>
+      </div>
+      <div class="nuanced-card">
+        <h4>Lilou</h4>
+        <ul>
+          <li><span class="indicator plus">+</span><span>Bilan équilibré but / passe décisive.</span></li>
+          <li><span class="indicator minus">-</span><span>Doit se libérer davantage en zone de conclusion.</span></li>
+          <li><span class="indicator minus">-</span><span>Conserver son esprit de guerrière! Lilou doit se rappeler qu'elle est capable de se battre pour chaque ballon</span></li>
+        </ul>
+      </div>
+      <div class="nuanced-card">
+        <h4>Robin</h4>
+        <ul>
+          <li><span class="indicator plus">+</span><span>Progrès majeurs depuis le début de saison.</span></li>
+          <li><span class="indicator plus">+</span><span>A l'écoute durant les entrainements.</span></li>
+          <li><span class="indicator minus">-</span><span>Besoin d’être plus actif dans les actions de match.</span></li>
+        </ul>
+      </div>
+      <div class="nuanced-card">
+        <h4>Nathan</h4>
+        <ul>
+          <li><span class="indicator plus">+</span><span>Poste désormais stabilisé => Aile droite.</span></li>
+          <li><span class="indicator minus">-</span><span>Sens du placement et du timing à améliorer.</span></li>
+        </ul>
+      </div>
+       <div class="nuanced-card">
+        <h4>Lysian</h4>
+        <ul>
+          <li><span class="indicator plus">+</span><span>Bon physique et costaud au duel.</span></li>
+          <li><span class="indicator minus">-</span><span>Sens du placement et du timing à améliorer.</span></li>
+          <li><span class="indicator minus">-</span><span>Être plus confiant balle au pied.</span></li>
+        </ul>
+      </div>
+      <div class="nuanced-card">
+        <h4>Hugo</h4>
+        <ul>
+          <li><span class="indicator plus">+</span><span>Belle mentalité aux entraînements récents.</span></li>
+          <li><span></span><span>Continuer à lui donner de la confiance pour le revoir en match</span></li>
+        </ul>
+      </div>
+      <div class="nuanced-card">
+        <h4>Firmin</h4>
+        <ul>
+          <li><span class="indicator plus">+</span><span>Réflexes très prometteurs.</span></li>
+          <li><span class="indicator minus">-</span><span>Emotif ; gagner en sérénité et en relances au pied.</span></li>
+        </ul>
+      </div>
+      <div class="nuanced-card">
+        <h4>Louis</h4>
+        <ul>
+          <li><span class="indicator plus">+</span><span>Gros début de saison.</span></li>
+          <li><span class="indicator minus">-</span><span>Quelques passages à vide ; travailler le jeu au pied et la vitesse.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer>ASSIST — Saison 2025 · Données issues des rapports `match_reports/` et JSON validés.</footer>
+</body>
+</html>

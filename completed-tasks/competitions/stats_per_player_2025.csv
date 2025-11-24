@@ -1,9 +1,9 @@
-player,goals,shots,eff_pct
-Nestor,46,71,64.8%
-Maxence Jonckheere,27,36,75.0%
-Tiago,18,22,81.8%
-Auguste Robinet,17,28,60.7%
-Nathan,12,17,70.6%
-Lilou,10,19,52.6%
-Hugo,5,10,50.0%
-Robin,4,4,100.0%
+player,goals,assists,shots,eff_pct
+Nestor,46,0,73,63.0%
+Maxence Jonckheere,27,0,36,75.0%
+Tiago,18,0,22,81.8%
+Auguste Robinet,17,0,28,60.7%
+Nathan,12,0,17,70.6%
+Lilou,10,0,19,52.6%
+Hugo,5,0,10,50.0%
+Robin,4,0,4,100.0%

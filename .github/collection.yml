@@ -1,0 +1,21 @@
+name: coach-assistant
+chat_modes:
+  - name: Coach Assistant
+    file: .github/chatmodes/coach_assistant.chatmode.md
+    instructions: .github/chatmodes/coach_assistant.instructions.md
+    commands:
+      - /analyze-match [matchday]
+      - /scout-player [joueur]
+      - /analyze-training [date]
+      - /plan-session
+      - /review-performance [période]
+      - /help-coach
+      - /validate-report [chemin]
+      - /archive-match [matchday]
+agents:
+  - name: performance-analysis
+    file: .github/agents/performance-analysis.agent.md
+  - name: player-scout
+    file: .github/agents/player-scout.agent.md
+  - name: training-analyser
+    file: .github/agents/training-analyser.agent.md
