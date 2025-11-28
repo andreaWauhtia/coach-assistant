@@ -10,6 +10,15 @@ Extraits d'entraînement :
 
 - `trainings/report/2025-11-07-training-report.md` : classé parmi les "Moyennement actifs" ; faute signalée (épaule contre épaule).
 
+Dernières observations (entrainement 2025-11-27):
+- Engagement variable : parfois d'excellentes exécutions, parfois moins d'implication (phases dilletantes). Recommandation : encourager la constance via rotations et consignes claires.
+
+Sources ajoutées :
+- `completed-tasks/trainings/report/2025-11-27-training-report.md`
+
+Historique :
+- 2025-11-28 : ajout observation sur l'engagement / qualité d'exécution alternants (source : séance 27/11/2025).
+
 Extraits de compétition :
 
 - `competitions/analysis/2025-09-13/*` et `2025-11-08_USAOU8/*` : multiples tirs et buts (plusieurs mentions minute par minute dans les JSONs et parsed_by_side.csv). Rapport 2025-11-08 affiche 1 but, 4 tirs (25% efficacité) et mentionne 2 passes décisives.

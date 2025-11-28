@@ -18,5 +18,14 @@ Sources :
 
 - `.memory-bank/roster/U8.md`
 - `.memory-bank/trainings/report/2025-11-03-training-report.md`
+
+Dernières observations (entrainement 2025-11-27):
+- Jeu au pied faible : contrôles et passes souvent imprécises, manque d'envie visible sur plusieurs séquences. Pendant l'opposition il a été ponctuellement sanctionné pour manque d'engagement — levier pédagogique utilisé pour stimuler sa participation.
+
+Sources ajoutées :
+ - `completed-tasks/trainings/report/2025-11-27-training-report.md` (observation ; note d'intervention pédagogique)
+
+Historique :
+- 2025-11-28 : ajout notes jeu au pied faible et sanction pédagogique observées le 2025-11-27.
 - `.memory-bank/competitions/analysis/2025-11-08_USAOU8/parsed_by_side.csv`
 - `.memory-bank/competitions/analysis/2025-11-08_USAOU8/match_summary.md`

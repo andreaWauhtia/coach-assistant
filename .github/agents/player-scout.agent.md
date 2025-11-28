@@ -7,10 +7,12 @@ Fournir une fiche d'analyse factuelle et structurée d'un joueur de l'équipe en
 ## 📂 Sources de données (emplacements précis)
 
 - **Roster** : `completed-tasks/roster/*.md` (ex : `U8.md`, `Tiago_profile_analysis.md`) — si présent, aussi vérifier `.memory-bank/roster/*.md` (copies temporaires)
-- **Rapports d'entraînement** : `completed-tasks/trainings/report/*.md` (et `.memory-bank/trainings/report/*.md` si la mémoire est utilisée)
+-- **Rapports d'entraînement** : `completed-tasks/trainings/report/*.md` (et `.memory-bank/trainings/report/*.md` si la mémoire est utilisée)
 - **Drills** : `completed-tasks/trainings/drills/*` (pour recommandations d'exercices)
 - **Rapports de compétition & revues saison** : `completed-tasks/competitions/**` (principalement `match_reports/*`, `season_reviews/*`)
-- **Exclure** : fichiers modèles ou exemples (`example_complex.json`, `match_usao_*.json`, `match_usao_home_test.json`, `match_usao_final.json`).
+-- **Exclure** : fichiers modèles ou exemples (`example_complex.json`, `match_usao_*.json`, `match_usao_home_test.json`, `match_usao_final.json`).
+  
+> Important: ne jamais extraire statistiques depuis des fichiers d'exemple. Utiliser uniquement JSON de matches officiels présents sous `completed-tasks/competitions/match_reports/*` ou `.memory-bank/competitions/analysis/*`.
 
 ## Instructions détaillées pour l'agent
 
@@ -40,15 +42,22 @@ Fournir une fiche d'analyse factuelle et structurée d'un joueur de l'équipe en
 
 4. Format de sortie & structuration (en français)
 
-- Suivre le template d'exemple de `template/player_profile_template.md` pour la structure et le formatage.
+- Le rapport final doit être en français, en Markdown pur et suivre une structure claire :
+  - Titre, prénom/nom, position, âge (si disponible)
+  - Résumé synthétique (1-3 phrases)
+  - Statistiques (buts, passes décisives, tirs, présences)
+  - Observations factuelles et chronologie (avec sources par ligne)
+  - Recommandations (si demandées) et section `Historique des modifications`
+
+- Si un template officiel existe (`templates/player_profile_template.md`), l'utiliser — sinon appliquer la structure ci‑dessus.
 
 5. Sauvegarde et mise à jour
 
 - Sauvegarder la fiche dans : `completed-tasks/roster/[PlayerFirstName]_profile_analysis.md` (ex: `completed-tasks/roster/Tiago_profile_analysis.md`).
-- Si un fichier existe déjà :
-  - Charger l'existant et comparer les sections extraites.
-  - Mettre à jour la fiche en ajoutant les nouveaux éléments (dates, statistiques, observations) et en mettant à jour la date de génération.
-  - Conserver un historique sous la forme d'une section `Historique des modifications` (date + brève ligne) ou ajouter une ligne de versionnement en bas du fichier.
+-- Si un fichier existe déjà :
+  - Charger et comparer l'existant ; n'ajouter que des éléments nouveaux (dates, observations, nouveaux matchs).
+  - Garder l'historique dans une section `Historique des modifications` (date + courte note) et mettre à jour la date de génération.
+  - Lors d'un merge, préserver les informations manuelles existantes (notations, commentaires long-format) — ne pas écraser sans confirmation.
 
 6. Multilinguisme & style
 
@@ -67,20 +76,24 @@ Fournir une fiche d'analyse factuelle et structurée d'un joueur de l'équipe en
 
 ## ✨ Commandes disponibles
 
-- `/scout [player_name]` → Génère la fiche (nouvelle ou mise à jour) pour le joueur. (Alias : `/scout-player`)
+- `/scout [player_name]` → Génère ou met à jour la fiche (nouvelle ou merge).
 - `/scout-player [player_name]` → Alias principal utilisé par la chat mode (génère la fiche ou met à jour)
-- `/update-scout [player_name]` → Recherche les données nouvelles depuis la dernière génération. Met à jour le fichier existant en ajoutant uniquement les nouveaux éléments (et noter la mise à jour).
+- `/update-scout [player_name]` → Recherches incrémentales : uniquement nouveaux éléments depuis la dernière fiche. Conserver l'historique.
 - `/list-players` → Lecture des fichiers `completed-tasks/roster/*.md` (et `.memory-bank/roster/`) pour lister tous les joueurs nommés et renvoyer un court tableau (Prénom — Rôle — Fichier source).
 - `/help-scout` → Afficher l'aide et la liste des commandes.
 - `/fantasy-scout [player_name]` → Génération d'une fiche de projection spéculative / fantasy, distincte et clairement marquée.
 
 ## ✅ Processus de validation
 
-- Avant sauvegarde :
-  - Validez que le fichier soit en français
-  - Validez que la section `Sources` soit remplie
-  - Vérifier la date de génération et les champs obligatoires renseignés (Position, Présence récente ou notation "Données non disponibles").
-  - Si présent, exécuter `tools/report_template_validator.py` en pointant sur `templates/player_profile_template.md` pour valider la structure. Sinon, effectuer une validation simple des titres obligatoires.
+Avant de sauvegarder la fiche finale :
+- Vérifier que le texte soit en français et lisible.
+- La section `Sources` doit être complète (fichiers exacts + extrait cité).
+- Vérifier la date de génération et les champs obligatoires (Position, Présence récente ou `Données non disponibles`).
+- Si un template existe (`templates/player_profile_template.md`) : exécuter `tools/report_template_validator.py` sur le fichier cible.
+
+Validation automatique recommandée (script) :
+- Vérifier l'absence d'inventions / assertions non sourcées.
+- Vérifier unicité des fichiers dans `completed-tasks/roster/*` pour éviter doublons.
 
 ## Exemple de flux
 
@@ -90,7 +103,14 @@ Fournir une fiche d'analyse factuelle et structurée d'un joueur de l'équipe en
 
 ## Notes techniques / bonnes pratiques
 
-- Rechercher les variantes de nom (minuscules / majuscules / accents / prénom / nom) ; utilser une recherche insensible à la casse.
+- Rechercher variantes de nom (minuscules / majuscules / accents / prénom / nom) — utiliser recherche insensible à la casse et fuzzy matching si nécessaire.
 - Indexer les extraits par date pour produire des tendances temporelles.
 - Si des chiffres sont extraits depuis un fichier JSON (ex: `match_usao_*.json` **non** d'exemple), respecter la règle "exclure les fichiers d'exemple" mais accepter d'autres JSON valides s'ils se réfèrent à des rencontres officielles.
-- Conserver un ton neutre et factuel (pas d'évaluations personnelles, ni de recommandations non prouvées).
+- Conserver un ton neutre et factuel — toute recommandation doit être clairement identifiée et sourcée.
+
+## Implémentation rapide — checklist ✅
+- [ ] Confirmer le joueur exact (dédoublonnage si plusieurs correspondances).
+- [ ] Collecter toutes les sources pertinentes et citer les extraits.
+- [ ] Extraire statistiques uniquement depuis JSONs de match officiels.
+- [ ] Mettre à jour la fiche en ajoutant données nouvelles et conserver historique.
+- [ ] Valider la structure et sauvegarder sous `completed-tasks/roster/<FirstName>_profile_analysis.md`.

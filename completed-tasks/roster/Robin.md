@@ -19,3 +19,12 @@ Sources :
 - `.memory-bank/roster/U8.md`
 - `.memory-bank/trainings/report/2025-11-03-training-report.md`
 - `.memory-bank/trainings/report/2025-11-07-training-report.md`
+
+Dernières observations (entrainement 2025-11-27):
+- Progression notable : performance désormais estimée à ~50/50 sur les exercices de passe/opposition — progrès important depuis les débuts où il partait de zéro. Continuer à encourager et augmenter l'intensité progressive.
+
+Sources ajoutées :
+- `completed-tasks/trainings/report/2025-11-27-training-report.md`
+
+Historique :
+- 2025-11-28 : ajout observation de progression 50/50 (source : 27/11/2025 entraînement).

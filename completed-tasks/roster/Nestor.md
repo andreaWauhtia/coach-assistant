@@ -23,6 +23,15 @@
 ## Tendances observées
 - Présence forte en match et en entraînement; production offensive importante dans les rapports de compétition.
 
+Dernières observations (entrainement 2025-11-27):
+- Engagement et qualité d'exécution alternants : certaines séquences de très bonne exécution, d'autres moments plus dilletantes. Recommandation : travailler la constance lors des exercices (répétitions, consignes claires lors des rotations).
+
+Sources ajoutées :
+- `completed-tasks/trainings/report/2025-11-27-training-report.md`
+
+Historique :
+- 2025-11-28 : ajout observation sur l'alternance d'engagement/qualité d'exécution (source : séance 27/11/2025).
+
 ---
 
 ## Points forts et axes d'amélioration (faits observés)

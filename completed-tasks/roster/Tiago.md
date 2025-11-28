@@ -55,14 +55,14 @@
 
 ## Tendances observées
 
-### Efficacité offensive
-- **Trend positif sur le match Wallonia** : 5 buts en 5 tirs (100%) indique une **excellente maîtrise** lorsque les conditions tactiques sont optimales
-- **Variabilité de positionnement** : Performance en retrait affecte la finition (0 but vs Bouillon)
-- **Efficacité très élevée quand sollicité** : 1/1 vs MSN, 5/5 vs Wallonia = 6/6 sur 2 matchs
+### Tendances observées
+- **Profil défensif prédominant** : nombre élevé de récupérations et interventions efficaces sur les phases défensives ; capacité à casser le jeu adverse et relancer proprement.
+- **Apport offensif ponctuel** : lorsque l'équipe le place plus haut, il peut contribuer en finition (ex : match Wallonia), mais ce n'est pas son rôle principal.
+- **Variabilité de positionnement** : alternance entre poste arrière et rôles plus avancés selon besoins d'équipe — consolider la constance individuelle en défense.
 
 ### Positionnement tactique
-- **Point fort** : Aligné à l'aile → finitions cliniques (5 buts en 13 min vs Wallonia)
-- **Point faible** : Positionné trop en retrait → moins d'occasions, moins de buts (vs MSN Tilleur)
+- **Point fort** : Position arrière / récupérateur → bonne lecture du jeu, capacité à couper les lignes et à relancer proprement.
+- **Point faible** : Variabilité lors des rotations / positionnements — il peut être sollicité à des rôles avancés où l'impact défensif diminue si mal géré.
 
 ### Gestion émotionnelle (entraînement)
 - Réactions émotionnelles aux remarques techniques et décisions arbitrales
@@ -73,11 +73,10 @@
 ## Points forts et axes d'amélioration
 
 ### ✅ Points forts
-- **Finition exceptionnelle** : 100% d'efficacité sur 2 matchs (6/6 tirs)
-- **Lecture du jeu solide** : Buts à la dernière seconde en entraînement, exécution rapide
-- **Potentiel athlétique dominant** : Performances physiques remarquables pour la catégorie
-- **Efficacité en ailier** : 5 buts en 13 minutes vs Wallonia = 1 but tous les 2.6 min
-- **Frappe puissante** : Coup franc réussi (MSN Tilleur)
+- **Récupération & lecture défensive** : nombreuses récupérations de balles, bonne anticipation des trajectoires adverses.
+- **Relance propre** : capacité à relancer proprement depuis l'arrière, pieds rapides pour casser la première ligne.
+- **Physique & endurance** : très bon potentiel athlétique qui facilite les courses de couverture et les duels.
+- **Leadership ponctuel** : tendance à organiser/replace ses coéquipiers en séance — valeur ajoutée pour la ligne arrière.
 
 ### ⚠️ Axes d'amélioration
 - **Positionnement en retrait** : À éviter (expérience négative vs MSN Tilleur)
@@ -89,16 +88,22 @@
 
 ## Recommandations
 
-1. **Positionnement en ailier** : Valoriser ce positionnement où il excelle (5 buts en 13 min vs Wallonia)
-2. **Éviter les retraits profonds** : Meilleure performance quand en avant plutôt qu'en retrait
-3. **Gestion émotionnelle** : Travail spécifique sur acceptation des feedbacks et décisions arbitrales
-4. **Dosage technique** : Sessions d'entraînement sur passes moins puissantes, plus précises
+1. **Renforcer le rôle défensif** : structurer son travail de récupération et ses relances pour en faire un point d'appui au milieu arrière.
+2. **Travail de relance** : exercices ciblés sur dosage de passe/relances longues et jeu de première passe depuis l'arrière.
+3. **Gestion émotionnelle** : micro-routines et feedback encadré pour limiter incidents et améliorer apprentissage.
+4. **Capitaliser sur son apport offensif** : garder des séances spécifiques de finition pour utiliser son sens du but, en tant qu'atout secondaire.
 
 ---
 
-**Conclusion** : Tiago affiche un **potentiel très élevé** avec une **finition exceptionnelle** (100% d'efficacité sur 6 tirs en 2 matchs). Les données montrent clairement que **la position ailier lui convient parfaitement** (5 buts en 13 min). Les enjeux actuels concernent la **gestion émotionnelle** en entraînement et l'**optimisation du positionnement** en compétition. Lorsque bien positionné, il est un **finisseur d'exception** pour l'U8.
+**Conclusion** : Tiago est un joueur dont le profil principal est défensif : récupérateur et relanceur fiable. Sa capacité à finir quand il est mis en avant est un atout secondaire, mais la priorité est de stabiliser sa constance défensive, le dosage de ses relances et la gestion émotionnelle pour transformer son potentiel en impact fiable sur l'équipe.
 
 *Mis à jour le 7 novembre 2025 avec analyses compétitions 17-09-2025, 11-10-2025, 01-11-2025*
+
+## Observations récentes (entrainement 2025-11-27)
+- Observé le 27/11/2025 — Tiago s'est distingué pendant l'opposition en plus de ses qualités individuelles : il a replacé Hugo et Louis à plusieurs reprises en leur expliquant comment il voulait les voir bouger pour mieux recevoir ses passes. Comportement de leadership pédagogique notoire à renforcer et suivre.
+
+*Historique des modifications* :
+- 2025-11-28 : position principale mise à jour en **Défenseur / récupérateur** sur demande du staff ; ajout de l'observation de leadership pédagogique observée le 2025-11-27 (source : `completed-tasks/trainings/report/2025-11-27-training-report.md`).
 
 ---
 
