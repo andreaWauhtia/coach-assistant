@@ -1,0 +1,17 @@
+{
+  "personal_info": {
+    "name": "Jean Dupont Test",
+    "position": "",
+    "age": 0,
+    "number": 0
+  },
+  "statistics": {
+    "matches_played": 0,
+    "goals": 0,
+    "assists": 0,
+    "training_attendance": 0.0
+  },
+  "strengths": [],
+  "areas_for_improvement": [],
+  "recent_performances": []
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Coach Assistant - Zapier Integration",
+  "version": "1.0.0",
+  "description": "Integration Zapier pour le système Coach Assistant",
+  "triggers": [
+    {
+      "id": "new_match_data",
+      "name": "Nouveau Match à Analyser",
+      "description": "Déclenché quand un nouveau match doit être analysé",
+      "type": "webhook",
+      "endpoint": "/webhooks/match/new"
+    },
+    {
+      "id": "new_training_session",
+      "name": "Nouvelle Session d'Entraînement",
+      "description": "Déclenché quand une nouvelle session d'entraînement est créée",
+      "type": "webhook",
+      "endpoint": "/webhooks/training/new"
+    },
+    {
+      "id": "player_performance_update",
+      "name": "Mise à Jour Performance Joueur",
+      "description": "Déclenché quand les performances d'un joueur sont mises à jour",
+      "type": "webhook",
+      "endpoint": "/webhooks/player/update"
+    }
+  ],
+  "actions": [
+    {
+      "id": "analyze_match",
+      "name": "Analyser un Match",
+      "description": "Pipeline complet d'analyse de match",
+      "agent": "performance-analysis",
+      "endpoint": "/actions/analyze-match",
+      "input_schema": "schemas/match_input.json",
+      "output_schema": "schemas/match_output.json"
+    },
+    {
+      "id": "scout_player",
+      "name": "Scout Joueur",
+      "description": "Analyse et mise à jour fiche joueur",
+      "agent": "player-scout",
+      "endpoint": "/actions/scout-player",
+      "input_schema": "schemas/player_input.json",
+      "output_schema": "schemas/player_output.json"
+    },
+    {
+      "id": "analyze_training",
+      "name": "Analyser Entraînement",
+      "description": "Génération rapport d'entraînement",
+      "agent": "training-analyser",
+      "endpoint": "/actions/analyze-training",
+      "input_schema": "schemas/training_input.json",
+      "output_schema": "schemas/training_output.json"
+    },
+    {
+      "id": "plan_session",
+      "name": "Planifier Session",
+      "description": "Planification guidée d'une séance",
+      "agent": "training-analyser",
+      "endpoint": "/actions/plan-session",
+      "input_schema": "schemas/session_input.json",
+      "output_schema": "schemas/session_output.json"
+    },
+    {
+      "id": "review_performance",
+      "name": "Revue de Performance",
+      "description": "Synthèse périodique des performances",
+      "agent": "performance-analysis",
+      "endpoint": "/actions/review-performance",
+      "input_schema": "schemas/review_input.json",
+      "output_schema": "schemas/review_output.json"
+    },
+    {
+      "id": "validate_report",
+      "name": "Valider Rapport",
+      "description": "Validation d'un rapport Markdown",
+      "agent": "performance-analysis",
+      "endpoint": "/actions/validate-report",
+      "input_schema": "schemas/report_input.json",
+      "output_schema": "schemas/report_output.json"
+    },
+    {
+      "id": "archive_match",
+      "name": "Archiver Match",
+      "description": "Archivage des artefacts de match",
+      "agent": "performance-analysis",
+      "endpoint": "/actions/archive-match",
+      "input_schema": "schemas/archive_input.json",
+      "output_schema": "schemas/archive_output.json"
+    }
+  ],
+  "authentication": {
+    "type": "api_key",
+    "placement": "header",
+    "key": "X-Coach-Assistant-API-Key"
+  }
+}

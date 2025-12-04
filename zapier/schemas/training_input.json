@@ -1,0 +1,71 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Training Analysis Input",
+    "description": "Schéma d'entrée pour l'analyse d'entraînement",
+    "type": "object",
+    "required": [
+        "date",
+        "team_name"
+    ],
+    "properties": {
+        "date": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+            "description": "Date de l'entraînement (YYYY-MM-DD)"
+        },
+        "team_name": {
+            "type": "string",
+            "description": "Nom de l'équipe"
+        },
+        "session_type": {
+            "type": "string",
+            "enum": [
+                "training",
+                "friendly",
+                "tactical",
+                "physical"
+            ],
+            "default": "training",
+            "description": "Type de session"
+        },
+        "drills": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "duration": {
+                        "type": "integer"
+                    },
+                    "participants": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "notes": {
+                        "type": "string"
+                    }
+                }
+            },
+            "description": "Liste des exercices effectués"
+        },
+        "attendance": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "Liste des joueurs présents"
+        },
+        "notes": {
+            "type": "string",
+            "description": "Notes générales de la session"
+        },
+        "callback_url": {
+            "type": "string",
+            "format": "uri"
+        }
+    }
+}

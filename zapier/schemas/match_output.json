@@ -1,0 +1,167 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Match Analysis Output",
+    "description": "Schéma de sortie pour l'analyse de match",
+    "type": "object",
+    "required": [
+        "status",
+        "matchday",
+        "timestamp"
+    ],
+    "properties": {
+        "status": {
+            "type": "string",
+            "enum": [
+                "success",
+                "error",
+                "partial"
+            ],
+            "description": "Statut de l'analyse"
+        },
+        "matchday": {
+            "type": "string",
+            "description": "Date du match analysé"
+        },
+        "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Horodatage de l'analyse"
+        },
+        "results": {
+            "type": "object",
+            "description": "Résultats de l'analyse",
+            "properties": {
+                "match_data": {
+                    "type": "object",
+                    "description": "Données extraites du match",
+                    "properties": {
+                        "match_header": {
+                            "type": "string",
+                            "description": "En-tête du match avec équipes et score"
+                        },
+                        "our_team": {
+                            "type": "string",
+                            "description": "Notre équipe"
+                        },
+                        "opponent_team": {
+                            "type": "string",
+                            "description": "Équipe adverse"
+                        },
+                        "score": {
+                            "type": "object",
+                            "properties": {
+                                "home": {
+                                    "type": "integer"
+                                },
+                                "away": {
+                                    "type": "integer"
+                                }
+                            }
+                        },
+                        "events_count": {
+                            "type": "integer",
+                            "description": "Nombre total d'événements"
+                        }
+                    }
+                },
+                "summary": {
+                    "type": "object",
+                    "description": "Résumé de l'analyse",
+                    "properties": {
+                        "total_shots": {
+                            "type": "integer"
+                        },
+                        "total_goals": {
+                            "type": "integer"
+                        },
+                        "saves": {
+                            "type": "integer"
+                        },
+                        "key_moments": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "reports": {
+                    "type": "object",
+                    "description": "Rapports générés",
+                    "properties": {
+                        "match_summary_url": {
+                            "type": "string",
+                            "format": "uri",
+                            "description": "URL du rapport de synthèse"
+                        },
+                        "full_report_url": {
+                            "type": "string",
+                            "format": "uri",
+                            "description": "URL du rapport complet"
+                        }
+                    }
+                },
+                "validation": {
+                    "type": "object",
+                    "description": "Résultats de validation",
+                    "properties": {
+                        "score_consistent": {
+                            "type": "boolean",
+                            "description": "Le score est cohérent avec les événements"
+                        },
+                        "template_valid": {
+                            "type": "boolean",
+                            "description": "Le template est valide"
+                        },
+                        "warnings": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "artifacts": {
+            "type": "object",
+            "description": "Artefacts générés",
+            "properties": {
+                "json_file": {
+                    "type": "string",
+                    "description": "Chemin du fichier JSON généré"
+                },
+                "summary_file": {
+                    "type": "string",
+                    "description": "Chemin du fichier summary MD"
+                },
+                "report_file": {
+                    "type": "string",
+                    "description": "Chemin du rapport complet"
+                }
+            }
+        },
+        "sources": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "Liste des fichiers sources utilisés"
+        },
+        "error": {
+            "type": "object",
+            "description": "Détails de l'erreur (si status = error)",
+            "properties": {
+                "code": {
+                    "type": "string"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "details": {
+                    "type": "object"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Player Scout Output",
+    "description": "Schéma de sortie pour le scout de joueur",
+    "type": "object",
+    "required": [
+        "status",
+        "player_name",
+        "timestamp"
+    ],
+    "properties": {
+        "status": {
+            "type": "string",
+            "enum": [
+                "success",
+                "error",
+                "not_found"
+            ]
+        },
+        "player_name": {
+            "type": "string"
+        },
+        "player_id": {
+            "type": "string"
+        },
+        "timestamp": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "profile": {
+            "type": "object",
+            "description": "Profil du joueur mis à jour",
+            "properties": {
+                "personal_info": {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "position": {
+                            "type": "string"
+                        },
+                        "age": {
+                            "type": "integer"
+                        },
+                        "number": {
+                            "type": "integer"
+                        }
+                    }
+                },
+                "statistics": {
+                    "type": "object",
+                    "properties": {
+                        "matches_played": {
+                            "type": "integer"
+                        },
+                        "goals": {
+                            "type": "integer"
+                        },
+                        "assists": {
+                            "type": "integer"
+                        },
+                        "training_attendance": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "strengths": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "areas_for_improvement": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "recent_performances": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "date": {
+                                "type": "string"
+                            },
+                            "event_type": {
+                                "type": "string"
+                            },
+                            "rating": {
+                                "type": "number"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "profile_file": {
+            "type": "string",
+            "description": "Chemin du fichier de profil généré"
+        },
+        "sources_used": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "error": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "string"
+                },
+                "message": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
