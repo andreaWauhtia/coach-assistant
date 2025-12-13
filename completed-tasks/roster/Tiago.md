@@ -9,6 +9,11 @@
 - **Âge** : Né le 03/03/2018 (7 ans)
 - **Description générale** : Potentiel athlétique élevé (9.84 sec au 50m, 2min03 au 500m, 4min18 au 1000m, 21min au 4000m, faisait 24km en vélo à 4 ans). Dominant au duel, couvre les courses et peut relancer proprement. Grosse frappe, encore du déchet technique.
 
+### Données physiques (course)
+
+- **Corrida de Libin — 1500m** : 6min03 — **3e scratch** et **1er catégorie**.
+  - Source : note coach (message du 2025-12-13) + capture d'écran résultats (non archivée dans le dépôt).
+
 ---
 
 ## Performances en entraînement
