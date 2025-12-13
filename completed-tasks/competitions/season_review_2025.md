@@ -19,14 +19,14 @@
 
 | Rang | Joueur             | Buts | Passes décisives | Tirs | Efficacité |
 | ---: | ------------------ | ---: | ---------------: | ---: | ---------: |
-|    1 | Nestor             |   52 |                0 |   79 |      65.8% |
-|    2 | Maxence Jonckheere |   30 |                0 |   39 |      76.9% |
-|    3 | Tiago              |   20 |                0 |   24 |      83.3% |
-|    4 | Auguste Robinet    |   19 |                0 |   30 |      63.3% |
-|    5 | Nathan             |   14 |                0 |   19 |      73.7% |
-|    6 | Lilou              |   10 |                0 |   19 |      52.6% |
+|    1 | Nestor             |   52 |               16 |   79 |      65.8% |
+|    2 | Maxence Jonckheere |   30 |                9 |   39 |      76.9% |
+|    3 | Tiago              |   20 |                9 |   24 |      83.3% |
+|    4 | Auguste Robinet    |   19 |                6 |   30 |      63.3% |
+|    5 | Nathan             |   14 |                5 |   19 |      73.7% |
+|    6 | Lilou              |   10 |               11 |   19 |      52.6% |
 |    7 | Hugo               |    5 |                0 |   10 |      50.0% |
-|    8 | Robin              |    5 |                0 |    5 |     100.0% |
+|    8 | Robin              |    5 |                4 |    5 |     100.0% |
 
 ## Par match (synthèse)
 

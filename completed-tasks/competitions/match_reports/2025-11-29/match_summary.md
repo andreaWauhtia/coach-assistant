@@ -21,8 +21,7 @@ Firmin, Lilou, Louis
 - Lineup de départ: Lysian (gardien), Tiago (pointe basse), Nestor (pointe gauche), Nathan (pointe droite), Maxence (pointe haute)
 - 12' Nathan Out, Auguste In (pointe droite), Maxence Out, Robin In (pointe haute)
 - 25' Auguste In (Gardien), Lysian In (pointe basse), Robin Out, Maxence In (pointe haute) Tiago Out, Nathan In (pointe droite)
-- 37' Maxence In (pointe gauche), Nestor Out, Tiago In (pointe basse)
-  , Lysian Out
+- 37' Maxence In (pointe gauche), Nestor Out, Tiago In (pointe basse), Lysian Out
 
 ## Remarque
 
