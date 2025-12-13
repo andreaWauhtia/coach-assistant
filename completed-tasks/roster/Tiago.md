@@ -11,7 +11,7 @@
 
 ### Données physiques (course)
 
-- **Corrida de Libin — 1500m** : 6min03 — **3e scratch** et **1er catégorie**.
+- **Corrida de Libin — 1500m** : 6min03 (≈ **4:02/km**, ≈ **14.9 km/h**) — **3e scratch** et **1er catégorie**.
   - Source : note coach (message du 2025-12-13) + capture d'écran résultats (non archivée dans le dépôt).
 
 ---

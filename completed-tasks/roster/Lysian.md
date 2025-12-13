@@ -9,7 +9,7 @@ Profil (extrait de `roster/U8.md`):
 
 ## Données physiques (course)
 
-- **Corrida de Libin — 1500m** : 7min09 — **12e scratch** et **4e catégorie**.
+- **Corrida de Libin — 1500m** : 7min09 (≈ **4:46/km**, ≈ **12.6 km/h**) — **12e scratch** et **4e catégorie**.
   - Source : note coach (message du 2025-12-13) + capture d'écran résultats (non archivée dans le dépôt).
 
 Extraits d'entraînement :
