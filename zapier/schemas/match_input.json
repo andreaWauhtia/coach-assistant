@@ -1,0 +1,77 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Match Analysis Input",
+    "description": "Schéma d'entrée pour l'analyse de match",
+    "type": "object",
+    "required": [
+        "matchday",
+        "team_name",
+        "sources"
+    ],
+    "properties": {
+        "matchday": {
+            "type": "string",
+            "description": "Date du match (format: YYYY-MM-DD)",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+            "example": "2025-10-16"
+        },
+        "team_name": {
+            "type": "string",
+            "description": "Nom de l'équipe",
+            "example": "USAO U8"
+        },
+        "sources": {
+            "type": "object",
+            "description": "Sources de données pour l'analyse",
+            "properties": {
+                "screenshots": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "description": "URLs des captures d'écran du match"
+                },
+                "json_file": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "URL du fichier JSON source (optionnel)"
+                },
+                "video": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "URL de la vidéo du match (optionnel)"
+                }
+            },
+            "required": [
+                "screenshots"
+            ]
+        },
+        "options": {
+            "type": "object",
+            "description": "Options de traitement",
+            "properties": {
+                "auto_archive": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Archiver automatiquement après validation"
+                },
+                "generate_full_report": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Générer le rapport complet"
+                },
+                "validate_template": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Valider le template du rapport"
+                }
+            }
+        },
+        "callback_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL de callback pour les notifications (Zapier webhook)"
+        }
+    }
+}

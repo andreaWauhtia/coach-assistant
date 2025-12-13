@@ -1,0 +1,74 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Training Analysis Output",
+    "description": "Schéma de sortie pour l'analyse d'entraînement",
+    "type": "object",
+    "required": [
+        "status",
+        "date",
+        "timestamp"
+    ],
+    "properties": {
+        "status": {
+            "type": "string",
+            "enum": [
+                "success",
+                "error"
+            ]
+        },
+        "date": {
+            "type": "string"
+        },
+        "timestamp": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "report": {
+            "type": "object",
+            "properties": {
+                "summary": {
+                    "type": "string",
+                    "description": "Résumé de la session"
+                },
+                "attendance_rate": {
+                    "type": "number",
+                    "description": "Taux de présence (%)"
+                },
+                "drills_completed": {
+                    "type": "integer"
+                },
+                "total_duration": {
+                    "type": "integer",
+                    "description": "Durée totale en minutes"
+                },
+                "highlights": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "recommendations": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "report_file": {
+            "type": "string",
+            "description": "Chemin du rapport généré"
+        },
+        "error": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "string"
+                },
+                "message": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

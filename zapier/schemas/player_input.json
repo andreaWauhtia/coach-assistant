@@ -1,0 +1,61 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Player Scout Input",
+    "description": "Schéma d'entrée pour le scout de joueur",
+    "type": "object",
+    "required": [
+        "player_name"
+    ],
+    "properties": {
+        "player_name": {
+            "type": "string",
+            "description": "Nom du joueur à analyser"
+        },
+        "player_id": {
+            "type": "string",
+            "description": "Identifiant unique du joueur (optionnel)"
+        },
+        "sources": {
+            "type": "object",
+            "description": "Sources de données",
+            "properties": {
+                "roster_files": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Chemins vers les fichiers roster"
+                },
+                "training_reports": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Chemins vers les rapports d'entraînement"
+                },
+                "competition_reports": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Chemins vers les rapports de compétition"
+                }
+            }
+        },
+        "update_mode": {
+            "type": "string",
+            "enum": [
+                "merge",
+                "replace",
+                "append"
+            ],
+            "default": "merge",
+            "description": "Mode de mise à jour des données"
+        },
+        "callback_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL de callback Zapier"
+        }
+    }
+}
