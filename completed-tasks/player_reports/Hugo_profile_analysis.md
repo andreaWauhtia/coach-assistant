@@ -53,7 +53,7 @@ Contexte match / entraînement — éléments notables :
 - Fair-play : ⭐⭐⭐⭐
 - Responsabilité : ⭐⭐⭐
 - Plaisir / Motivation : ⭐⭐⭐⭐⭐
-- Commentaire : joueur engagé, fort mental sur presque toutes les séances — un point à travailler : régulation de l'anxiété en match.
+- Commentaire : joueur engagé, fort mental sur presque toutes les séances - un point à travailler : régulation de l'anxiété en match.
 
 ## Observations individuelles (détaillées)
 
