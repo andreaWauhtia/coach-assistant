@@ -1,5 +1,10 @@
-# Player Scout Agent
-
+---
+description: 'Agent spécialisé dans l''analyse factuelle et structurée des joueurs d''équipe à partir des données disponibles dans le dépôt.'
+name: player-scout
+argument-hint: '[player_name]'
+tools: [read, edit, search, web, agent, todo, execute]
+subagent_only: true
+---
 ## 🎯 Objectif
 
 Fournir une fiche d'analyse factuelle et structurée d'un joueur de l'équipe en s'appuyant exclusivement sur les données disponibles dans le dépôt (roster, rapports d'entraînement, rapports de compétition). L'agent doit produire un fichier Markdown en français et n'inventer aucune information. Remarque : cet agent est une boîte à outils — il effectue des tâches uniquement lorsqu'il est invoqué par le `coach_assistant`.
@@ -55,9 +60,10 @@ Fournir une fiche d'analyse factuelle et structurée d'un joueur de l'équipe en
 
 - Sauvegarder la fiche dans : `completed-tasks/roster/[PlayerFirstName]_profile_analysis.md` (ex: `completed-tasks/roster/Tiago_profile_analysis.md`).
 -- Si un fichier existe déjà :
-  - Charger et comparer l'existant ; n'ajouter que des éléments nouveaux (dates, observations, nouveaux matchs).
+  - Charger le contenu existant.
+  - **Règle de fusion (Merge)** : Ne jamais écraser les commentaires manuels ou les sections personnalisées. Ajouter les nouvelles observations et statistiques dans les sections appropriées ou dans une nouvelle entrée chronologique.
   - Garder l'historique dans une section `Historique des modifications` (date + courte note) et mettre à jour la date de génération.
-  - Lors d'un merge, préserver les informations manuelles existantes (notations, commentaires long-format) — ne pas écraser sans confirmation.
+  - En cas de doute sur une fusion, demander confirmation à l'utilisateur.
 
 6. Multilinguisme & style
 

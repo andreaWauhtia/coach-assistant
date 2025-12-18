@@ -1,6 +1,6 @@
 ---
 description: 'Vue 3 front-end specialist aligning generated UI code with sp-accountLockManager conventions and shared Intesa tooling.'
-tools: ['edit', 'search', 'new', 'runCommands', 'runTasks', 'usages', 'problems', 'changes', 'todos', 'runSubagent']
+tools: ['execute/getTerminalOutput', 'execute/runTask', 'execute/getTaskOutput', 'execute/createAndRunTask', 'execute/runInTerminal', 'read', 'agent', 'new', 'todo']
 ---
 # FrontEndVueExpert Agent
 
