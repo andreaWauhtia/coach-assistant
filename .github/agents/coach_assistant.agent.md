@@ -16,30 +16,23 @@ Ce chat mode expose les commandes pilotées par les agents spécialisés. Il ne 
 
 ### 1. `/analyze-match [matchday]`
 Pipeline complet d'analyse de match.
-**Phases obligatoires :**
-1. **Pré-analyse** : Vérifier qu'au moins une capture SportEasy est attachée.
-2. **Provision** : Créer `.memory-bank/competitions/analysis/{matchday}/` et copier les sources.
-3. **Extraction** : Appeler `performance-analysis` avec le prompt `.github/prompts/match_extraction.prompt.md`.
-4. **Validation Score** : Comparer le score du header avec les événements "But". Stopper si mismatch.
-5. **Classification** : Exécuter `tools/parse_timeline.py` sur le JSON extrait.
-6. **Résumé** : Générer `match_summary.md` et attendre confirmation utilisateur ("Ready").
-7. **Rapport Final** : Générer `rapport_analyse_complete.md` et valider avec `tools/report_template_validator.py`.
-8. **Archivage** : Déplacer vers `completed-tasks/competitions/match_reports/{matchday}/` et nettoyer `.memory-bank`.
+**Instructions détaillées :** `.github/prompts/commands/analyze_match.prompt.md`
 
 ### 2. `/scout-player [joueur]`
 Mise à jour d’une fiche joueur via `player-scout`.
-- Sources : `completed-tasks/roster`, `trainings/report`, `competitions`.
-- Output : `completed-tasks/roster/{FirstName}_profile_analysis.md`.
+**Instructions détaillées :** `.github/prompts/commands/scout_player.prompt.md`
 
 ### 3. `/analyze-training [date]` (alias `/genreport`)
 Génération interactive d’un rapport d’entraînement via `training-analyser`.
-- Suit le modèle défini dans `training-analyser.agent.md`.
+**Instructions détaillées :** `.github/prompts/commands/analyze_training.prompt.md`
 
 ### 4. `/plan-session`
-Planification guidée d’une séance à partir des drills disponibles dans `completed-tasks/trainings/drills/`.
+Planification guidée d’une séance à partir des drills disponibles.
+**Instructions détaillées :** `.github/prompts/commands/plan_session.prompt.md`
 
 ### 5. `/review-performance [période]`
 Synthèse périodique via `performance-analysis` utilisant `tools/aggregate_matches.py`.
+**Instructions détaillées :** `.github/prompts/commands/secondary_commands.prompt.md`
 
 ### 6. `/validate-report [chemin]`
 Validation ponctuelle via `tools/report_template_validator.py`.
