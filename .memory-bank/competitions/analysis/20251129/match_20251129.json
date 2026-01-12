@@ -1,0 +1,295 @@
+{
+  "match_header": "Bertrix 6-16 USAO U8 2025-11-29",
+  "our_team": "USAO U8",
+  "events": [
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 1,
+      "assist": "Nathan Blyweert Doumont",
+      "player_id": "Maxence Jonckheere"
+    },
+    {
+      "side": "right",
+      "type": "Arrêt",
+      "minute": 1,
+      "player_id": "Maxence Jonckheere"
+    },
+    {
+      "side": "right",
+      "type": "Tir à côté",
+      "minute": 1,
+      "player_id": "Nestor Arnould"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 2,
+      "player_id": "Nestor Arnould"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 2,
+      "assist": "Maxence Jonckheere",
+      "player_id": "Nestor Arnould"
+    },
+    {
+      "side": "right",
+      "type": "Tir à côté",
+      "minute": 5,
+      "player_id": "Tiago Wauthia"
+    },
+    {
+      "side": "left",
+      "type": "But",
+      "minute": 5,
+      "player_id": "Bertrix"
+    },
+    {
+      "side": "left",
+      "type": "Arrêt",
+      "minute": 6,
+      "player_id": "Bertrix"
+    },
+    {
+      "side": "right",
+      "type": "Poteau",
+      "minute": 9,
+      "player_id": "Nestor Arnould"
+    },
+    {
+      "side": "right",
+      "type": "Tir à côté",
+      "minute": 10,
+      "player_id": "Robin Lambert"
+    },
+    {
+      "side": "left",
+      "type": "Arrêt",
+      "minute": 11,
+      "player_id": "Bertrix"
+    },
+    {
+      "side": "right",
+      "type": "Remplacement",
+      "minute": 12,
+      "player_id": "Nathan Blyweert Doumont / Auguste Robinet"
+    },
+    {
+      "side": "right",
+      "type": "Remplacement",
+      "minute": 12,
+      "player_id": "Maxence Jonckheere / Robin Lambert"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 14,
+      "assist": "Robin Lambert",
+      "player_id": "Auguste Robinet"
+    },
+    {
+      "side": "left",
+      "type": "Poteau",
+      "minute": 17,
+      "player_id": "Bertrix"
+    },
+    {
+      "side": "left",
+      "type": "But",
+      "minute": 17,
+      "player_id": "Bertrix"
+    },
+    {
+      "side": "right",
+      "type": "Tir à côté",
+      "minute": 18,
+      "player_id": "Nestor Arnould"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 19,
+      "player_id": "Robin Lambert"
+    },
+    {
+      "side": "right",
+      "type": "Poteau",
+      "minute": 19,
+      "player_id": "Nestor Arnould"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 20,
+      "assist": "Robin Lambert",
+      "player_id": "Nestor Arnould"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 21,
+      "player_id": "Nestor Arnould"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 22,
+      "player_id": "Auguste Robinet"
+    },
+    {
+      "side": "left",
+      "type": "But",
+      "minute": 24,
+      "player_id": "Bertrix"
+    },
+    {
+      "side": "right",
+      "type": "Remplacement",
+      "minute": 25,
+      "player_id": "Auguste Robinet / Lysian Lugen"
+    },
+    {
+      "side": "right",
+      "type": "Remplacement",
+      "minute": 25,
+      "player_id": "Robin Lambert / Maxence Jonckheere"
+    },
+    {
+      "side": "right",
+      "type": "Remplacement",
+      "minute": 25,
+      "player_id": "Tiago Wauthia / Nathan Blyweert Doumont"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 27,
+      "player_id": "Maxence Jonckheere"
+    },
+    {
+      "side": "left",
+      "type": "Tir à côté",
+      "minute": 28,
+      "player_id": "Bertrix"
+    },
+    {
+      "side": "right",
+      "type": "Tir à côté",
+      "minute": 28,
+      "player_id": "Nestor Arnould"
+    },
+    {
+      "side": "right",
+      "type": "Tir à côté",
+      "minute": 29,
+      "player_id": "Maxence Jonckheere"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 31,
+      "player_id": "Nathan Blyweert Doumont"
+    },
+    {
+      "side": "right",
+      "type": "Arrêt",
+      "minute": 31,
+      "player_id": "Auguste Robinet"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 32,
+      "assist": "Nathan Blyweert Doumont",
+      "player_id": "Maxence Jonckheere"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 32,
+      "player_id": "Nestor Arnould"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 34,
+      "assist": "Maxence Jonckheere",
+      "player_id": "Nestor Arnould"
+    },
+    {
+      "side": "left",
+      "type": "But",
+      "minute": 35,
+      "player_id": "Bertrix"
+    },
+    {
+      "side": "left",
+      "type": "But",
+      "minute": 36,
+      "player_id": "Bertrix"
+    },
+    {
+      "side": "right",
+      "type": "Remplacement",
+      "minute": 37,
+      "player_id": "Maxence Jonckheere / Nestor Arnould"
+    },
+    {
+      "side": "right",
+      "type": "Remplacement",
+      "minute": 37,
+      "player_id": "Tiago Wauthia / Lysian Lugen"
+    },
+    {
+      "side": "right",
+      "type": "Tir à côté",
+      "minute": 38,
+      "player_id": "Robin Lambert"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 42,
+      "assist": "Robin Lambert",
+      "player_id": "Tiago Wauthia"
+    },
+    {
+      "side": "left",
+      "type": "Tir à côté",
+      "minute": 44,
+      "player_id": "Bertrix"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 47,
+      "player_id": "Nathan Blyweert Doumont"
+    },
+    {
+      "side": "right",
+      "type": "But",
+      "minute": 47,
+      "player_id": "Tiago Wauthia"
+    },
+    {
+      "side": "right",
+      "type": "Tir à côté",
+      "minute": 49,
+      "player_id": "Robin Lambert"
+    },
+    {
+      "side": "right",
+      "type": "Tir à côté",
+      "minute": 50,
+      "player_id": "Tiago Wauthia"
+    },
+    {
+      "side": "left",
+      "type": "But",
+      "minute": 51,
+      "player_id": "Bertrix"
+    }
+  ]
+}

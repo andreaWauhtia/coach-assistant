@@ -1,10 +1,6 @@
 # Fiche d'analyse — Firmin Douny (U8)
 
-_Généré le 2025-11-28_
-
-# Fiche d'analyse — Firmin Douny (U8)
-
-_Généré le 2025-11-28_
+_Généré le 2026-01-12_
 
 ## Informations générales
 
@@ -20,6 +16,7 @@ _Généré le 2025-11-28_
 Contexte match / entraînement — éléments notables :
     - 2025-11-19 (match contre Waltzing) : Mention explicite des réflexes impressionnants de Firmin malgré lourde défaite ; utile pour moments de pression.
     - Plusieurs rapports (10/11, 08/11, 01/11) : Firmin a fait des arrêts décisifs mais parfois des erreurs de placement ou relances peu propres (2 erreurs de placement notées le 19/11).
+    - Entraînements récents : 2025-12-12 : réflexes intéressants, quelques fautes d'inattention (mains) ; 2026-01-06 : en retard.
     - Entraînement : réflexes et présence d'esprit soulignés mais jeu au pied jugé perfectible (reports 2025-11-07, 11/11, 27/11).
 
 ### Attitude & Comportement

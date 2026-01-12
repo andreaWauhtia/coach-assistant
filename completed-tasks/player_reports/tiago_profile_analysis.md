@@ -1,10 +1,6 @@
 # Fiche d'analyse — Tiago Wauthia (U8)
 
-_Généré le 2025-11-28_
-
-# Fiche d'analyse — Tiago Wauthia (U8)
-
-_Généré le 2025-11-28_
+_Généré le 2026-01-12_
 
 ## Informations générales
 
@@ -19,6 +15,7 @@ _Généré le 2025-11-28_
 - Conduite de balle : ⭐⭐⭐
 
  Contexte match / entraînement — éléments notables :
+	- Tournoi : 4 buts, 3 tirs cadrés, 2 tirs non cadrés, au moins 5 passes décisives.
 	- 2025-11-27 (entraînement) : très performant, association jeu défensif + conduite soignée; repositionnements et leadership pédagogique, a replacé Hugo et Louis pendant l'opposition.
 	- 2025-11-19 (match) : nombreuses récupérations de ballons mais manque d'impact-au-duel et tendance à forcer des passes — points à corriger en couverture de décision.
 	- 2025-11-08 (match) : titulaire en pointe basse, très efficace offensivement (2 buts) et moteur collectif.
@@ -40,11 +37,11 @@ _Généré le 2025-11-28_
 
 ## Statistiques & faits marquants
 
-- Buts : **18**
-- Passes décisives : **9**
-- Tirs : **22**
+- Buts : **22**
+- Passes décisives : **14**
+- Tirs : **27**
 - Arrêts : **0**
-- Efficacité : **81.8%**
+- Efficacité : **81.5%**
 
 ### Synthèse chiffrée
 
@@ -91,10 +88,13 @@ Matchs — raw JSON events (preferred source)
 	- 2025-11-13-training-report.md
 	- 2025-11-17-training-report.md
 	- 2025-11-27-training-report.md
+	- 2025-12-12-training-report.md
+	- 2026-01-06-training-report.md
 
 
 Données quantitatives (sources)
 	- SportEasy export — assists authoritative (9) — fourni et confirmé par le coach
+	- Tournoi : Données fournies par l'utilisateur (4 buts, 3 tirs cadrés, 2 tirs non cadrés, au moins 5 passes décisives)
 	- Attributions d'événements (tirs, buts, assist) : raw JSONs listés ci-dessus
 
 - Fiches internes

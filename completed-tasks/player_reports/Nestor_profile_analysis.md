@@ -1,10 +1,6 @@
 # Fiche d'analyse — Nestor Arnould (U8)
 
-_Généré le 2025-11-28_
-
-# Fiche d'analyse — Nestor Arnould (U8)
-
-_Généré le 2025-11-28_
+_Généré le 2026-01-12_
 
 ## Informations générales
 
@@ -20,6 +16,7 @@ _Généré le 2025-11-28_
 Contexte match / entraînement — éléments notables :
     - Très bonne saison en volume de passes décisives — leader de l'équipe en PD.
     - Remarque : le volume ne suffit pas toujours — le taux de conversion global est moyen+ et on observe une baisse de l'impact dans les matchs contre des équipes plus fortes (moins d'occasions nettes créées et moins de conversions).
+    - Entraînements récents : 2025-12-12 : cherche à faire la passe mais force des solutions compliquées, simplifier et lever la tête ; 2026-01-06 : en retard.
 
 ### Attitude & Comportement
 

@@ -1,0 +1,521 @@
+[
+  {
+    "match_info": {
+      "id": "54214085-bf98-4960-ab52-3eeb353284fb",
+      "result": "0-2",
+      "is_home": false,
+      "opponent": "FC.Bertrix",
+      "match_date": "2026-01-10T15:15:00+00:00",
+      "competition_match_id": "54214085-bf98-4960-ab52-3eeb353284fb"
+    },
+    "statistics": [
+      {
+        "id": "bc7b9cf7-029b-43db-9ca3-a6b8725a1198",
+        "timecode": 21,
+        "action_type": "Save",
+        "player_name": "Maxence Jonckheere",
+        "action_result": null,
+        "from_opponent": false,
+        "team_member_id": "3f8420ae-117f-46c8-ab79-33796876a62c"
+      },
+      {
+        "id": "10d024d2-9905-41df-8082-152fcd0840e7",
+        "timecode": 23,
+        "action_type": "Pass",
+        "player_name": "Maxence Jonckheere",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "3f8420ae-117f-46c8-ab79-33796876a62c"
+      },
+      {
+        "id": "ad91dff9-2d21-4d3f-b597-42341fcc269c",
+        "timecode": 30,
+        "action_type": "Duel",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "e873b4d7-f701-4c85-84c4-0dd4dd214f80",
+        "timecode": 66,
+        "action_type": "Post",
+        "player_name": " ",
+        "action_result": null,
+        "from_opponent": true,
+        "team_member_id": null
+      },
+      {
+        "id": "fdb4fe7c-fbd8-448c-adc1-2e93b5377f27",
+        "timecode": 128,
+        "action_type": "Shoot off target",
+        "player_name": " ",
+        "action_result": null,
+        "from_opponent": true,
+        "team_member_id": null
+      },
+      {
+        "id": "8c8e820c-5a1c-44ee-b79c-1355738a4a81",
+        "timecode": 135,
+        "action_type": "Shoot off target",
+        "player_name": " ",
+        "action_result": null,
+        "from_opponent": true,
+        "team_member_id": null
+      },
+      {
+        "id": "cff365d5-d7b5-468f-8f70-f2d2b3b59419",
+        "timecode": 181,
+        "action_type": "Duel",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "b64de1f1-6e8d-418b-9626-76029c6cedc9",
+        "timecode": 197,
+        "action_type": "Assist",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "a11e70a1-90ea-44ae-97eb-2389b3fda58b",
+        "timecode": 200,
+        "action_type": "Duel",
+        "player_name": "Nathan Blyweert Doumont",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "f53d8f36-b1f5-47e8-9d3b-237a0a157028"
+      },
+      {
+        "id": "cfacebe0-082b-4bf5-9890-4cf3458b9996",
+        "timecode": 204,
+        "action_type": "Goal",
+        "player_name": "Nathan Blyweert Doumont",
+        "action_result": null,
+        "from_opponent": false,
+        "team_member_id": "f53d8f36-b1f5-47e8-9d3b-237a0a157028"
+      },
+      {
+        "id": "130ff211-0e5d-41f4-b302-9cc368b05cdd",
+        "timecode": 346,
+        "action_type": "Pass",
+        "player_name": "Nathan Blyweert Doumont",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "f53d8f36-b1f5-47e8-9d3b-237a0a157028"
+      },
+      {
+        "id": "3c420a9f-e8f8-44a8-8830-96f89ef75471",
+        "timecode": 351,
+        "action_type": "Pass",
+        "player_name": "Auguste Robinet",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "48a16366-5774-4a8b-a08f-06c832b5423a"
+      },
+      {
+        "id": "6a644f22-beda-429d-a9f4-3b280a1572dd",
+        "timecode": 352,
+        "action_type": "Interception",
+        "player_name": "Maxence Horman",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "431dde19-e118-42d4-98ff-567ab0c132ac"
+      },
+      {
+        "id": "7b3ca490-0d02-4713-80de-703855bbf92c",
+        "timecode": 370,
+        "action_type": "Pass",
+        "player_name": "Maxence Horman",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "431dde19-e118-42d4-98ff-567ab0c132ac"
+      },
+      {
+        "id": "ca954779-078f-4744-8d37-81a47a27edc2",
+        "timecode": 372,
+        "action_type": "Pass",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "8e46a892-79e4-4e07-b421-c93a3ff11c21",
+        "timecode": 383,
+        "action_type": "Pass",
+        "player_name": "Maxence Horman",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "431dde19-e118-42d4-98ff-567ab0c132ac"
+      },
+      {
+        "id": "d32ca8d0-2f7c-4e1b-b837-9326b0cc665f",
+        "timecode": 385,
+        "action_type": "Duel",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "8c71fbdc-63cf-4b5c-97e7-a3256a3f495f",
+        "timecode": 392,
+        "action_type": "Pass",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "e1522dfc-4382-4acb-b5b2-b954d109fd5d",
+        "timecode": 401,
+        "action_type": "Goal",
+        "player_name": "Auguste Robinet",
+        "action_result": null,
+        "from_opponent": false,
+        "team_member_id": "48a16366-5774-4a8b-a08f-06c832b5423a"
+      },
+      {
+        "id": "11c7dfaa-a7f0-4d7e-b000-3f57c64c6572",
+        "timecode": 427,
+        "action_type": "Save",
+        "player_name": "Maxence Jonckheere",
+        "action_result": null,
+        "from_opponent": false,
+        "team_member_id": "3f8420ae-117f-46c8-ab79-33796876a62c"
+      },
+      {
+        "id": "fda3d60b-f09d-4c37-ba6a-fd5e7cb69a52",
+        "timecode": 433,
+        "action_type": "Duel",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "dbb7771c-bc58-4beb-8b80-789c799a444e",
+        "timecode": 440,
+        "action_type": "Interception",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "dd537983-2045-4c15-a8b4-8f3b51261027",
+        "timecode": 441,
+        "action_type": "Pass",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "5f439b05-33e2-4fea-918d-9077586710ef",
+        "timecode": 509,
+        "action_type": "Pass",
+        "player_name": "Maxence Jonckheere",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "3f8420ae-117f-46c8-ab79-33796876a62c"
+      },
+      {
+        "id": "4a34a7e3-44dc-44e2-9819-a1b10b115f32",
+        "timecode": 513,
+        "action_type": "Pass",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "b7897634-72f8-45cc-865a-c67824de4166",
+        "timecode": 518,
+        "action_type": "Pass",
+        "player_name": "Nathan Blyweert Doumont",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "f53d8f36-b1f5-47e8-9d3b-237a0a157028"
+      },
+      {
+        "id": "f77f44fe-92c0-4734-a011-3f6033d8c2af",
+        "timecode": 519,
+        "action_type": "Pass",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "a27d8c57-2d13-44da-af40-1d3b7dd211f4",
+        "timecode": 524,
+        "action_type": "Interception",
+        "player_name": "Maxence Horman",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "431dde19-e118-42d4-98ff-567ab0c132ac"
+      },
+      {
+        "id": "853e9765-550d-4767-93bf-47fbca8017c7",
+        "timecode": 531,
+        "action_type": "Pass",
+        "player_name": "Maxence Horman",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "431dde19-e118-42d4-98ff-567ab0c132ac"
+      },
+      {
+        "id": "8760b89a-70c0-4b01-bea0-4ac0159285f8",
+        "timecode": 569,
+        "action_type": "Interception",
+        "player_name": "Auguste Robinet",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "48a16366-5774-4a8b-a08f-06c832b5423a"
+      },
+      {
+        "id": "43c4fd21-2d08-49d4-a26b-a8474ec8c6bd",
+        "timecode": 570,
+        "action_type": "Pass",
+        "player_name": "Auguste Robinet",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "48a16366-5774-4a8b-a08f-06c832b5423a"
+      },
+      {
+        "id": "6b9bbb7c-982a-4806-bcc4-0c5e89b90880",
+        "timecode": 572,
+        "action_type": "Duel",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "cd41e917-e801-45ec-ad27-0b539551866f",
+        "timecode": 576,
+        "action_type": "Pass",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "99ddad2d-20cb-4168-b413-c3528bf4931e",
+        "timecode": 577,
+        "action_type": "Goalkeeper out",
+        "player_name": "Maxence Jonckheere",
+        "action_result": null,
+        "from_opponent": false,
+        "team_member_id": "3f8420ae-117f-46c8-ab79-33796876a62c"
+      },
+      {
+        "id": "cf94306d-fa88-4c7c-80ba-c020e86e73b0",
+        "timecode": 584,
+        "action_type": "Duel",
+        "player_name": "Maxence Horman",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "431dde19-e118-42d4-98ff-567ab0c132ac"
+      },
+      {
+        "id": "32849f2f-8b7e-4e7a-a7a6-c54d98cd04a3",
+        "timecode": 587,
+        "action_type": "Pass",
+        "player_name": "Maxence Horman",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "431dde19-e118-42d4-98ff-567ab0c132ac"
+      },
+      {
+        "id": "e3dc3bea-44c5-47cd-9d1b-cc8f3efd82bb",
+        "timecode": 589,
+        "action_type": "Interception",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "cb04f8be-a14f-4724-98f3-b8bb70229025",
+        "timecode": 593,
+        "action_type": "Pass",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "e2a5652b-4daa-4e23-af95-17afffe7f001",
+        "timecode": 620,
+        "action_type": "Pass",
+        "player_name": "Nathan Blyweert Doumont",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "f53d8f36-b1f5-47e8-9d3b-237a0a157028"
+      },
+      {
+        "id": "c188745f-cbb0-4d97-bd91-6fa6cfaec02f",
+        "timecode": 622,
+        "action_type": "Duel",
+        "player_name": "Auguste Robinet",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "48a16366-5774-4a8b-a08f-06c832b5423a"
+      },
+      {
+        "id": "954b6865-4480-43e5-a61b-651a8cac3757",
+        "timecode": 637,
+        "action_type": "Pass",
+        "player_name": "Auguste Robinet",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "48a16366-5774-4a8b-a08f-06c832b5423a"
+      },
+      {
+        "id": "c06f039a-7641-484a-9c40-892c90b9e2dc",
+        "timecode": 639,
+        "action_type": "Interception",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "8e9c20b0-23fc-484e-b8fa-82a7eddd4ef9",
+        "timecode": 641,
+        "action_type": "Key pass",
+        "player_name": "Tiago Wauthia",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "94715650-a4fb-4c8a-bec5-a74e67975ddb",
+        "timecode": 646,
+        "action_type": "Shoot on target",
+        "player_name": "Nathan Blyweert Doumont",
+        "action_result": null,
+        "from_opponent": false,
+        "team_member_id": "f53d8f36-b1f5-47e8-9d3b-237a0a157028"
+      },
+      {
+        "id": "83f947ed-a670-4fe6-9d2c-3b413ccbdb00",
+        "timecode": 673,
+        "action_type": "Duel",
+        "player_name": "Nathan Blyweert Doumont",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "f53d8f36-b1f5-47e8-9d3b-237a0a157028"
+      },
+      {
+        "id": "45ed4546-4d25-48da-8374-fbc42f10f5d2",
+        "timecode": 693,
+        "action_type": "Pass",
+        "player_name": "Nathan Blyweert Doumont",
+        "action_result": "won",
+        "from_opponent": false,
+        "team_member_id": "f53d8f36-b1f5-47e8-9d3b-237a0a157028"
+      },
+      {
+        "id": "93fccb64-52ad-42ab-8b02-e759f5f0249f",
+        "timecode": 731,
+        "action_type": "Shoot off target",
+        "player_name": " ",
+        "action_result": null,
+        "from_opponent": true,
+        "team_member_id": null
+      },
+      {
+        "id": "e1d64dab-8a98-4c75-93c2-553509f9ab12",
+        "timecode": 744,
+        "action_type": "Shoot off target",
+        "player_name": " ",
+        "action_result": null,
+        "from_opponent": true,
+        "team_member_id": null
+      }
+    ],
+    "lineup": [
+      {
+        "id": "6ef18cef-2d76-404a-aed2-3c44a9143836",
+        "line": 0,
+        "is_starter": true,
+        "player_name": "Maxence Jonckheere",
+        "exit_timecode": null,
+        "position_slot": 1,
+        "entry_timecode": 0,
+        "team_member_id": "3f8420ae-117f-46c8-ab79-33796876a62c"
+      },
+      {
+        "id": "148e669f-d26e-494e-afe5-ef3d25c94d83",
+        "line": 1,
+        "is_starter": true,
+        "player_name": "Tiago Wauthia",
+        "exit_timecode": null,
+        "position_slot": 6,
+        "entry_timecode": 0,
+        "team_member_id": "d05cc500-c4f2-4cab-9d08-d9cebaecec72"
+      },
+      {
+        "id": "567e0574-e9a0-438a-9016-d5e51f0a5474",
+        "line": 3,
+        "is_starter": false,
+        "player_name": "Louis Burgraff",
+        "exit_timecode": null,
+        "position_slot": 3,
+        "entry_timecode": null,
+        "team_member_id": "f9da48e3-aa38-4598-b579-beae982342e7"
+      },
+      {
+        "id": "04a72538-cdfc-4ff3-b384-a8e6eaf62dc8",
+        "line": 3,
+        "is_starter": true,
+        "player_name": "Maxence Horman",
+        "exit_timecode": null,
+        "position_slot": 3,
+        "entry_timecode": 0,
+        "team_member_id": "431dde19-e118-42d4-98ff-567ab0c132ac"
+      },
+      {
+        "id": "f8660415-0f59-41f0-b7eb-50b6426af6ea",
+        "line": 3,
+        "is_starter": true,
+        "player_name": "Nathan Blyweert Doumont",
+        "exit_timecode": null,
+        "position_slot": 4,
+        "entry_timecode": 0,
+        "team_member_id": "f53d8f36-b1f5-47e8-9d3b-237a0a157028"
+      },
+      {
+        "id": "c4279c4b-75c5-4da0-a5c8-11b5306d9108",
+        "line": 4,
+        "is_starter": true,
+        "player_name": "Auguste Robinet",
+        "exit_timecode": null,
+        "position_slot": 2,
+        "entry_timecode": 0,
+        "team_member_id": "48a16366-5774-4a8b-a08f-06c832b5423a"
+      }
+    ],
+    "competition_info": {
+      "id": "a4ae89c6-d830-470c-be61-9bfbe7f480d9",
+      "name": "Tournoi Ochamps Equipe AA",
+      "team_id": "1b5229d7-1af4-4b79-889b-6352238850da",
+      "season_id": "4f4d19d8-42ca-4c83-a160-5637f04dc40a"
+    },
+    "event_info": {
+      "id": "d2210973-a2b8-40ea-b6d9-5c66d7bcb8c1",
+      "title": "@ Ochamps u8",
+      "location": null,
+      "start_time": "2026-01-10T14:15:00+00:00",
+      "description": "Tournoi Ochamps Equipe AA"
+    }
+  }
+]

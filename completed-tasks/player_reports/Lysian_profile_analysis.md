@@ -1,10 +1,6 @@
 # Fiche d'analyse — Lysian (U8)
 
-_Généré le 2025-11-28_
-
-# Fiche d'analyse — Lysian (U8)
-
-_Généré le 2025-11-28_
+_Généré le 2026-01-12_
 
 ## Informations générales
 
@@ -20,6 +16,7 @@ _Généré le 2025-11-28_
 Contexte match / entraînement — éléments notables :
     - Présence régulière sur plusieurs rencontres mais peu d'actions directes aboutissant à des buts ou passes décisives selon les rapports et stats.
     - Bon travail de couverture défensive et placement ; impact mesurable surtout dans phases défensives et de circulation simple.
+    - Entraînements récents : 2025-11-27 : inclus dans l'opposition ; 2026-01-06 : à l'heure, points positifs sur ponctualité.
 
 ### Attitude & Comportement
 

@@ -1,10 +1,6 @@
 # Fiche d'analyse — Hugo Dumay (U8)
 
-_Généré le 2025-11-28_
-
-# Fiche d'analyse — Hugo Dumay (U8)
-
-_Généré le 2025-11-28_
+_Généré le 2026-01-12_
 
 ## Informations générales
 
@@ -21,6 +17,7 @@ Contexte match / entraînement — éléments notables :
     - 2025-09-27 / 2025-10-11 : buts marqués (bon taux de réussite) ; apparaît sur plusieurs match JSONs comme acteur offensif et passeur.
     - Entraînements (07/11, 17/11, 27/11) : comportement exemplaire et très engagé.
     - 2025-10-08 : sortie prématurée liée à une crise d’angoisse ; suivre et accompagner.
+    - Entraînements récents : 2025-11-27 : excellent et volontaire, passes précises, forte activité ; 2025-12-12 : présent, mais s'est désisté en voyant les équipes se former.
 
 - Soutien : ⭐⭐⭐
 - Finition : ⭐⭐⭐⭐
@@ -40,7 +37,6 @@ Contexte match / entraînement — éléments notables :
 - Buts : **5**
 - Passes décisives : **3**
 - Tirs : **9**
-- Arrêts : **1**
 - Efficacité : **55.6%**
 
 ### Synthèse chiffrée

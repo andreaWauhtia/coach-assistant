@@ -1,0 +1,312 @@
+{
+  "match_header": "Adversaire 1-2 Notre Équipe",
+  "match_date": "2025-08-23 09:30:00+00",
+  "structure": "HOME (left) | TIMELINE | AWAY (right). Notre Équipe LEFT, Adversaire RIGHT (NOUS)",
+  "events": [
+    {
+      "minute": 0,
+      "type": "Passe",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "assist": "Maxence Jonckheere",
+      "result": "won"
+    },
+    {
+      "minute": 0,
+      "type": "Duel",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "result": "won"
+    },
+    {
+      "minute": 0,
+      "type": "Tir à côté",
+      "player": "Nestor Arnould",
+      "side": "right"
+    },
+    {
+      "minute": 0,
+      "type": "Interception",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "result": "won"
+    },
+    {
+      "minute": 0,
+      "type": "Passe",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "assist": "Nestor Arnould",
+      "result": "won"
+    },
+    {
+      "minute": 0,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right"
+    },
+    {
+      "minute": 0,
+      "type": "Duel",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "result": "won"
+    },
+    {
+      "minute": 0,
+      "type": "Tacle",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "result": "won"
+    },
+    {
+      "minute": 0,
+      "type": "Passe",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "assist": "Louis Burgraff",
+      "result": "won"
+    },
+    {
+      "minute": 1,
+      "type": "Passe",
+      "player": "Louis Burgraff",
+      "side": "right",
+      "assist": "Nestor Arnould",
+      "result": "won"
+    },
+    {
+      "minute": 1,
+      "type": "Duel",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "result": "won"
+    },
+    {
+      "minute": 1,
+      "type": "Interception",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "result": "won"
+    },
+    {
+      "minute": 1,
+      "type": "Passe",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "assist": "Maxence Jonckheere",
+      "result": "won"
+    },
+    {
+      "minute": 1,
+      "type": "Poteau",
+      "player": "Maxence Jonckheere",
+      "side": "right"
+    },
+    {
+      "minute": 1,
+      "type": "Fautes subies",
+      "player": "Tiago Wauthia",
+      "side": "right"
+    },
+    {
+      "minute": 1,
+      "type": "Tir à côté",
+      "player": "Auguste Robinet",
+      "side": "right"
+    },
+    {
+      "minute": 1,
+      "type": "Duel",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "result": "won"
+    },
+    {
+      "minute": 1,
+      "type": "Passe",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "assist": "Auguste Robinet",
+      "result": "won"
+    },
+    {
+      "minute": 1,
+      "type": "Duel",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "result": "won"
+    },
+    {
+      "minute": 1,
+      "type": "But",
+      "player": "Adversaire",
+      "side": "left"
+    },
+    {
+      "minute": 2,
+      "type": "Passe",
+      "player": "Auguste Robinet",
+      "side": "right",
+      "assist": "Tiago Wauthia",
+      "result": "won"
+    },
+    {
+      "minute": 2,
+      "type": "Tacle",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "result": "won"
+    },
+    {
+      "minute": 2,
+      "type": "Passe",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "assist": "Louis Burgraff",
+      "result": "won"
+    },
+    {
+      "minute": 2,
+      "type": "Passe",
+      "player": "Louis Burgraff",
+      "side": "right",
+      "assist": "Nestor Arnould",
+      "result": "won"
+    },
+    {
+      "minute": 2,
+      "type": "Passe",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "assist": "Tiago Wauthia",
+      "result": "won"
+    },
+    {
+      "minute": 2,
+      "type": "Duel",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "result": "won"
+    },
+    {
+      "minute": 2,
+      "type": "Duel",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "result": "won"
+    },
+    {
+      "minute": 2,
+      "type": "But",
+      "player": "Maxence Jonckheere",
+      "side": "right"
+    },
+    {
+      "minute": 0,
+      "type": "Passe décisive",
+      "player": "Maxence Jonckheere",
+      "side": "right",
+      "assist": "Nestor Arnould",
+      "result": "won"
+    },
+    {
+      "minute": 0,
+      "type": "Passe décisive",
+      "player": "Nestor Arnould",
+      "side": "right",
+      "assist": "Maxence Jonckheere",
+      "result": "won"
+    },
+    {
+      "minute": 1,
+      "type": "Passe décisive",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "assist": "Auguste Robinet",
+      "result": "won"
+    },
+    {
+      "minute": 2,
+      "type": "Passe décisive",
+      "player": "Tiago Wauthia",
+      "side": "right",
+      "assist": "Nestor Arnould",
+      "result": "won"
+    }
+  ],
+  "lineup": [
+    {
+      "name": "Tiago Wauthia",
+      "line": 1,
+      "position_slot": 1,
+      "entry_timecode": 0,
+      "exit_timecode": null,
+      "position": {
+        "x": 28,
+        "y": 50,
+        "label": "DC"
+      }
+    },
+    {
+      "name": "Nestor Arnould",
+      "line": 3,
+      "position_slot": 2,
+      "entry_timecode": 0,
+      "exit_timecode": null,
+      "position": {
+        "x": 58,
+        "y": 75,
+        "label": "MD"
+      }
+    },
+    {
+      "name": "Auguste Robinet",
+      "line": 4,
+      "position_slot": 3,
+      "entry_timecode": 0,
+      "exit_timecode": null,
+      "position": {
+        "x": 82,
+        "y": 30,
+        "label": "AG"
+      }
+    },
+    {
+      "name": "Lilou Douny",
+      "line": 3,
+      "position_slot": 4,
+      "entry_timecode": 0,
+      "exit_timecode": 0,
+      "position": {
+        "x": 58,
+        "y": 60,
+        "label": "MC"
+      }
+    },
+    {
+      "name": "Louis Burgraff",
+      "line": 0,
+      "position_slot": 5,
+      "entry_timecode": 0,
+      "exit_timecode": null,
+      "position": {
+        "x": 10,
+        "y": 50,
+        "label": "GK"
+      }
+    },
+    {
+      "name": "Maxence Jonckheere",
+      "line": 4,
+      "position_slot": 6,
+      "entry_timecode": 0,
+      "exit_timecode": null,
+      "position": {
+        "x": 82,
+        "y": 50,
+        "label": "ATT"
+      }
+    }
+  ]
+}

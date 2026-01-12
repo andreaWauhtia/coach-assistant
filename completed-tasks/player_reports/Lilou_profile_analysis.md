@@ -1,10 +1,6 @@
 # Fiche d'analyse — Lilou Douny (U8)
 
-_Généré le 2025-11-28_
-
-# Fiche d'analyse — Lilou Douny (U8)
-
-_Généré le 2025-11-28_
+_Généré le 2026-01-12_
 
 ## Informations générales
 
@@ -20,6 +16,7 @@ _Généré le 2025-11-28_
 Contexte match / entraînement — éléments notables :
     - Plusieurs matchs montrent des buts et passes décisives (08/10, 09/27, 10/08, 10/11, 11/01) — impliquée offensivement.
     - Entraînements : souvent performante en opposition ; parfois des difficultés de compréhension sur certains exercices mais s’améliore.
+    - Entraînements récents : 2025-12-12 : grosse combativité, duels retrouvés, contribution nette ; 2026-01-06 : en retard.
 
 - Soutien : ⭐⭐⭐⭐
 - Finition : ⭐⭐⭐

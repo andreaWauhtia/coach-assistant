@@ -1,11 +1,3 @@
----
-agent: coach_assistant
-argument-hint: '[matchday]'
-name: Match Extraction Prompt (SportEasy)
-model: Gemini 3 Flash (Preview) (copilot)
-description: 'Extract all the data from SportEasy match screenshots into a structured JSON format.'
----
-
 # Prompt d'Extraction JSON de Match (SportEasy)
 
 ## Contexte

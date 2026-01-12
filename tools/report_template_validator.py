@@ -91,7 +91,7 @@ import re
 def extract_team_names(report_text: str):
     # Extrait les noms d'équipes et le score depuis le rapport
     # Titre principal : # Rapport d'analyse : USAO U8 VS Bouillon
-    m = re.search(r"# Rapport d'analyse : ([^v]+)vs ([^\n]+)", report_text, re.IGNORECASE)
+    m = re.search(r"# Rapport d'analyse : ([^V]+)VS ([^\n]+)", report_text)
     if m:
         team_home = m.group(1).strip()
         team_away = m.group(2).strip()

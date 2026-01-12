@@ -8,7 +8,7 @@
 
 [Content from match_summary.md]
 
-## Métriques Offensives ([TEAM_NAME])
+## Métriques Offensives ([TEAM_HOME])
 
 | Métrique        | Valeur | Analyse      |
 | --------------- | ------ | ------------ |

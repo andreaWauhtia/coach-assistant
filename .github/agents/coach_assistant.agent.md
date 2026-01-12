@@ -1,7 +1,7 @@
 ---
 description: Ce chat mode orchestre les agents spécialisés pour assister les coachs sportifs dans l'analyse de matchs, le scouting de joueurs, la génération de rapports d'entraînement, et la planification de séances.
 target: github-copilot
-tools: ['agent/runSubagent', read, edit, todo, search,web, execute, agent,run_in_terminal, read_file, replace_string_in_file, grep_search, semantic_search, mcp_pylance_mcp_s_pylanceRunCodeSnippet]
+tools: ['execute', 'read', 'edit', 'search', 'web', 'agent', 'todo']
 ---
 # Coach Assistant Chat Mode
 

@@ -1,10 +1,6 @@
 # Fiche d'analyse — Maxence Jonckheere (U8)
 
-_Généré le 2025-11-28_
-
-# Fiche d'analyse — Maxence Jonckheere (U8)
-
-_Généré le 2025-11-28_
+_Généré le 2026-01-12_
 
 ## Informations générales
 
@@ -20,6 +16,7 @@ _Généré le 2025-11-28_
 Contexte match / entraînement — éléments notables :
     - Très actif sur phases offensives : buteurs et passeurs décrits dans plusieurs rapports.
     - Contribution régulière aux phases créatives (7 assists dans les stats 2025), bon positionnement dans la zone offensive.
+    - Entraînements récents : Très actif (2025-11-03, 2025-11-07) ; bonne pression défensive et but opportuniste (2025-11-07) ; bon en renard et performant en opposition (2025-11-17) ; roublard devant avec bon jeu en déviation, profil de futur excellent n°10 (2025-12-12).
 
 ### Attitude & Comportement
 
@@ -30,11 +27,11 @@ Contexte match / entraînement — éléments notables :
 
 ## Statistiques & faits marquants
 
-- Buts : **27**
+- Buts : **34**
 - Passes décisives : **7**
 - Tirs : **35**
 - Arrêts : **0**
-- Efficacité : **77.1%**
+- Efficacité : **81%**
 
 ### Synthèse chiffrée
 
@@ -49,7 +46,7 @@ Contexte match / entraînement — éléments notables :
 ## Observations individuelles (détaillées)
 
 - Vision & timing : très bonne pour provoquer décalages et offrir des solutions devant le but.
- - Finition : très bonne — Maxence a la 2ᵉ meilleure efficacité de finition de l'équipe (haut taux de conversion). Sa précision dans la surface est un atout avéré ; le travail prioritaire est d'augmenter légèrement le volume d'occasions afin de transformer sa constance en plus de buts.
+ - Finition : très bonne — Maxence a l'une des meilleures efficacités de finition de l'équipe (haut taux de conversion). Sa précision dans la surface est un atout avéré ; le travail prioritaire est d'augmenter légèrement le volume d'occasions afin de transformer sa constance en plus de buts.
 
 ## Sources
 
@@ -57,3 +54,5 @@ Contexte match / entraînement — éléments notables :
 - completed-tasks/competitions/match_reports/2025-09-27/match_2025-09-27.json
 - completed-tasks/competitions/match_reports/2025-10-11/match_2025-10-11.json
 - completed-tasks/trainings/report/2025-11-27-training-report.md
+- completed-tasks/trainings/report/2025-12-12-training-report.md
+- completed-tasks/trainings/report/2026-01-06-training-report.md

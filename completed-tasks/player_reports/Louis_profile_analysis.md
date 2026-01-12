@@ -1,10 +1,6 @@
 # Fiche d'analyse — Louis Burgraff (U8)
 
-_Généré le 2025-11-28_
-
-# Fiche d'analyse — Louis Burgraff (U8)
-
-_Généré le 2025-11-28_
+_Généré le 2026-01-12_
 
 ## Informations générales
 
@@ -22,6 +18,7 @@ Contexte match / entraînement — éléments notables :
     - Plusieurs matchs (2025-08-30, 09-06, 09-13, 10-16, 11-08) montrent arrêts décisifs et intervention en phase défensive.
     - 2025-10-16 et 2025-11-08 : bonnes interventions / arrêts rapportés (reliability under pressure), mais opportunité d'améliorer relances et prise d'initiative.
     - 2025-11-19 match : le rapport note ralentissement/erreurs de relances ("lent, quelques erreurs, relances catastrophiques").
+    - Entraînements récents : 2025-11-27 : jeu au pied faible, manque d'envie, sanctionné ; 2026-01-06 : absent justifié.
 
 ### Attitude & Comportement
 

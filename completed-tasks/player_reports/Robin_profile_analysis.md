@@ -1,10 +1,6 @@
 # Fiche d'analyse — Robin Lambert (U8)
 
-_Généré le 2025-11-28_
-
-# Fiche d'analyse — Robin Lambert (U8)
-
-_Généré le 2025-11-28_
+_Généré le 2026-01-12_
 
 ## Informations générales
 
@@ -20,6 +16,7 @@ _Généré le 2025-11-28_
 Contexte match / entraînement — éléments notables :
     - Apport offensif constant, régulièrement impliqué dans des actions de surface et des centres provoquant occasions.
     - Statistiques montrent contribution notable (5 PD) et implication sur phases offensives.
+    - Entraînements récents : 2025-11-27 : progression à 50/50 sur les exercices ; 2026-01-06 : ponctuel et respectueux.
 
 ### Attitude & Comportement
 
@@ -29,15 +26,15 @@ Contexte match / entraînement — éléments notables :
 
 ## Statistiques & faits marquants
 
-- Buts : **17**
-- Passes décisives : **7**
-- Tirs : **28**
+- Buts : **4**
+- Passes décisives : **5**
+- Tirs : **4**
 - Arrêts : **0**
-- Efficacité : **60.7%**
+- Efficacité : **100%**
 
 ### Synthèse chiffrée
 
-- Rôle : Bonne efficacité (basé sur la stat de conversion).
+- Rôle : Excellente efficacité (basé sur la stat de conversion) mais volume famélique.
 
 ### Attitude & Comportement
 
@@ -46,8 +43,10 @@ Contexte match / entraînement — éléments notables :
 
 ## Observations individuelles (détaillées)
 
-- Centre / dernier geste : bon timing sur centres mais peut améliorer la précision et la lecture du dernier geste.
-- Vitesse : bon atout sur les ailes, utile pour déborder et créer des espaces.
+- Jeux en déviation intéressant, pourrait devenir un pivot solide
+- Manque de vitesse et de pressing
+- Pourtant solide pour ennuyer son vis à vis
+- Joue trop bas pour aider ses équipiers et n'est pas facilement joignable
 
 ## Sources
 
