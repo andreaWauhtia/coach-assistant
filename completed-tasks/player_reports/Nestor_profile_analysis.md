@@ -13,22 +13,18 @@ _Généré le 2026-01-12_
 - Contrôle orienté & distribution : ⭐⭐⭐⭐
 - Finition dans la surface : ⭐⭐⭐
 
-Contexte match / entraînement — éléments notables :
-    - Très bonne saison en volume de passes décisives — leader de l'équipe en PD.
-    - Remarque : le volume ne suffit pas toujours — le taux de conversion global est moyen+ et on observe une baisse de l'impact dans les matchs contre des équipes plus fortes (moins d'occasions nettes créées et moins de conversions).
-    - Entraînements récents : 2025-12-12 : cherche à faire la passe mais force des solutions compliquées, simplifier et lever la tête ; 2026-01-06 : en retard.
+Contexte match / entraînement — éléments notables : - Très bonne saison en volume de passes décisives — leader de l'équipe en PD. - Remarque : le volume ne suffit pas toujours — le taux de conversion global est moyen+ et on observe une baisse de l'impact dans les matchs contre des équipes plus fortes (moins d'occasions nettes créées et moins de conversions). - Entraînements récents : 2025-12-12 : cherche à faire la passe mais force des solutions compliquées, simplifier et lever la tête ; 2026-01-06 : en retard.
 
 ### Attitude & Comportement
 
 - Leadership : ⭐⭐⭐⭐
 - Communication : ⭐⭐⭐
 
-
 ## Statistiques & faits marquants
 
-- Buts : **46**
-- Passes décisives : **16**
-- Tirs : **76**
+- Buts : **54**
+- Passes décisives : **20**
+- Tirs : **89**
 - Arrêts : **0**
 - Efficacité : **60.5%**
 
