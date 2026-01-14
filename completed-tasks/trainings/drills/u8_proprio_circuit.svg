@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220">
+  <rect x="5" y="5" width="590" height="210" fill="#fff8e6" stroke="#333"/>
+  <!-- Stations -->
+  <g font-size="12" fill="#333">
+    <rect x="40" y="35" width="120" height="120" fill="#ffe066" stroke="#b88600"/>
+    <text x="100" y="70" text-anchor="middle">1</text>
+    <text x="100" y="95" text-anchor="middle">Équilibre unipodal</text>
+
+    <rect x="200" y="35" width="120" height="120" fill="#ffb3b3" stroke="#b22222"/>
+    <text x="260" y="70" text-anchor="middle">2</text>
+    <text x="260" y="95" text-anchor="middle">Skater hops</text>
+
+    <rect x="360" y="35" width="120" height="120" fill="#b3e6b3" stroke="#2e8b57"/>
+    <text x="420" y="70" text-anchor="middle">3</text>
+    <text x="420" y="95" text-anchor="middle">Mountain
+climbers</text>
+  </g>
+  <text x="20" y="200" font-size="11">Circuit : 30s travail / 30s repos • 2 séries • Jeux et relais pour garder le fun</text>
+</svg>
