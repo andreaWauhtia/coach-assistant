@@ -10,6 +10,7 @@
 ![](images/train_du_duel.png)
 
 ## Évaluation
+
 - **Note générale** : 4.0 / 5 ⭐⭐⭐⭐
 - **Adaptation U8** : ⭐⭐⭐⭐ (4/5) — Simple, ludique, bon pour l'échauffement et la proprioception.
 - **Objectifs techniques** : ⭐⭐⭐☆ (3.5/5) — Efficace pour le départ; attention à la durée pour maintenir l'engagement.

@@ -16,6 +16,7 @@
 ![](images/ball_mastery_circuit.png)
 
 ## Évaluation
+
 - **Note générale** : 4.5 / 5 ⭐⭐⭐⭐☆
 - **Adaptation U8** : ⭐⭐⭐⭐ (4/5) — Très utile pour ancrer la maîtrise; nécessite répétitions régulières.
 - **Objectifs techniques** : ⭐⭐⭐⭐☆ (4.5/5) — Excellent pour toucher et contrôle; met en évidence le pied faible.

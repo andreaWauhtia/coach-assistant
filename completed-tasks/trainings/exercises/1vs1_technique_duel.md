@@ -10,6 +10,7 @@
 ![](images/1vs1_technique_duel.png)
 
 ## Évaluation
+
 - **Note générale** : 3.5 / 5 ⭐⭐⭐☆
 - **Adaptation U8** : ⭐⭐⭐☆ (3.5/5) — Bien pour travailler l'intensité et les duels; garder consignes simples.
 - **Objectifs techniques** : ⭐⭐⭐⭐ (4/5) — Excellente pour fixation, percussion et finition.
